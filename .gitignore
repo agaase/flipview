@@ -1,6 +1,6 @@
 #random files
 .DS_Store
-.npm-debug.log
+npm-debug.log
 
 #node-modules
 node_modules/*
