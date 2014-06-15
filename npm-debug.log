@@ -1,0 +1,2247 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/aseem/local/node/bin/node',
+1 verbose cli   '/Users/aseem/local/node/bin/npm',
+1 verbose cli   'install' ]
+2 info using npm@1.2.18
+3 info using node@v0.10.4
+4 verbose read json /Users/aseem/magichappens/gitpersonal/flipview/package.json
+5 verbose readDependencies using package.json deps
+6 verbose install where, deps [ '/Users/aseem/magichappens/gitpersonal/flipview',
+6 verbose install   [ 'grunt',
+6 verbose install     'grunt-contrib-clean',
+6 verbose install     'grunt-contrib-concat',
+6 verbose install     'grunt-contrib-jshint',
+6 verbose install     'grunt-contrib-uglify' ] ]
+7 verbose from cache /Users/aseem/magichappens/gitpersonal/flipview/package.json
+8 info preinstall flipview@0.1.0
+9 verbose read json /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt/package.json
+10 verbose read json /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-clean/package.json
+11 verbose read json /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-concat/package.json
+12 verbose read json /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-uglify/package.json
+13 verbose from cache /Users/aseem/magichappens/gitpersonal/flipview/package.json
+14 verbose readDependencies using package.json deps
+15 verbose from cache /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt/package.json
+16 verbose from cache /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-clean/package.json
+17 verbose from cache /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-concat/package.json
+18 verbose from cache /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-uglify/package.json
+19 verbose already installed skipping grunt@0.4.2 /Users/aseem/magichappens/gitpersonal/flipview
+20 verbose already installed skipping grunt-contrib-clean@0.5.0 /Users/aseem/magichappens/gitpersonal/flipview
+21 verbose already installed skipping grunt-contrib-concat@0.3.0 /Users/aseem/magichappens/gitpersonal/flipview
+22 verbose cache add [ 'grunt-contrib-jshint@0.10.0', null ]
+23 verbose cache add name=undefined spec="grunt-contrib-jshint@0.10.0" args=["grunt-contrib-jshint@0.10.0",null]
+24 verbose parsed url { protocol: null,
+24 verbose parsed url   slashes: null,
+24 verbose parsed url   auth: null,
+24 verbose parsed url   host: null,
+24 verbose parsed url   port: null,
+24 verbose parsed url   hostname: null,
+24 verbose parsed url   hash: null,
+24 verbose parsed url   search: null,
+24 verbose parsed url   query: null,
+24 verbose parsed url   pathname: 'grunt-contrib-jshint@0.10.0',
+24 verbose parsed url   path: 'grunt-contrib-jshint@0.10.0',
+24 verbose parsed url   href: 'grunt-contrib-jshint@0.10.0' }
+25 verbose cache add name="grunt-contrib-jshint" spec="0.10.0" args=["grunt-contrib-jshint","0.10.0"]
+26 verbose parsed url { protocol: null,
+26 verbose parsed url   slashes: null,
+26 verbose parsed url   auth: null,
+26 verbose parsed url   host: null,
+26 verbose parsed url   port: null,
+26 verbose parsed url   hostname: null,
+26 verbose parsed url   hash: null,
+26 verbose parsed url   search: null,
+26 verbose parsed url   query: null,
+26 verbose parsed url   pathname: '0.10.0',
+26 verbose parsed url   path: '0.10.0',
+26 verbose parsed url   href: '0.10.0' }
+27 verbose addNamed [ 'grunt-contrib-jshint', '0.10.0' ]
+28 verbose addNamed [ '0.10.0', '0.10.0' ]
+29 verbose already installed skipping grunt-contrib-uglify@0.3.2 /Users/aseem/magichappens/gitpersonal/flipview
+30 silly lockFile af8d4102-grunt-contrib-jshint-0-10-0 grunt-contrib-jshint@0.10.0
+31 verbose lock grunt-contrib-jshint@0.10.0 /Users/aseem/.npm/af8d4102-grunt-contrib-jshint-0-10-0.lock
+32 verbose url raw grunt-contrib-jshint/0.10.0
+33 verbose url resolving [ 'https://registry.npmjs.org/',
+33 verbose url resolving   './grunt-contrib-jshint/0.10.0' ]
+34 verbose url resolved https://registry.npmjs.org/grunt-contrib-jshint/0.10.0
+35 info trying registry request attempt 1 at 14:31:16
+36 verbose etag "1DL1ENEPXC1TSGTN27L2KVGY4"
+37 http GET https://registry.npmjs.org/grunt-contrib-jshint/0.10.0
+38 http 304 https://registry.npmjs.org/grunt-contrib-jshint/0.10.0
+39 silly registry.get cb [ 304,
+39 silly registry.get   { date: 'Sun, 15 Jun 2014 09:01:17 GMT',
+39 silly registry.get     server: 'Apache',
+39 silly registry.get     via: '1.1 varnish',
+39 silly registry.get     'last-modified': 'Sun, 15 Jun 2014 09:01:17 GMT',
+39 silly registry.get     'cache-control': 'max-age=30',
+39 silly registry.get     etag: '"1DL1ENEPXC1TSGTN27L2KVGY4"',
+39 silly registry.get     'x-served-by': 'cache-sv94-SJC3',
+39 silly registry.get     'x-cache': 'HIT',
+39 silly registry.get     'x-cache-hits': '1',
+39 silly registry.get     'x-timer': 'S1402822877.360873,VS0,VE31',
+39 silly registry.get     vary: 'Accept',
+39 silly registry.get     'content-length': '0',
+39 silly registry.get     'keep-alive': 'timeout=10, max=50',
+39 silly registry.get     connection: 'Keep-Alive' } ]
+40 verbose etag grunt-contrib-jshint/0.10.0 from cache
+41 verbose read json /Users/aseem/.npm/grunt-contrib-jshint/0.10.0/package/package.json
+42 silly lockFile af8d4102-grunt-contrib-jshint-0-10-0 grunt-contrib-jshint@0.10.0
+43 silly lockFile af8d4102-grunt-contrib-jshint-0-10-0 grunt-contrib-jshint@0.10.0
+44 silly resolved [ { name: 'grunt-contrib-jshint',
+44 silly resolved     description: 'Validate files with JSHint.',
+44 silly resolved     version: '0.10.0',
+44 silly resolved     homepage: 'https://github.com/gruntjs/grunt-contrib-jshint',
+44 silly resolved     author: { name: 'Grunt Team', url: 'http://gruntjs.com/' },
+44 silly resolved     repository:
+44 silly resolved      { type: 'git',
+44 silly resolved        url: 'git://github.com/gruntjs/grunt-contrib-jshint.git' },
+44 silly resolved     bugs: { url: 'https://github.com/gruntjs/grunt-contrib-jshint/issues' },
+44 silly resolved     licenses: [ [Object] ],
+44 silly resolved     engines: { node: '>= 0.8.0' },
+44 silly resolved     scripts: { test: 'grunt test' },
+44 silly resolved     dependencies: { jshint: '~2.5.0', hooker: '~0.2.3' },
+44 silly resolved     devDependencies:
+44 silly resolved      { 'grunt-contrib-nodeunit': '~0.3.1',
+44 silly resolved        'grunt-contrib-internal': '~0.4.8',
+44 silly resolved        grunt: '~0.4.0' },
+44 silly resolved     peerDependencies: { grunt: '~0.4.0' },
+44 silly resolved     keywords: [ 'gruntplugin' ],
+44 silly resolved     files: [ 'tasks', 'LICENSE-MIT' ],
+44 silly resolved     readme: '# grunt-contrib-jshint v0.10.0 [![Build Status](https://travis-ci.org/gruntjs/grunt-contrib-jshint.png?branch=master)](https://travis-ci.org/gruntjs/grunt-contrib-jshint)\n\n> Validate files with JSHint.\n\n\n\n## Getting Started\nThis plugin requires Grunt `~0.4.0`\n\nIf you haven\'t used [Grunt](http://gruntjs.com/) before, be sure to check out the [Getting Started](http://gruntjs.com/getting-started) guide, as it explains how to create a [Gruntfile](http://gruntjs.com/sample-gruntfile) as well as install and use Grunt plugins. Once you\'re familiar with that process, you may install this plugin with this command:\n\n```shell\nnpm install grunt-contrib-jshint --save-dev\n```\n\nOnce the plugin has been installed, it may be enabled inside your Gruntfile with this line of JavaScript:\n\n```js\ngrunt.loadNpmTasks(\'grunt-contrib-jshint\');\n```\n\n\n\n\n## Jshint task\n_Run this task with the `grunt jshint` command._\n\nTask targets, files and options may be specified according to the grunt [Configuring tasks](http://gruntjs.com/configuring-tasks) guide.\n\nFor more explanations of the lint errors JSHint will throw at you please visit [jslinterrors.com](http://jslinterrors.com/).\n\n### Options\n\nAny specified option will be passed through directly to [JSHint][], thus you can specify any option that JSHint supports. See the [JSHint documentation][] for a list of supported options.\n\n[JSHint]: http://www.jshint.com/\n[JSHint documentation]: http://www.jshint.com/docs/\n\nA few additional options are supported:\n\n\n#### globals\n\nType: `Object`  \nDefault: `null`\n\nA map of global variables, with keys as names and a boolean value to determine if they are assignable. This is not a standard JSHint option, but is passed into the `JSHINT` function as its third argument. See the [JSHint documentation][] for more information.\n\n\n#### jshintrc\n\nType: `String` or `true`  \nDefault: `null`\n\nIf set to `true`, no config will be sent to jshint and jshint will search for `.jshintrc` files relative to the files being linted.\n\nIf a filename is specified, options and globals defined therein will be used. The `jshintrc` file must be valid JSON and looks something like this:\n\n```json\n{\n  "curly": true,\n  "eqnull": true,\n  "eqeqeq": true,\n  "undef": true,\n  "globals": {\n    "jQuery": true\n  }\n}\n```\n\n*Be aware that `jshintrc` settings are not merged with your Grunt options.*\n\n\n#### extensions\n\nType: `String`  \nDefault: `\'\'`\n\nA list of non-dot-js extensions to check.\n\n\n#### ignores\n\nType: `Array`  \nDefault: `null`\n\nA list of files and dirs to ignore. This will override your `.jshintignore` file if set and does not merge.\n\n\n#### force\n\nType: `Boolean`  \nDefault: `false`\n\nSet `force` to `true` to report JSHint errors but not fail the task.\n\n\n#### reporter\n\nType: `String`  \nDefault: `null`\n\nAllows you to modify this plugins output. By default it will use a built-in Grunt reporter. Set the path to your own custom reporter or to one of the built-in JSHint reporters: `jslint` or `checkstyle`.\n\nSee also: [Writing your own JSHint reporter.](http://jshint.com/docs/reporters/)\n\nYou can also use an external reporter. For example [jshint-stylish](https://github.com/sindresorhus/jshint-stylish):\n\n```\n$ npm install --save-dev jshint-stylish\n```\n\n```js\noptions: {\n    reporter: require(\'jshint-stylish\')\n}\n```\n\n#### reporterOutput\n\nType: `String`  \nDefault: `null`\n\nSpecify a filepath to output the results of a reporter. If `reporterOutput` is specified then all output will be written to the given filepath instead of printed to stdout.\n\n### Usage examples\n\n#### Wildcards\nIn this example, running `grunt jshint:all` (or `grunt jshint` because `jshint` is a [multi task](http://gruntjs.com/configuring-tasks#task-configuration-and-targets)) will lint the project\'s Gruntfile as well as all JavaScript files in the `lib` and `test` directories and their subdirectores, using the default JSHint options.\n\n```js\n// Project configuration.\ngrunt.initConfig({\n  jshint: {\n    all: [\'Gruntfile.js\', \'lib/**/*.js\', \'test/**/*.js\']\n  }\n});\n```\n\n#### Linting before and after concatenating\nIn this example, running `grunt jshint` will lint both the "beforeconcat" set and "afterconcat" sets of files. This is not ideal, because `dist/output.js` may get linted before it gets created via the [grunt-contrib-concat plugin](https://github.com/gruntjs/grunt-contrib-concat) `concat` task.\n\nIn this case, you should lint the "beforeconcat" files first, then concat, then lint the "afterconcat" files, by running `grunt jshint:beforeconcat concat jshint:afterconcat`.\n\n```js\n// Project configuration.\ngrunt.initConfig({\n  concat: {\n    dist: {\n      src: [\'src/foo.js\', \'src/bar.js\'],\n      dest: \'dist/output.js\'\n    }\n  },\n  jshint: {\n    beforeconcat: [\'src/foo.js\', \'src/bar.js\'],\n    afterconcat: [\'dist/output.js\']\n  }\n});\n```\n\n#### Specifying JSHint options and globals\n\nIn this example, custom JSHint options are specified. Note that when `grunt jshint:uses_defaults` is run, those files are linted using the default options, but when `grunt jshint:with_overrides` is run, those files are linted using _merged_ task/target options.\n\n```js\n// Project configuration.\ngrunt.initConfig({\n  jshint: {\n    options: {\n      curly: true,\n      eqeqeq: true,\n      eqnull: true,\n      browser: true,\n      globals: {\n        jQuery: true\n      },\n    },\n    uses_defaults: [\'dir1/**/*.js\', \'dir2/**/*.js\'],\n    with_overrides: {\n      options: {\n        curly: false,\n        undef: true,\n      },\n      files: {\n        src: [\'dir3/**/*.js\', \'dir4/**/*.js\']\n      },\n    }\n  },\n});\n```\n\n#### Ignoring specific warnings\n\nIf you would like to ignore a specific warning:\n\n```shell\n[L24:C9] W015: Expected \'}\' to have an indentation at 11 instead at 9.\n```\n\nYou can toggle it by prepending `-` to the warning id as an option:\n\n```js\ngrunt.initConfig({\n  jshint: {\n    ignore_warning: {\n      options: {\n        \'-W015\': true,\n      },\n      src: [\'**/*.js\'],\n    },\n  },\n});\n```\n\n\n## Release History\n\n * 2014-04-02   v0.10.0   Update to JSHint 2.5.0.\n * 2014-03-12   v0.9.2   Fixes a bug where reporterOutput was still passed to jshint.\n * 2014-03-12   v0.9.1   Don\'t pass reporterOutput option to jshint.\n * 2014-03-12   v0.9.0   Replace deprecated grunt.util._.clone with Object.create() Replace deprecated grunt.util.hooker with hooker lib Enhancing the readability of the output. Reporter output is relative to the output file. Pass jshint options to the external reporter.\n * 2013-12-25   v0.8.0   Update to jshint 2.4.0.\n * 2013-11-16   v0.7.2   Only print file name once per error.\n * 2013-10-31   v0.7.1   Ability to set jshintrc option to true to use jshint\'s native ability for finding .jshintrc files relative to the linted files.\n * 2013-10-23   v0.7.0   Update to jshint 2.3.0.\n * 2013-10-23   v0.6.5   Fix output when maxerr is low.\n * 2013-08-29   v0.6.4   jshintrc now loaded by jshint allowing comments.\n * 2013-08-15   v0.6.3   Fix module location for jshint 2.1.10.\n * 2013-07-29   v0.6.2   Update to jshint 2.1.7.\n * 2013-07-27   v0.6.1   Peg jshint to 2.1.4 until breaking changes in 2.1.5 are fixed.\n * 2013-06-02   v0.6.0   Dont always succeed the task when using a custom reporter. Bump jshint to 2.1.3.\n * 2013-05-22   v0.5.4   Fix default reporter to show offending file.\n * 2013-05-19   v0.5.3   Performance: Execute the reporter once rather than per file.\n * 2013-05-18   v0.5.2   Fix printing too many erroneous ignored file errors.\n * 2013-05-17   v0.5.1   Fix for when only 1 file is lint free.\n * 2013-05-17   v0.5.0   Bump to jshint 2.0. Add support for .jshintignore files and ignores option Add support for extensions option. Add support for custom reporters and output report to a file.\n * 2013-04-08   v0.4.3   Fix evaluation of predef option when it\'s an object.\n * 2013-04-08   v0.4.2   Avoid wiping force option when jshintrc is used.\n * 2013-04-06   v0.4.1   Fix to allow object type for deprecated predef.\n * 2013-04-04   v0.4.0   Revert task level options to override jshintrc files.\n * 2013-03-13   v0.3.0   Bump to JSHint 1.1.0. Add force option to report JSHint errors but not fail the task. Add error/warning code to message. Allow task level options to override jshintrc file.\n * 2013-02-26   v0.2.0   Bump to JSHint 1.0\n * 2013-02-15   v0.1.1   First official release for Grunt 0.4.0.\n * 2013-01-18   v0.1.1rc6   Updating grunt/gruntplugin dependencies to rc6. Changing in-development grunt/gruntplugin dependency versions from tilde version ranges to specific versions.\n * 2013-01-09   v0.1.1rc5   Updating to work with grunt v0.4.0rc5. Switching to this.filesSrc api.\n * 2012-10-18   v0.1.0   Work in progress, not yet officially released.\n\n---\n\nTask submitted by ["Cowboy" Ben Alman](http://benalman.com/)\n\n*This file was generated on Wed Apr 02 2014 09:05:43.*\n',
+44 silly resolved     readmeFilename: 'README.md',
+44 silly resolved     _id: 'grunt-contrib-jshint@0.10.0',
+44 silly resolved     _from: 'grunt-contrib-jshint@0.10.0' } ]
+45 info install grunt-contrib-jshint@0.10.0 into /Users/aseem/magichappens/gitpersonal/flipview
+46 info installOne grunt-contrib-jshint@0.10.0
+47 verbose from cache /Users/aseem/.npm/grunt-contrib-jshint/0.10.0/package/package.json
+48 info /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint unbuild
+49 verbose read json /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/package.json
+50 verbose tar unpack /Users/aseem/.npm/grunt-contrib-jshint/0.10.0/package.tgz
+51 silly lockFile 5a03eb75-ode-modules-grunt-contrib-jshint /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint
+52 verbose lock /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint /Users/aseem/.npm/5a03eb75-ode-modules-grunt-contrib-jshint.lock
+53 silly lockFile 800802fc-ontrib-jshint-0-10-0-package-tgz /Users/aseem/.npm/grunt-contrib-jshint/0.10.0/package.tgz
+54 verbose lock /Users/aseem/.npm/grunt-contrib-jshint/0.10.0/package.tgz /Users/aseem/.npm/800802fc-ontrib-jshint-0-10-0-package-tgz.lock
+55 silly gunzTarPerm modes [ '755', '644' ]
+56 silly gunzTarPerm extractEntry package.json
+57 silly gunzTarPerm extractEntry README.md
+58 silly gunzTarPerm extractEntry LICENSE-MIT
+59 silly gunzTarPerm extractEntry tasks/jshint.js
+60 silly gunzTarPerm extractEntry tasks/lib/jshint.js
+61 verbose read json /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/package.json
+62 silly lockFile 5a03eb75-ode-modules-grunt-contrib-jshint /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint
+63 silly lockFile 5a03eb75-ode-modules-grunt-contrib-jshint /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint
+64 silly lockFile 800802fc-ontrib-jshint-0-10-0-package-tgz /Users/aseem/.npm/grunt-contrib-jshint/0.10.0/package.tgz
+65 silly lockFile 800802fc-ontrib-jshint-0-10-0-package-tgz /Users/aseem/.npm/grunt-contrib-jshint/0.10.0/package.tgz
+66 info preinstall grunt-contrib-jshint@0.10.0
+67 verbose from cache /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/package.json
+68 verbose readDependencies using package.json deps
+69 verbose from cache /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/package.json
+70 verbose readDependencies using package.json deps
+71 verbose cache add [ 'jshint@~2.5.0', null ]
+72 verbose cache add name=undefined spec="jshint@~2.5.0" args=["jshint@~2.5.0",null]
+73 verbose parsed url { protocol: null,
+73 verbose parsed url   slashes: null,
+73 verbose parsed url   auth: null,
+73 verbose parsed url   host: null,
+73 verbose parsed url   port: null,
+73 verbose parsed url   hostname: null,
+73 verbose parsed url   hash: null,
+73 verbose parsed url   search: null,
+73 verbose parsed url   query: null,
+73 verbose parsed url   pathname: 'jshint@~2.5.0',
+73 verbose parsed url   path: 'jshint@~2.5.0',
+73 verbose parsed url   href: 'jshint@~2.5.0' }
+74 verbose cache add name="jshint" spec="~2.5.0" args=["jshint","~2.5.0"]
+75 verbose parsed url { protocol: null,
+75 verbose parsed url   slashes: null,
+75 verbose parsed url   auth: null,
+75 verbose parsed url   host: null,
+75 verbose parsed url   port: null,
+75 verbose parsed url   hostname: null,
+75 verbose parsed url   hash: null,
+75 verbose parsed url   search: null,
+75 verbose parsed url   query: null,
+75 verbose parsed url   pathname: '~2.5.0',
+75 verbose parsed url   path: '~2.5.0',
+75 verbose parsed url   href: '~2.5.0' }
+76 verbose addNamed [ 'jshint', '~2.5.0' ]
+77 verbose addNamed [ null, '>=2.5.0- <2.6.0-' ]
+78 silly lockFile 0b5a3cd2-jshint-2-5-0 jshint@~2.5.0
+79 verbose lock jshint@~2.5.0 /Users/aseem/.npm/0b5a3cd2-jshint-2-5-0.lock
+80 verbose cache add [ 'hooker@~0.2.3', null ]
+81 verbose cache add name=undefined spec="hooker@~0.2.3" args=["hooker@~0.2.3",null]
+82 verbose parsed url { protocol: null,
+82 verbose parsed url   slashes: null,
+82 verbose parsed url   auth: null,
+82 verbose parsed url   host: null,
+82 verbose parsed url   port: null,
+82 verbose parsed url   hostname: null,
+82 verbose parsed url   hash: null,
+82 verbose parsed url   search: null,
+82 verbose parsed url   query: null,
+82 verbose parsed url   pathname: 'hooker@~0.2.3',
+82 verbose parsed url   path: 'hooker@~0.2.3',
+82 verbose parsed url   href: 'hooker@~0.2.3' }
+83 verbose cache add name="hooker" spec="~0.2.3" args=["hooker","~0.2.3"]
+84 verbose parsed url { protocol: null,
+84 verbose parsed url   slashes: null,
+84 verbose parsed url   auth: null,
+84 verbose parsed url   host: null,
+84 verbose parsed url   port: null,
+84 verbose parsed url   hostname: null,
+84 verbose parsed url   hash: null,
+84 verbose parsed url   search: null,
+84 verbose parsed url   query: null,
+84 verbose parsed url   pathname: '~0.2.3',
+84 verbose parsed url   path: '~0.2.3',
+84 verbose parsed url   href: '~0.2.3' }
+85 verbose addNamed [ 'hooker', '~0.2.3' ]
+86 verbose addNamed [ null, '>=0.2.3- <0.3.0-' ]
+87 silly lockFile 2bcd1457-hooker-0-2-3 hooker@~0.2.3
+88 verbose lock hooker@~0.2.3 /Users/aseem/.npm/2bcd1457-hooker-0-2-3.lock
+89 silly addNameRange { name: 'jshint', range: '>=2.5.0- <2.6.0-', hasData: false }
+90 silly addNameRange { name: 'hooker', range: '>=0.2.3- <0.3.0-', hasData: false }
+91 verbose url raw hooker
+92 verbose url resolving [ 'https://registry.npmjs.org/', './hooker' ]
+93 verbose url resolved https://registry.npmjs.org/hooker
+94 info trying registry request attempt 1 at 14:31:17
+95 verbose etag "AN4YLJQRT6XSCVFEC6PSGV8IK"
+96 http GET https://registry.npmjs.org/hooker
+97 verbose url raw jshint
+98 verbose url resolving [ 'https://registry.npmjs.org/', './jshint' ]
+99 verbose url resolved https://registry.npmjs.org/jshint
+100 info trying registry request attempt 1 at 14:31:17
+101 verbose etag "78NNWJO9VJQHXUSML5XJ6ZS1H"
+102 http GET https://registry.npmjs.org/jshint
+103 http 304 https://registry.npmjs.org/jshint
+104 silly registry.get cb [ 304,
+104 silly registry.get   { date: 'Sun, 15 Jun 2014 09:01:18 GMT',
+104 silly registry.get     server: 'Apache',
+104 silly registry.get     via: '1.1 varnish',
+104 silly registry.get     'last-modified': 'Sun, 15 Jun 2014 09:01:18 GMT',
+104 silly registry.get     'cache-control': 'max-age=30',
+104 silly registry.get     etag: '"78NNWJO9VJQHXUSML5XJ6ZS1H"',
+104 silly registry.get     'x-served-by': 'cache-sv61-SJC3',
+104 silly registry.get     'x-cache': 'HIT',
+104 silly registry.get     'x-cache-hits': '1',
+104 silly registry.get     'x-timer': 'S1402822878.477447,VS0,VE0',
+104 silly registry.get     vary: 'Accept',
+104 silly registry.get     'content-length': '0',
+104 silly registry.get     'keep-alive': 'timeout=10, max=50',
+104 silly registry.get     connection: 'Keep-Alive' } ]
+105 verbose etag jshint from cache
+106 silly addNameRange number 2 { name: 'jshint', range: '>=2.5.0- <2.6.0-', hasData: true }
+107 silly addNameRange versions [ 'jshint',
+107 silly addNameRange   [ '0.1.8',
+107 silly addNameRange     '0.1.9',
+107 silly addNameRange     '0.2.0',
+107 silly addNameRange     '0.2.1',
+107 silly addNameRange     '0.2.2',
+107 silly addNameRange     '0.2.3',
+107 silly addNameRange     '0.3.0',
+107 silly addNameRange     '0.3.1',
+107 silly addNameRange     '0.4.0',
+107 silly addNameRange     '0.5.0',
+107 silly addNameRange     '0.5.1',
+107 silly addNameRange     '0.5.2',
+107 silly addNameRange     '0.5.3',
+107 silly addNameRange     '0.5.4',
+107 silly addNameRange     '0.5.5',
+107 silly addNameRange     '0.5.6',
+107 silly addNameRange     '0.5.7',
+107 silly addNameRange     '0.5.8',
+107 silly addNameRange     '0.5.9',
+107 silly addNameRange     '0.6.0',
+107 silly addNameRange     '0.6.1',
+107 silly addNameRange     '0.6.2',
+107 silly addNameRange     '0.6.3',
+107 silly addNameRange     '0.7.0',
+107 silly addNameRange     '0.7.1',
+107 silly addNameRange     '0.7.2',
+107 silly addNameRange     '0.7.3',
+107 silly addNameRange     '0.8.0',
+107 silly addNameRange     '0.8.1',
+107 silly addNameRange     '0.8.2',
+107 silly addNameRange     '0.9.0',
+107 silly addNameRange     '0.9.1',
+107 silly addNameRange     '1.0.0',
+107 silly addNameRange     '1.1.0',
+107 silly addNameRange     '2.0.0',
+107 silly addNameRange     '2.0.1',
+107 silly addNameRange     '2.1.0',
+107 silly addNameRange     '2.1.1',
+107 silly addNameRange     '2.1.2',
+107 silly addNameRange     '2.1.3',
+107 silly addNameRange     '2.1.4',
+107 silly addNameRange     '2.1.5',
+107 silly addNameRange     '2.1.6',
+107 silly addNameRange     '2.1.7',
+107 silly addNameRange     '2.1.8',
+107 silly addNameRange     '2.1.9',
+107 silly addNameRange     '2.1.10',
+107 silly addNameRange     '2.1.11',
+107 silly addNameRange     '2.2.0',
+107 silly addNameRange     '2.3.0',
+107 silly addNameRange     '2.4.0',
+107 silly addNameRange     '2.4.1',
+107 silly addNameRange     '2.4.2',
+107 silly addNameRange     '2.4.3',
+107 silly addNameRange     '2.4.4',
+107 silly addNameRange     '2.5.0',
+107 silly addNameRange     '2.5.1' ] ]
+108 verbose addNamed [ 'jshint', '2.5.1' ]
+109 verbose addNamed [ '2.5.1', '2.5.1' ]
+110 silly lockFile f2bb41eb-jshint-2-5-1 jshint@2.5.1
+111 verbose lock jshint@2.5.1 /Users/aseem/.npm/f2bb41eb-jshint-2-5-1.lock
+112 verbose read json /Users/aseem/.npm/jshint/2.5.1/package/package.json
+113 silly lockFile f2bb41eb-jshint-2-5-1 jshint@2.5.1
+114 silly lockFile f2bb41eb-jshint-2-5-1 jshint@2.5.1
+115 silly lockFile 0b5a3cd2-jshint-2-5-0 jshint@~2.5.0
+116 silly lockFile 0b5a3cd2-jshint-2-5-0 jshint@~2.5.0
+117 http 304 https://registry.npmjs.org/hooker
+118 silly registry.get cb [ 304,
+118 silly registry.get   { date: 'Sun, 15 Jun 2014 09:01:18 GMT',
+118 silly registry.get     server: 'Apache',
+118 silly registry.get     via: '1.1 varnish',
+118 silly registry.get     'last-modified': 'Sun, 15 Jun 2014 09:01:18 GMT',
+118 silly registry.get     'cache-control': 'max-age=30',
+118 silly registry.get     etag: '"AN4YLJQRT6XSCVFEC6PSGV8IK"',
+118 silly registry.get     'x-served-by': 'cache-sv61-SJC3',
+118 silly registry.get     'x-cache': 'HIT',
+118 silly registry.get     'x-cache-hits': '1',
+118 silly registry.get     'x-timer': 'S1402822878.411941,VS0,VE83',
+118 silly registry.get     vary: 'Accept',
+118 silly registry.get     'content-length': '0',
+118 silly registry.get     'keep-alive': 'timeout=10, max=50',
+118 silly registry.get     connection: 'Keep-Alive' } ]
+119 verbose etag hooker from cache
+120 silly addNameRange number 2 { name: 'hooker', range: '>=0.2.3- <0.3.0-', hasData: true }
+121 silly addNameRange versions [ 'hooker', [ '0.2.3' ] ]
+122 verbose addNamed [ 'hooker', '0.2.3' ]
+123 verbose addNamed [ '0.2.3', '0.2.3' ]
+124 silly lockFile 97e6505f-hooker-0-2-3 hooker@0.2.3
+125 verbose lock hooker@0.2.3 /Users/aseem/.npm/97e6505f-hooker-0-2-3.lock
+126 verbose read json /Users/aseem/.npm/hooker/0.2.3/package/package.json
+127 silly lockFile 97e6505f-hooker-0-2-3 hooker@0.2.3
+128 silly lockFile 97e6505f-hooker-0-2-3 hooker@0.2.3
+129 silly lockFile 2bcd1457-hooker-0-2-3 hooker@~0.2.3
+130 silly lockFile 2bcd1457-hooker-0-2-3 hooker@~0.2.3
+131 silly resolved [ { name: 'jshint',
+131 silly resolved     version: '2.5.1',
+131 silly resolved     homepage: 'http://jshint.com/',
+131 silly resolved     description: 'Static analysis tool for JavaScript',
+131 silly resolved     author:
+131 silly resolved      { name: 'Anton Kovalyov',
+131 silly resolved        email: 'anton@kovalyov.net',
+131 silly resolved        url: 'http://anton.kovalyov.net/' },
+131 silly resolved     repository: { type: 'git', url: 'https://github.com/jshint/jshint.git' },
+131 silly resolved     bugs: { url: 'https://github.com/jshint/jshint/issues' },
+131 silly resolved     bin: { jshint: './bin/jshint' },
+131 silly resolved     scripts:
+131 silly resolved      { data: 'node scripts/generate-identifier-data',
+131 silly resolved        build: 'node bin/build',
+131 silly resolved        test: 'nodeunit tests tests/regression tests/unit',
+131 silly resolved        pretest: 'jshint src' },
+131 silly resolved     main: './src/jshint.js',
+131 silly resolved     dependencies:
+131 silly resolved      { shelljs: '0.3.x',
+131 silly resolved        underscore: '1.6.x',
+131 silly resolved        cli: '0.6.x',
+131 silly resolved        minimatch: '0.x.x',
+131 silly resolved        htmlparser2: '3.7.x',
+131 silly resolved        'console-browserify': '1.1.x',
+131 silly resolved        exit: '0.1.x',
+131 silly resolved        'strip-json-comments': '0.1.x' },
+131 silly resolved     devDependencies:
+131 silly resolved      { jshint: '2.5.x',
+131 silly resolved        browserify: '4.x',
+131 silly resolved        coveraje: '0.2.x',
+131 silly resolved        nodeunit: '0.9.x',
+131 silly resolved        sinon: '1.9.x',
+131 silly resolved        'unicode-6.3.0': '0.1.x',
+131 silly resolved        regenerate: '0.6.x' },
+131 silly resolved     licenses: [ [Object] ],
+131 silly resolved     preferGlobal: true,
+131 silly resolved     files: [ 'bin', 'src', 'data', 'dist' ],
+131 silly resolved     readme: 'JSHint, A Static Code Analysis Tool for JavaScript\n--------------------------------------------------\n\n\\[ [Use it online](http://jshint.com/) •  [About](http://jshint.com/about/) •\n[Docs](http://jshint.com/docs/) • [FAQ](http://jshint.com/docs/faq) •\n[Install](http://jshint.com/install/) • [Hack](http://jshint.com/hack/) •\n[Blog](http://jshint.com/blog/) • [Twitter](https://twitter.com/jshint/) \\]\n\n[![Build Status](https://travis-ci.org/jshint/jshint.svg?branch=master)](https://travis-ci.org/jshint/jshint)\n[![NPM version](https://badge.fury.io/js/jshint.svg)](http://badge.fury.io/js/jshint)\n\nJSHint is a community-driven tool to detect errors and potential problems\nin JavaScript code. It is very flexible so you can easily adjust it to your\nparticular coding guidelines and the environment you expect your code to\nexecute in.\n\n#### Reporting a bug\n\nTo report a bug simply create a\n[new GitHub Issue](https://github.com/jshint/jshint/issues/new) and describe\nyour problem or suggestion. We welcome all kind of feedback regarding\nJSHint including but not limited to:\n\n * When JSHint doesn\'t work as expected\n * When JSHint complains about valid JavaScript code that works in all browsers\n * When you simply want a new option or feature\n\nBefore reporting a bug look around to see if there are any open or closed tickets\nthat cover your issue. And remember the wisdom: pull request > bug report > tweet.\n\n#### Issue Priority\n\n- *P1:* Something is throwing exceptions; broken JSHint backward compatibility.\n- *P2:* Something is not being parsed correctly.\n- *P3:* Features that the core team will work on once P2s and P1s are done.\n- *P4:* Patches welcome; The request is good, but low priority.\n\n\n#### License\n\nJSHint is distributed under the MIT License. One file and one file only\n(src/stable/jshint.js) is distributed under the slightly modified MIT License.\n\n\n#### Thank you!\n\nWe really appreciate all kind of feedback and contributions. Thanks for using and supporting JSHint!\n',
+131 silly resolved     readmeFilename: 'README.md',
+131 silly resolved     _id: 'jshint@2.5.1',
+131 silly resolved     _from: 'jshint@~2.5.0' },
+131 silly resolved   { name: 'hooker',
+131 silly resolved     description: 'Monkey-patch (hook) functions for debugging and stuff.',
+131 silly resolved     version: '0.2.3',
+131 silly resolved     homepage: 'http://github.com/cowboy/javascript-hooker',
+131 silly resolved     author: { name: '"Cowboy" Ben Alman', url: 'http://benalman.com/' },
+131 silly resolved     repository:
+131 silly resolved      { type: 'git',
+131 silly resolved        url: 'git://github.com/cowboy/javascript-hooker.git' },
+131 silly resolved     bugs: { url: 'https://github.com/cowboy/javascript-hooker/issues' },
+131 silly resolved     licenses: [ [Object] ],
+131 silly resolved     dependencies: {},
+131 silly resolved     devDependencies: { grunt: '~0.2.1' },
+131 silly resolved     keywords: [ 'patch', 'hook', 'function', 'debug', 'aop' ],
+131 silly resolved     engines: { node: '*' },
+131 silly resolved     main: 'lib/hooker',
+131 silly resolved     scripts: { test: 'grunt test' },
+131 silly resolved     readme: '# JavaScript Hooker\n\nMonkey-patch (hook) functions for debugging and stuff.\n\n## Getting Started\n\nThis code should work just fine in Node.js:\n\nFirst, install the module with: `npm install hooker`\n\n```javascript\nvar hooker = require(\'hooker\');\nhooker.hook(Math, "max", function() {\n  console.log(arguments.length + " arguments passed");\n});\nMath.max(5, 6, 7) // logs: "3 arguments passed", returns 7\n```\n\nOr in the browser:\n\n```html\n<script src="dist/ba-hooker.min.js"></script>\n<script>\nhook(Math, "max", function() {\n  console.log(arguments.length + " arguments passed");\n});\nMath.max(5, 6, 7) // logs: "3 arguments passed", returns 7\n</script>\n```\n\nIn the browser, you can attach Hooker\'s methods to any object.\n\n```html\n<script>\nthis.exports = Bocoup.utils;\n</script>\n<script src="dist/ba-hooker.min.js"></script>\n<script>\nBocoup.utils.hook(Math, "max", function() {\n  console.log(arguments.length + " arguments passed");\n});\nMath.max(5, 6, 7) // logs: "3 arguments passed", returns 7\n</script>\n```\n\n## Documentation\n\n### hooker.hook\nMonkey-patch (hook) one or more methods of an object.\n#### Signature:\n`hooker.hook(object, [ props, ] [options | prehookFunction])`\n#### `props`\nThe optional `props` argument can be a method name, array of method names or null. If null (or omitted), all enumerable methods of `object` will be hooked.\n#### `options`\n* `pre` - (Function) a pre-hook function to be executed before the original function. Arguments passed into the method will be passed into the pre-hook function as well.\n* `post` - (Function) a post-hook function to be executed after the original function. The original function\'s result is passed into the post-hook function as its first argument, followed by the method arguments.\n* `once` - (Boolean) if true, auto-unhook the function after the first execution.\n* `passName` - (Boolean) if true, pass the name of the method into the pre-hook function as its first arg (preceding all other arguments), and into the post-hook function as the second arg (after result but preceding all other arguments).\n\n#### Returns:\nAn array of hooked method names.\n\n### hooker.unhook\nUn-monkey-patch (unhook) one or more methods of an object.\n#### Signature:\n`hooker.unhook(object [, props ])`\n#### `props`\nThe optional `props` argument can be a method name, array of method names or null. If null (or omitted), all methods of `object` will be unhooked.\n#### Returns:\nAn array of unhooked method names.\n\n### hooker.orig\nGet a reference to the original method from a hooked function.\n#### Signature:\n`hooker.orig(object, props)`\n\n### hooker.override\nWhen a pre- or post-hook returns the result of this function, the value\npassed will be used in place of the original function\'s return value. Any\npost-hook override value will take precedence over a pre-hook override value.\n#### Signature:\n`hooker.override(value)`\n\n### hooker.preempt\nWhen a pre-hook returns the result of this function, the value passed will\nbe used in place of the original function\'s return value, and the original\nfunction will NOT be executed.\n#### Signature:\n`hooker.preempt(value)`\n\n### hooker.filter\nWhen a pre-hook returns the result of this function, the context and\narguments passed will be applied into the original function.\n#### Signature:\n`hooker.filter(context, arguments)`\n\n\n## Examples\nSee the unit tests for more examples.\n\n```javascript\nvar hooker = require(\'hooker\');\n// Simple logging.\nhooker.hook(Math, "max", function() {\n  console.log(arguments.length + " arguments passed");\n});\nMath.max(5, 6, 7) // logs: "3 arguments passed", returns 7\n\nhooker.unhook(Math, "max"); // (This is assumed between all further examples)\nMath.max(5, 6, 7) // 7\n\n// Returning hooker.override(value) overrides the original value.\nhooker.hook(Math, "max", function() {\n  if (arguments.length === 0) {\n    return hooker.override(9000);\n  }\n});\nMath.max(5, 6, 7) // 7\nMath.max() // 9000\n\n// Auto-unhook after one execution.\nhooker.hook(Math, "max", {\n  once: true,\n  pre: function() {\n    console.log("Init something here");\n  }\n});\nMath.max(5, 6, 7) // logs: "Init something here", returns 7\nMath.max(5, 6, 7) // 7\n\n// Filter `this` and arguments through a pre-hook function.\nhooker.hook(Math, "max", {\n  pre: function() {\n    var args = [].map.call(arguments, function(num) {\n      return num * 2;\n    });\n    return hooker.filter(this, args); // thisValue, arguments\n  }\n});\nMath.max(5, 6, 7) // 14\n\n// Modify the original function\'s result with a post-hook function.\nhooker.hook(Math, "max", {\n  post: function(result) {\n    return hooker.override(result * 100);\n  }\n});\nMath.max(5, 6, 7) // 700\n\n// Hook every Math method. Note: if Math\'s methods were enumerable, the second\n// argument could be omitted. Since they aren\'t, an array of properties to hook\n// must be explicitly passed. Non-method properties will be skipped.\n// See a more generic example here: http://bit.ly/vvJlrS\nhooker.hook(Math, Object.getOwnPropertyNames(Math), {\n  passName: true,\n  pre: function(name) {\n    console.log("=> Math." + name, [].slice.call(arguments, 1));\n  },\n  post: function(result, name) {\n    console.log("<= Math." + name, result);\n  }\n});\n\nvar result = Math.max(5, 6, 7);\n// => Math.max [ 5, 6, 7 ]\n// <= Math.max 7\nresult // 7\n\nresult = Math.ceil(3.456);\n// => Math.ceil [ 3.456 ]\n// <= Math.ceil 4\nresult // 4\n```\n\n## Contributing\nIn lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [grunt](https://github.com/cowboy/grunt).\n\n_Also, please don\'t edit files in the "dist" subdirectory as they are generated via grunt. You\'ll find source code in the "lib" subdirectory!_\n\n## Release History\n2012/01/09 - v0.2.3 - First official release.\n\n## License\nCopyright (c) 2012 "Cowboy" Ben Alman  \nLicensed under the MIT license.  \n<http://benalman.com/about/license/>\n',
+131 silly resolved     readmeFilename: 'README.md',
+131 silly resolved     _id: 'hooker@0.2.3',
+131 silly resolved     _from: 'hooker@~0.2.3' } ]
+132 info install jshint@2.5.1 into /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint
+133 info install hooker@0.2.3 into /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint
+134 info installOne jshint@2.5.1
+135 info installOne hooker@0.2.3
+136 verbose from cache /Users/aseem/.npm/jshint/2.5.1/package/package.json
+137 info /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/jshint unbuild
+138 verbose read json /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/jshint/package.json
+139 verbose from cache /Users/aseem/.npm/hooker/0.2.3/package/package.json
+140 info /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/hooker unbuild
+141 verbose read json /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/hooker/package.json
+142 verbose tar unpack /Users/aseem/.npm/jshint/2.5.1/package.tgz
+143 silly lockFile ab6e0965-ntrib-jshint-node-modules-jshint /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/jshint
+144 verbose lock /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/jshint /Users/aseem/.npm/ab6e0965-ntrib-jshint-node-modules-jshint.lock
+145 silly lockFile ae09c857-eem-npm-jshint-2-5-1-package-tgz /Users/aseem/.npm/jshint/2.5.1/package.tgz
+146 verbose lock /Users/aseem/.npm/jshint/2.5.1/package.tgz /Users/aseem/.npm/ae09c857-eem-npm-jshint-2-5-1-package-tgz.lock
+147 verbose tar unpack /Users/aseem/.npm/hooker/0.2.3/package.tgz
+148 silly lockFile 0a4358d5-ntrib-jshint-node-modules-hooker /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/hooker
+149 verbose lock /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/hooker /Users/aseem/.npm/0a4358d5-ntrib-jshint-node-modules-hooker.lock
+150 silly lockFile 48492f03-eem-npm-hooker-0-2-3-package-tgz /Users/aseem/.npm/hooker/0.2.3/package.tgz
+151 verbose lock /Users/aseem/.npm/hooker/0.2.3/package.tgz /Users/aseem/.npm/48492f03-eem-npm-hooker-0-2-3-package-tgz.lock
+152 silly gunzTarPerm modes [ '755', '644' ]
+153 silly gunzTarPerm modes [ '755', '644' ]
+154 silly gunzTarPerm extractEntry package.json
+155 silly gunzTarPerm extractEntry package.json
+156 silly gunzTarPerm extractEntry README.md
+157 silly gunzTarPerm extractEntry bin/apply
+158 silly gunzTarPerm extractEntry README.md
+159 silly gunzTarPerm extractEntry child.js
+160 silly gunzTarPerm extractEntry grunt.js
+161 silly gunzTarPerm extractEntry parent.js
+162 silly gunzTarPerm extractEntry bin/build
+163 silly gunzTarPerm extractEntry bin/changelog
+164 silly gunzTarPerm extractEntry bin/jshint
+165 silly gunzTarPerm extractEntry bin/land
+166 silly gunzTarPerm extractEntry LICENSE-MIT
+167 silly gunzTarPerm extractEntry dist/ba-hooker.js
+168 silly gunzTarPerm extractEntry dist/ba-hooker.min.js
+169 silly gunzTarPerm extractEntry lib/hooker.js
+170 silly gunzTarPerm extractEntry test/hooker_test.js
+171 silly gunzTarPerm extractEntry data/ascii-identifier-data.js
+172 silly gunzTarPerm extractEntry data/non-ascii-identifier-part-only.js
+173 silly gunzTarPerm extractEntry data/non-ascii-identifier-start.js
+174 silly gunzTarPerm extractEntry dist/jshint-rhino.js
+175 silly gunzTarPerm extractEntry dist/jshint.js
+176 verbose read json /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/hooker/package.json
+177 silly lockFile 0a4358d5-ntrib-jshint-node-modules-hooker /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/hooker
+178 silly lockFile 0a4358d5-ntrib-jshint-node-modules-hooker /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/hooker
+179 silly lockFile 48492f03-eem-npm-hooker-0-2-3-package-tgz /Users/aseem/.npm/hooker/0.2.3/package.tgz
+180 silly lockFile 48492f03-eem-npm-hooker-0-2-3-package-tgz /Users/aseem/.npm/hooker/0.2.3/package.tgz
+181 info preinstall hooker@0.2.3
+182 verbose from cache /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/hooker/package.json
+183 verbose readDependencies using package.json deps
+184 verbose from cache /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/hooker/package.json
+185 verbose readDependencies using package.json deps
+186 silly resolved []
+187 verbose about to build /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/hooker
+188 info build /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/hooker
+189 verbose from cache /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/hooker/package.json
+190 verbose linkStuff [ false,
+190 verbose linkStuff   false,
+190 verbose linkStuff   false,
+190 verbose linkStuff   '/Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules' ]
+191 info linkStuff hooker@0.2.3
+192 verbose linkBins hooker@0.2.3
+193 verbose linkMans hooker@0.2.3
+194 verbose rebuildBundles hooker@0.2.3
+195 info install hooker@0.2.3
+196 info postinstall hooker@0.2.3
+197 silly gunzTarPerm extractEntry src/cli.js
+198 silly gunzTarPerm extractEntry src/jshint.js
+199 silly gunzTarPerm extractEntry src/lex.js
+200 silly gunzTarPerm extractEntry src/messages.js
+201 silly gunzTarPerm extractEntry src/reg.js
+202 silly gunzTarPerm extractEntry src/state.js
+203 silly gunzTarPerm extractEntry src/style.js
+204 silly gunzTarPerm extractEntry src/vars.js
+205 silly gunzTarPerm extractEntry src/platforms/rhino.js
+206 silly gunzTarPerm extractEntry src/reporters/checkstyle.js
+207 silly gunzTarPerm extractEntry src/reporters/default.js
+208 silly gunzTarPerm extractEntry src/reporters/jslint_xml.js
+209 silly gunzTarPerm extractEntry src/reporters/non_error.js
+210 verbose read json /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/jshint/package.json
+211 silly lockFile ab6e0965-ntrib-jshint-node-modules-jshint /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/jshint
+212 silly lockFile ab6e0965-ntrib-jshint-node-modules-jshint /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/jshint
+213 silly lockFile ae09c857-eem-npm-jshint-2-5-1-package-tgz /Users/aseem/.npm/jshint/2.5.1/package.tgz
+214 silly lockFile ae09c857-eem-npm-jshint-2-5-1-package-tgz /Users/aseem/.npm/jshint/2.5.1/package.tgz
+215 info preinstall jshint@2.5.1
+216 verbose from cache /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/jshint/package.json
+217 verbose readDependencies using package.json deps
+218 verbose from cache /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/jshint/package.json
+219 verbose readDependencies using package.json deps
+220 verbose cache add [ 'shelljs@0.3.x', null ]
+221 verbose cache add name=undefined spec="shelljs@0.3.x" args=["shelljs@0.3.x",null]
+222 verbose parsed url { protocol: null,
+222 verbose parsed url   slashes: null,
+222 verbose parsed url   auth: null,
+222 verbose parsed url   host: null,
+222 verbose parsed url   port: null,
+222 verbose parsed url   hostname: null,
+222 verbose parsed url   hash: null,
+222 verbose parsed url   search: null,
+222 verbose parsed url   query: null,
+222 verbose parsed url   pathname: 'shelljs@0.3.x',
+222 verbose parsed url   path: 'shelljs@0.3.x',
+222 verbose parsed url   href: 'shelljs@0.3.x' }
+223 verbose cache add name="shelljs" spec="0.3.x" args=["shelljs","0.3.x"]
+224 verbose parsed url { protocol: null,
+224 verbose parsed url   slashes: null,
+224 verbose parsed url   auth: null,
+224 verbose parsed url   host: null,
+224 verbose parsed url   port: null,
+224 verbose parsed url   hostname: null,
+224 verbose parsed url   hash: null,
+224 verbose parsed url   search: null,
+224 verbose parsed url   query: null,
+224 verbose parsed url   pathname: '0.3.x',
+224 verbose parsed url   path: '0.3.x',
+224 verbose parsed url   href: '0.3.x' }
+225 verbose addNamed [ 'shelljs', '0.3.x' ]
+226 verbose addNamed [ null, '>=0.3.0- <0.4.0-' ]
+227 silly lockFile f803acf0-shelljs-0-3-x shelljs@0.3.x
+228 verbose lock shelljs@0.3.x /Users/aseem/.npm/f803acf0-shelljs-0-3-x.lock
+229 verbose cache add [ 'underscore@1.6.x', null ]
+230 verbose cache add name=undefined spec="underscore@1.6.x" args=["underscore@1.6.x",null]
+231 verbose parsed url { protocol: null,
+231 verbose parsed url   slashes: null,
+231 verbose parsed url   auth: null,
+231 verbose parsed url   host: null,
+231 verbose parsed url   port: null,
+231 verbose parsed url   hostname: null,
+231 verbose parsed url   hash: null,
+231 verbose parsed url   search: null,
+231 verbose parsed url   query: null,
+231 verbose parsed url   pathname: 'underscore@1.6.x',
+231 verbose parsed url   path: 'underscore@1.6.x',
+231 verbose parsed url   href: 'underscore@1.6.x' }
+232 verbose cache add name="underscore" spec="1.6.x" args=["underscore","1.6.x"]
+233 verbose parsed url { protocol: null,
+233 verbose parsed url   slashes: null,
+233 verbose parsed url   auth: null,
+233 verbose parsed url   host: null,
+233 verbose parsed url   port: null,
+233 verbose parsed url   hostname: null,
+233 verbose parsed url   hash: null,
+233 verbose parsed url   search: null,
+233 verbose parsed url   query: null,
+233 verbose parsed url   pathname: '1.6.x',
+233 verbose parsed url   path: '1.6.x',
+233 verbose parsed url   href: '1.6.x' }
+234 verbose addNamed [ 'underscore', '1.6.x' ]
+235 verbose addNamed [ null, '>=1.6.0- <1.7.0-' ]
+236 silly lockFile 7996e604-underscore-1-6-x underscore@1.6.x
+237 verbose lock underscore@1.6.x /Users/aseem/.npm/7996e604-underscore-1-6-x.lock
+238 silly addNameRange { name: 'shelljs', range: '>=0.3.0- <0.4.0-', hasData: false }
+239 verbose cache add [ 'cli@0.6.x', null ]
+240 verbose cache add name=undefined spec="cli@0.6.x" args=["cli@0.6.x",null]
+241 verbose parsed url { protocol: null,
+241 verbose parsed url   slashes: null,
+241 verbose parsed url   auth: null,
+241 verbose parsed url   host: null,
+241 verbose parsed url   port: null,
+241 verbose parsed url   hostname: null,
+241 verbose parsed url   hash: null,
+241 verbose parsed url   search: null,
+241 verbose parsed url   query: null,
+241 verbose parsed url   pathname: 'cli@0.6.x',
+241 verbose parsed url   path: 'cli@0.6.x',
+241 verbose parsed url   href: 'cli@0.6.x' }
+242 verbose cache add name="cli" spec="0.6.x" args=["cli","0.6.x"]
+243 verbose parsed url { protocol: null,
+243 verbose parsed url   slashes: null,
+243 verbose parsed url   auth: null,
+243 verbose parsed url   host: null,
+243 verbose parsed url   port: null,
+243 verbose parsed url   hostname: null,
+243 verbose parsed url   hash: null,
+243 verbose parsed url   search: null,
+243 verbose parsed url   query: null,
+243 verbose parsed url   pathname: '0.6.x',
+243 verbose parsed url   path: '0.6.x',
+243 verbose parsed url   href: '0.6.x' }
+244 verbose addNamed [ 'cli', '0.6.x' ]
+245 verbose addNamed [ null, '>=0.6.0- <0.7.0-' ]
+246 silly lockFile 83193756-cli-0-6-x cli@0.6.x
+247 verbose lock cli@0.6.x /Users/aseem/.npm/83193756-cli-0-6-x.lock
+248 verbose cache add [ 'minimatch@0.x.x', null ]
+249 verbose cache add name=undefined spec="minimatch@0.x.x" args=["minimatch@0.x.x",null]
+250 verbose parsed url { protocol: null,
+250 verbose parsed url   slashes: null,
+250 verbose parsed url   auth: null,
+250 verbose parsed url   host: null,
+250 verbose parsed url   port: null,
+250 verbose parsed url   hostname: null,
+250 verbose parsed url   hash: null,
+250 verbose parsed url   search: null,
+250 verbose parsed url   query: null,
+250 verbose parsed url   pathname: 'minimatch@0.x.x',
+250 verbose parsed url   path: 'minimatch@0.x.x',
+250 verbose parsed url   href: 'minimatch@0.x.x' }
+251 verbose cache add name="minimatch" spec="0.x.x" args=["minimatch","0.x.x"]
+252 verbose parsed url { protocol: null,
+252 verbose parsed url   slashes: null,
+252 verbose parsed url   auth: null,
+252 verbose parsed url   host: null,
+252 verbose parsed url   port: null,
+252 verbose parsed url   hostname: null,
+252 verbose parsed url   hash: null,
+252 verbose parsed url   search: null,
+252 verbose parsed url   query: null,
+252 verbose parsed url   pathname: '0.x.x',
+252 verbose parsed url   path: '0.x.x',
+252 verbose parsed url   href: '0.x.x' }
+253 verbose addNamed [ 'minimatch', '0.x.x' ]
+254 verbose addNamed [ null, '>=0.0.0- <1.0.0-' ]
+255 silly lockFile 38c78372-minimatch-0-x-x minimatch@0.x.x
+256 verbose lock minimatch@0.x.x /Users/aseem/.npm/38c78372-minimatch-0-x-x.lock
+257 verbose cache add [ 'htmlparser2@3.7.x', null ]
+258 verbose cache add name=undefined spec="htmlparser2@3.7.x" args=["htmlparser2@3.7.x",null]
+259 verbose parsed url { protocol: null,
+259 verbose parsed url   slashes: null,
+259 verbose parsed url   auth: null,
+259 verbose parsed url   host: null,
+259 verbose parsed url   port: null,
+259 verbose parsed url   hostname: null,
+259 verbose parsed url   hash: null,
+259 verbose parsed url   search: null,
+259 verbose parsed url   query: null,
+259 verbose parsed url   pathname: 'htmlparser2@3.7.x',
+259 verbose parsed url   path: 'htmlparser2@3.7.x',
+259 verbose parsed url   href: 'htmlparser2@3.7.x' }
+260 verbose cache add name="htmlparser2" spec="3.7.x" args=["htmlparser2","3.7.x"]
+261 verbose parsed url { protocol: null,
+261 verbose parsed url   slashes: null,
+261 verbose parsed url   auth: null,
+261 verbose parsed url   host: null,
+261 verbose parsed url   port: null,
+261 verbose parsed url   hostname: null,
+261 verbose parsed url   hash: null,
+261 verbose parsed url   search: null,
+261 verbose parsed url   query: null,
+261 verbose parsed url   pathname: '3.7.x',
+261 verbose parsed url   path: '3.7.x',
+261 verbose parsed url   href: '3.7.x' }
+262 verbose addNamed [ 'htmlparser2', '3.7.x' ]
+263 verbose addNamed [ null, '>=3.7.0- <3.8.0-' ]
+264 silly lockFile 0313d826-htmlparser2-3-7-x htmlparser2@3.7.x
+265 verbose lock htmlparser2@3.7.x /Users/aseem/.npm/0313d826-htmlparser2-3-7-x.lock
+266 verbose cache add [ 'console-browserify@1.1.x', null ]
+267 verbose cache add name=undefined spec="console-browserify@1.1.x" args=["console-browserify@1.1.x",null]
+268 verbose parsed url { protocol: null,
+268 verbose parsed url   slashes: null,
+268 verbose parsed url   auth: null,
+268 verbose parsed url   host: null,
+268 verbose parsed url   port: null,
+268 verbose parsed url   hostname: null,
+268 verbose parsed url   hash: null,
+268 verbose parsed url   search: null,
+268 verbose parsed url   query: null,
+268 verbose parsed url   pathname: 'console-browserify@1.1.x',
+268 verbose parsed url   path: 'console-browserify@1.1.x',
+268 verbose parsed url   href: 'console-browserify@1.1.x' }
+269 verbose cache add name="console-browserify" spec="1.1.x" args=["console-browserify","1.1.x"]
+270 verbose parsed url { protocol: null,
+270 verbose parsed url   slashes: null,
+270 verbose parsed url   auth: null,
+270 verbose parsed url   host: null,
+270 verbose parsed url   port: null,
+270 verbose parsed url   hostname: null,
+270 verbose parsed url   hash: null,
+270 verbose parsed url   search: null,
+270 verbose parsed url   query: null,
+270 verbose parsed url   pathname: '1.1.x',
+270 verbose parsed url   path: '1.1.x',
+270 verbose parsed url   href: '1.1.x' }
+271 verbose addNamed [ 'console-browserify', '1.1.x' ]
+272 verbose addNamed [ null, '>=1.1.0- <1.2.0-' ]
+273 silly lockFile cbb09dcf-console-browserify-1-1-x console-browserify@1.1.x
+274 verbose lock console-browserify@1.1.x /Users/aseem/.npm/cbb09dcf-console-browserify-1-1-x.lock
+275 silly addNameRange { name: 'underscore', range: '>=1.6.0- <1.7.0-', hasData: false }
+276 silly addNameRange { name: 'cli', range: '>=0.6.0- <0.7.0-', hasData: false }
+277 silly addNameRange { name: 'minimatch', range: '>=0.0.0- <1.0.0-', hasData: false }
+278 silly addNameRange { name: 'htmlparser2',
+278 silly addNameRange   range: '>=3.7.0- <3.8.0-',
+278 silly addNameRange   hasData: false }
+279 verbose cache add [ 'exit@0.1.x', null ]
+280 verbose cache add name=undefined spec="exit@0.1.x" args=["exit@0.1.x",null]
+281 verbose parsed url { protocol: null,
+281 verbose parsed url   slashes: null,
+281 verbose parsed url   auth: null,
+281 verbose parsed url   host: null,
+281 verbose parsed url   port: null,
+281 verbose parsed url   hostname: null,
+281 verbose parsed url   hash: null,
+281 verbose parsed url   search: null,
+281 verbose parsed url   query: null,
+281 verbose parsed url   pathname: 'exit@0.1.x',
+281 verbose parsed url   path: 'exit@0.1.x',
+281 verbose parsed url   href: 'exit@0.1.x' }
+282 verbose cache add name="exit" spec="0.1.x" args=["exit","0.1.x"]
+283 verbose parsed url { protocol: null,
+283 verbose parsed url   slashes: null,
+283 verbose parsed url   auth: null,
+283 verbose parsed url   host: null,
+283 verbose parsed url   port: null,
+283 verbose parsed url   hostname: null,
+283 verbose parsed url   hash: null,
+283 verbose parsed url   search: null,
+283 verbose parsed url   query: null,
+283 verbose parsed url   pathname: '0.1.x',
+283 verbose parsed url   path: '0.1.x',
+283 verbose parsed url   href: '0.1.x' }
+284 verbose addNamed [ 'exit', '0.1.x' ]
+285 verbose addNamed [ null, '>=0.1.0- <0.2.0-' ]
+286 silly lockFile 3dbd9d2f-exit-0-1-x exit@0.1.x
+287 verbose lock exit@0.1.x /Users/aseem/.npm/3dbd9d2f-exit-0-1-x.lock
+288 verbose cache add [ 'strip-json-comments@0.1.x', null ]
+289 verbose cache add name=undefined spec="strip-json-comments@0.1.x" args=["strip-json-comments@0.1.x",null]
+290 verbose parsed url { protocol: null,
+290 verbose parsed url   slashes: null,
+290 verbose parsed url   auth: null,
+290 verbose parsed url   host: null,
+290 verbose parsed url   port: null,
+290 verbose parsed url   hostname: null,
+290 verbose parsed url   hash: null,
+290 verbose parsed url   search: null,
+290 verbose parsed url   query: null,
+290 verbose parsed url   pathname: 'strip-json-comments@0.1.x',
+290 verbose parsed url   path: 'strip-json-comments@0.1.x',
+290 verbose parsed url   href: 'strip-json-comments@0.1.x' }
+291 verbose cache add name="strip-json-comments" spec="0.1.x" args=["strip-json-comments","0.1.x"]
+292 verbose parsed url { protocol: null,
+292 verbose parsed url   slashes: null,
+292 verbose parsed url   auth: null,
+292 verbose parsed url   host: null,
+292 verbose parsed url   port: null,
+292 verbose parsed url   hostname: null,
+292 verbose parsed url   hash: null,
+292 verbose parsed url   search: null,
+292 verbose parsed url   query: null,
+292 verbose parsed url   pathname: '0.1.x',
+292 verbose parsed url   path: '0.1.x',
+292 verbose parsed url   href: '0.1.x' }
+293 verbose addNamed [ 'strip-json-comments', '0.1.x' ]
+294 verbose addNamed [ null, '>=0.1.0- <0.2.0-' ]
+295 silly lockFile 3b74c8e8-strip-json-comments-0-1-x strip-json-comments@0.1.x
+296 verbose lock strip-json-comments@0.1.x /Users/aseem/.npm/3b74c8e8-strip-json-comments-0-1-x.lock
+297 silly addNameRange { name: 'console-browserify',
+297 silly addNameRange   range: '>=1.1.0- <1.2.0-',
+297 silly addNameRange   hasData: false }
+298 silly addNameRange { name: 'exit', range: '>=0.1.0- <0.2.0-', hasData: false }
+299 silly addNameRange { name: 'strip-json-comments',
+299 silly addNameRange   range: '>=0.1.0- <0.2.0-',
+299 silly addNameRange   hasData: false }
+300 verbose url raw shelljs
+301 verbose url resolving [ 'https://registry.npmjs.org/', './shelljs' ]
+302 verbose url resolved https://registry.npmjs.org/shelljs
+303 info trying registry request attempt 1 at 14:31:18
+304 verbose etag "OITC4GJXVKU0ZWMVD3FIXCWO"
+305 http GET https://registry.npmjs.org/shelljs
+306 verbose url raw underscore
+307 verbose url resolving [ 'https://registry.npmjs.org/', './underscore' ]
+308 verbose url resolved https://registry.npmjs.org/underscore
+309 info trying registry request attempt 1 at 14:31:18
+310 verbose etag "9HKWIKMYJIHROWRAYWSRE4KR0"
+311 http GET https://registry.npmjs.org/underscore
+312 verbose url raw cli
+313 verbose url resolving [ 'https://registry.npmjs.org/', './cli' ]
+314 verbose url resolved https://registry.npmjs.org/cli
+315 info trying registry request attempt 1 at 14:31:18
+316 verbose etag "7FTN4LFPFWRD3WS9MFX6VYPKN"
+317 http GET https://registry.npmjs.org/cli
+318 verbose url raw minimatch
+319 verbose url resolving [ 'https://registry.npmjs.org/', './minimatch' ]
+320 verbose url resolved https://registry.npmjs.org/minimatch
+321 info trying registry request attempt 1 at 14:31:18
+322 verbose etag "T2D632AF88V60ERSIPWY8ZQD"
+323 http GET https://registry.npmjs.org/minimatch
+324 verbose url raw htmlparser2
+325 verbose url resolving [ 'https://registry.npmjs.org/', './htmlparser2' ]
+326 verbose url resolved https://registry.npmjs.org/htmlparser2
+327 info trying registry request attempt 1 at 14:31:18
+328 verbose etag "B7VOPOJ5SH4JNY8L4ZJEXYKCA"
+329 http GET https://registry.npmjs.org/htmlparser2
+330 verbose url raw console-browserify
+331 verbose url resolving [ 'https://registry.npmjs.org/', './console-browserify' ]
+332 verbose url resolved https://registry.npmjs.org/console-browserify
+333 info trying registry request attempt 1 at 14:31:18
+334 verbose etag "1Q8V5LMWXPIS81SBEJTWCW77R"
+335 http GET https://registry.npmjs.org/console-browserify
+336 verbose url raw exit
+337 verbose url resolving [ 'https://registry.npmjs.org/', './exit' ]
+338 verbose url resolved https://registry.npmjs.org/exit
+339 info trying registry request attempt 1 at 14:31:18
+340 verbose etag "7PMTUAYK2EXLIVTEBAUSVFFB9"
+341 http GET https://registry.npmjs.org/exit
+342 verbose url raw strip-json-comments
+343 verbose url resolving [ 'https://registry.npmjs.org/', './strip-json-comments' ]
+344 verbose url resolved https://registry.npmjs.org/strip-json-comments
+345 info trying registry request attempt 1 at 14:31:18
+346 verbose etag "302XWVSTUC0Y2I37JDQGIHIVR"
+347 http GET https://registry.npmjs.org/strip-json-comments
+348 http 304 https://registry.npmjs.org/shelljs
+349 silly registry.get cb [ 304,
+349 silly registry.get   { date: 'Sun, 15 Jun 2014 09:01:19 GMT',
+349 silly registry.get     server: 'Apache',
+349 silly registry.get     via: '1.1 varnish',
+349 silly registry.get     'last-modified': 'Sun, 15 Jun 2014 09:01:01 GMT',
+349 silly registry.get     'cache-control': 'max-age=30',
+349 silly registry.get     etag: '"OITC4GJXVKU0ZWMVD3FIXCWO"',
+349 silly registry.get     'x-served-by': 'cache-sv60-SJC3',
+349 silly registry.get     'x-cache': 'HIT',
+349 silly registry.get     'x-cache-hits': '2',
+349 silly registry.get     'x-timer': 'S1402822879.697169,VS0,VE0',
+349 silly registry.get     vary: 'Accept',
+349 silly registry.get     'content-length': '0',
+349 silly registry.get     'keep-alive': 'timeout=10, max=50',
+349 silly registry.get     connection: 'Keep-Alive' } ]
+350 verbose etag shelljs from cache
+351 silly addNameRange number 2 { name: 'shelljs', range: '>=0.3.0- <0.4.0-', hasData: true }
+352 silly addNameRange versions [ 'shelljs',
+352 silly addNameRange   [ '0.0.1',
+352 silly addNameRange     '0.0.2',
+352 silly addNameRange     '0.0.3',
+352 silly addNameRange     '0.0.4',
+352 silly addNameRange     '0.0.5',
+352 silly addNameRange     '0.0.6',
+352 silly addNameRange     '0.0.7',
+352 silly addNameRange     '0.0.8',
+352 silly addNameRange     '0.0.9',
+352 silly addNameRange     '0.1.0',
+352 silly addNameRange     '0.1.1',
+352 silly addNameRange     '0.1.2',
+352 silly addNameRange     '0.1.3',
+352 silly addNameRange     '0.1.4',
+352 silly addNameRange     '0.2.0',
+352 silly addNameRange     '0.2.1',
+352 silly addNameRange     '0.2.2',
+352 silly addNameRange     '0.2.3',
+352 silly addNameRange     '0.2.4',
+352 silly addNameRange     '0.2.5',
+352 silly addNameRange     '0.2.6',
+352 silly addNameRange     '0.3.0',
+352 silly addNameRange     '0.0.1-alpha1',
+352 silly addNameRange     '0.0.2-pre1',
+352 silly addNameRange     '0.0.4-pre1',
+352 silly addNameRange     '0.0.5-pre1',
+352 silly addNameRange     '0.0.5-pre2',
+352 silly addNameRange     '0.0.5-pre3',
+352 silly addNameRange     '0.0.5-pre4',
+352 silly addNameRange     '0.0.6-pre1',
+352 silly addNameRange     '0.0.6-pre2' ] ]
+353 verbose addNamed [ 'shelljs', '0.3.0' ]
+354 verbose addNamed [ '0.3.0', '0.3.0' ]
+355 silly lockFile 7d3918b1-shelljs-0-3-0 shelljs@0.3.0
+356 verbose lock shelljs@0.3.0 /Users/aseem/.npm/7d3918b1-shelljs-0-3-0.lock
+357 verbose read json /Users/aseem/.npm/shelljs/0.3.0/package/package.json
+358 silly lockFile 7d3918b1-shelljs-0-3-0 shelljs@0.3.0
+359 silly lockFile 7d3918b1-shelljs-0-3-0 shelljs@0.3.0
+360 silly lockFile f803acf0-shelljs-0-3-x shelljs@0.3.x
+361 silly lockFile f803acf0-shelljs-0-3-x shelljs@0.3.x
+362 http 304 https://registry.npmjs.org/underscore
+363 silly registry.get cb [ 304,
+363 silly registry.get   { date: 'Sun, 15 Jun 2014 09:01:19 GMT',
+363 silly registry.get     server: 'Apache',
+363 silly registry.get     via: '1.1 varnish',
+363 silly registry.get     'last-modified': 'Sun, 15 Jun 2014 09:01:19 GMT',
+363 silly registry.get     'cache-control': 'max-age=30',
+363 silly registry.get     etag: '"9HKWIKMYJIHROWRAYWSRE4KR0"',
+363 silly registry.get     'x-served-by': 'cache-sv63-SJC3',
+363 silly registry.get     'x-cache': 'HIT',
+363 silly registry.get     'x-cache-hits': '1',
+363 silly registry.get     'x-timer': 'S1402822879.751006,VS0,VE0',
+363 silly registry.get     vary: 'Accept',
+363 silly registry.get     'content-length': '0',
+363 silly registry.get     'keep-alive': 'timeout=10, max=50',
+363 silly registry.get     connection: 'Keep-Alive' } ]
+364 verbose etag underscore from cache
+365 silly addNameRange number 2 { name: 'underscore', range: '>=1.6.0- <1.7.0-', hasData: true }
+366 silly addNameRange versions [ 'underscore',
+366 silly addNameRange   [ '1.0.3',
+366 silly addNameRange     '1.0.4',
+366 silly addNameRange     '1.1.0',
+366 silly addNameRange     '1.1.1',
+366 silly addNameRange     '1.1.2',
+366 silly addNameRange     '1.1.3',
+366 silly addNameRange     '1.1.4',
+366 silly addNameRange     '1.1.5',
+366 silly addNameRange     '1.1.6',
+366 silly addNameRange     '1.1.7',
+366 silly addNameRange     '1.2.0',
+366 silly addNameRange     '1.2.1',
+366 silly addNameRange     '1.2.2',
+366 silly addNameRange     '1.2.3',
+366 silly addNameRange     '1.2.4',
+366 silly addNameRange     '1.3.0',
+366 silly addNameRange     '1.3.1',
+366 silly addNameRange     '1.3.2',
+366 silly addNameRange     '1.3.3',
+366 silly addNameRange     '1.4.0',
+366 silly addNameRange     '1.4.1',
+366 silly addNameRange     '1.4.2',
+366 silly addNameRange     '1.4.3',
+366 silly addNameRange     '1.4.4',
+366 silly addNameRange     '1.5.0',
+366 silly addNameRange     '1.5.1',
+366 silly addNameRange     '1.5.2',
+366 silly addNameRange     '1.6.0' ] ]
+367 verbose addNamed [ 'underscore', '1.6.0' ]
+368 verbose addNamed [ '1.6.0', '1.6.0' ]
+369 silly lockFile 96960ed1-underscore-1-6-0 underscore@1.6.0
+370 verbose lock underscore@1.6.0 /Users/aseem/.npm/96960ed1-underscore-1-6-0.lock
+371 verbose read json /Users/aseem/.npm/underscore/1.6.0/package/package.json
+372 silly lockFile 96960ed1-underscore-1-6-0 underscore@1.6.0
+373 silly lockFile 96960ed1-underscore-1-6-0 underscore@1.6.0
+374 silly lockFile 7996e604-underscore-1-6-x underscore@1.6.x
+375 silly lockFile 7996e604-underscore-1-6-x underscore@1.6.x
+376 http 304 https://registry.npmjs.org/cli
+377 silly registry.get cb [ 304,
+377 silly registry.get   { date: 'Sun, 15 Jun 2014 09:01:19 GMT',
+377 silly registry.get     server: 'Apache',
+377 silly registry.get     via: '1.1 varnish',
+377 silly registry.get     'last-modified': 'Sun, 15 Jun 2014 09:01:19 GMT',
+377 silly registry.get     'cache-control': 'max-age=30',
+377 silly registry.get     etag: '"7FTN4LFPFWRD3WS9MFX6VYPKN"',
+377 silly registry.get     'x-served-by': 'cache-sv60-SJC3',
+377 silly registry.get     'x-cache': 'HIT',
+377 silly registry.get     'x-cache-hits': '1',
+377 silly registry.get     'x-timer': 'S1402822879.725150,VS0,VE83',
+377 silly registry.get     vary: 'Accept',
+377 silly registry.get     'content-length': '0',
+377 silly registry.get     'keep-alive': 'timeout=10, max=50',
+377 silly registry.get     connection: 'Keep-Alive' } ]
+378 verbose etag cli from cache
+379 http 304 https://registry.npmjs.org/minimatch
+380 silly registry.get cb [ 304,
+380 silly registry.get   { date: 'Sun, 15 Jun 2014 09:01:19 GMT',
+380 silly registry.get     server: 'Apache',
+380 silly registry.get     via: '1.1 varnish',
+380 silly registry.get     'last-modified': 'Sun, 15 Jun 2014 09:01:19 GMT',
+380 silly registry.get     'cache-control': 'max-age=30',
+380 silly registry.get     etag: '"T2D632AF88V60ERSIPWY8ZQD"',
+380 silly registry.get     'x-served-by': 'cache-sv60-SJC3',
+380 silly registry.get     'x-cache': 'HIT',
+380 silly registry.get     'x-cache-hits': '1',
+380 silly registry.get     'x-timer': 'S1402822879.780120,VS0,VE29',
+380 silly registry.get     vary: 'Accept',
+380 silly registry.get     'content-length': '0',
+380 silly registry.get     'keep-alive': 'timeout=10, max=50',
+380 silly registry.get     connection: 'Keep-Alive' } ]
+381 verbose etag minimatch from cache
+382 silly addNameRange number 2 { name: 'minimatch', range: '>=0.0.0- <1.0.0-', hasData: true }
+383 silly addNameRange versions [ 'minimatch',
+383 silly addNameRange   [ '0.0.1',
+383 silly addNameRange     '0.0.2',
+383 silly addNameRange     '0.0.4',
+383 silly addNameRange     '0.0.5',
+383 silly addNameRange     '0.1.1',
+383 silly addNameRange     '0.1.2',
+383 silly addNameRange     '0.1.3',
+383 silly addNameRange     '0.1.4',
+383 silly addNameRange     '0.1.5',
+383 silly addNameRange     '0.2.0',
+383 silly addNameRange     '0.2.2',
+383 silly addNameRange     '0.2.3',
+383 silly addNameRange     '0.2.4',
+383 silly addNameRange     '0.2.5',
+383 silly addNameRange     '0.2.6',
+383 silly addNameRange     '0.2.7',
+383 silly addNameRange     '0.2.8',
+383 silly addNameRange     '0.2.9',
+383 silly addNameRange     '0.2.10',
+383 silly addNameRange     '0.2.11',
+383 silly addNameRange     '0.2.12',
+383 silly addNameRange     '0.2.13',
+383 silly addNameRange     '0.2.14',
+383 silly addNameRange     '0.3.0' ] ]
+384 verbose addNamed [ 'minimatch', '0.3.0' ]
+385 verbose addNamed [ '0.3.0', '0.3.0' ]
+386 silly lockFile fbcfe8c1-minimatch-0-3-0 minimatch@0.3.0
+387 verbose lock minimatch@0.3.0 /Users/aseem/.npm/fbcfe8c1-minimatch-0-3-0.lock
+388 silly addNameRange number 2 { name: 'cli', range: '>=0.6.0- <0.7.0-', hasData: true }
+389 silly addNameRange versions [ 'cli',
+389 silly addNameRange   [ '0.1.0',
+389 silly addNameRange     '0.1.1',
+389 silly addNameRange     '0.1.3',
+389 silly addNameRange     '0.1.4',
+389 silly addNameRange     '0.1.5',
+389 silly addNameRange     '0.1.6',
+389 silly addNameRange     '0.1.7',
+389 silly addNameRange     '0.1.8',
+389 silly addNameRange     '0.1.9',
+389 silly addNameRange     '0.2.0',
+389 silly addNameRange     '0.2.1-1',
+389 silly addNameRange     '0.2.2-1',
+389 silly addNameRange     '0.2.3-1',
+389 silly addNameRange     '0.2.3-2',
+389 silly addNameRange     '0.2.3-3',
+389 silly addNameRange     '0.2.3-4',
+389 silly addNameRange     '0.2.3-5',
+389 silly addNameRange     '0.2.4-1',
+389 silly addNameRange     '0.2.4-2',
+389 silly addNameRange     '0.2.5',
+389 silly addNameRange     '0.2.6',
+389 silly addNameRange     '0.2.7',
+389 silly addNameRange     '0.2.8',
+389 silly addNameRange     '0.3.0',
+389 silly addNameRange     '0.3.1',
+389 silly addNameRange     '0.3.2',
+389 silly addNameRange     '0.3.3',
+389 silly addNameRange     '0.3.4',
+389 silly addNameRange     '0.3.5',
+389 silly addNameRange     '0.3.6',
+389 silly addNameRange     '0.3.7',
+389 silly addNameRange     '0.3.8',
+389 silly addNameRange     '0.3.9',
+389 silly addNameRange     '0.4.0',
+389 silly addNameRange     '0.4.1',
+389 silly addNameRange     '0.4.2',
+389 silly addNameRange     '0.4.3',
+389 silly addNameRange     '0.4.4',
+389 silly addNameRange     '0.4.4-1',
+389 silly addNameRange     '0.4.4-2',
+389 silly addNameRange     '0.4.5',
+389 silly addNameRange     '0.5.0',
+389 silly addNameRange     '0.6.0',
+389 silly addNameRange     '0.6.2',
+389 silly addNameRange     '0.6.3' ] ]
+390 verbose addNamed [ 'cli', '0.6.3' ]
+391 verbose addNamed [ '0.6.3', '0.6.3' ]
+392 silly lockFile 5858ae5a-cli-0-6-3 cli@0.6.3
+393 verbose lock cli@0.6.3 /Users/aseem/.npm/5858ae5a-cli-0-6-3.lock
+394 verbose read json /Users/aseem/.npm/minimatch/0.3.0/package/package.json
+395 verbose read json /Users/aseem/.npm/cli/0.6.3/package/package.json
+396 silly lockFile fbcfe8c1-minimatch-0-3-0 minimatch@0.3.0
+397 silly lockFile fbcfe8c1-minimatch-0-3-0 minimatch@0.3.0
+398 silly lockFile 5858ae5a-cli-0-6-3 cli@0.6.3
+399 silly lockFile 5858ae5a-cli-0-6-3 cli@0.6.3
+400 silly lockFile 38c78372-minimatch-0-x-x minimatch@0.x.x
+401 silly lockFile 38c78372-minimatch-0-x-x minimatch@0.x.x
+402 silly lockFile 83193756-cli-0-6-x cli@0.6.x
+403 silly lockFile 83193756-cli-0-6-x cli@0.6.x
+404 http 304 https://registry.npmjs.org/console-browserify
+405 silly registry.get cb [ 304,
+405 silly registry.get   { date: 'Sun, 15 Jun 2014 09:01:19 GMT',
+405 silly registry.get     server: 'Apache',
+405 silly registry.get     via: '1.1 varnish',
+405 silly registry.get     'last-modified': 'Sun, 15 Jun 2014 09:01:19 GMT',
+405 silly registry.get     'cache-control': 'max-age=30',
+405 silly registry.get     etag: '"1Q8V5LMWXPIS81SBEJTWCW77R"',
+405 silly registry.get     'x-served-by': 'cache-sv60-SJC3',
+405 silly registry.get     'x-cache': 'HIT',
+405 silly registry.get     'x-cache-hits': '1',
+405 silly registry.get     'x-timer': 'S1402822879.933119,VS0,VE0',
+405 silly registry.get     vary: 'Accept',
+405 silly registry.get     'content-length': '0',
+405 silly registry.get     'keep-alive': 'timeout=10, max=49',
+405 silly registry.get     connection: 'Keep-Alive' } ]
+406 verbose etag console-browserify from cache
+407 silly addNameRange number 2 { name: 'console-browserify',
+407 silly addNameRange   range: '>=1.1.0- <1.2.0-',
+407 silly addNameRange   hasData: true }
+408 silly addNameRange versions [ 'console-browserify',
+408 silly addNameRange   [ '0.1.0',
+408 silly addNameRange     '0.1.1',
+408 silly addNameRange     '0.1.2',
+408 silly addNameRange     '0.1.3',
+408 silly addNameRange     '0.1.4',
+408 silly addNameRange     '0.1.5',
+408 silly addNameRange     '0.1.6',
+408 silly addNameRange     '1.0.1',
+408 silly addNameRange     '1.0.2',
+408 silly addNameRange     '1.0.3',
+408 silly addNameRange     '1.1.0' ] ]
+409 verbose addNamed [ 'console-browserify', '1.1.0' ]
+410 verbose addNamed [ '1.1.0', '1.1.0' ]
+411 silly lockFile 61b10c6e-console-browserify-1-1-0 console-browserify@1.1.0
+412 verbose lock console-browserify@1.1.0 /Users/aseem/.npm/61b10c6e-console-browserify-1-1-0.lock
+413 verbose read json /Users/aseem/.npm/console-browserify/1.1.0/package/package.json
+414 silly lockFile 61b10c6e-console-browserify-1-1-0 console-browserify@1.1.0
+415 silly lockFile 61b10c6e-console-browserify-1-1-0 console-browserify@1.1.0
+416 silly lockFile cbb09dcf-console-browserify-1-1-x console-browserify@1.1.x
+417 silly lockFile cbb09dcf-console-browserify-1-1-x console-browserify@1.1.x
+418 http 304 https://registry.npmjs.org/htmlparser2
+419 silly registry.get cb [ 304,
+419 silly registry.get   { date: 'Sun, 15 Jun 2014 09:01:19 GMT',
+419 silly registry.get     server: 'Apache',
+419 silly registry.get     via: '1.1 varnish',
+419 silly registry.get     'last-modified': 'Sun, 15 Jun 2014 09:01:19 GMT',
+419 silly registry.get     'cache-control': 'max-age=30',
+419 silly registry.get     etag: '"B7VOPOJ5SH4JNY8L4ZJEXYKCA"',
+419 silly registry.get     'x-served-by': 'cache-sv95-SJC3',
+419 silly registry.get     'x-cache': 'HIT',
+419 silly registry.get     'x-cache-hits': '1',
+419 silly registry.get     'x-timer': 'S1402822879.836024,VS0,VE82',
+419 silly registry.get     vary: 'Accept',
+419 silly registry.get     'content-length': '0',
+419 silly registry.get     'keep-alive': 'timeout=10, max=50',
+419 silly registry.get     connection: 'Keep-Alive' } ]
+420 verbose etag htmlparser2 from cache
+421 silly addNameRange number 2 { name: 'htmlparser2', range: '>=3.7.0- <3.8.0-', hasData: true }
+422 silly addNameRange versions [ 'htmlparser2',
+422 silly addNameRange   [ '1.0.0',
+422 silly addNameRange     '1.1.0',
+422 silly addNameRange     '1.5.0',
+422 silly addNameRange     '2.0.0',
+422 silly addNameRange     '2.0.1',
+422 silly addNameRange     '2.1.0',
+422 silly addNameRange     '2.1.1',
+422 silly addNameRange     '2.1.2',
+422 silly addNameRange     '2.1.3',
+422 silly addNameRange     '2.2.0',
+422 silly addNameRange     '2.2.2',
+422 silly addNameRange     '2.2.3',
+422 silly addNameRange     '2.2.4',
+422 silly addNameRange     '2.2.5',
+422 silly addNameRange     '2.2.6',
+422 silly addNameRange     '2.2.7',
+422 silly addNameRange     '2.2.8',
+422 silly addNameRange     '2.2.9',
+422 silly addNameRange     '2.3.0',
+422 silly addNameRange     '2.5.0',
+422 silly addNameRange     '2.5.1',
+422 silly addNameRange     '2.5.2',
+422 silly addNameRange     '2.6.0',
+422 silly addNameRange     '3.0.0',
+422 silly addNameRange     '3.0.1',
+422 silly addNameRange     '3.0.2',
+422 silly addNameRange     '3.0.3',
+422 silly addNameRange     '3.0.4',
+422 silly addNameRange     '3.0.5',
+422 silly addNameRange     '3.1.1',
+422 silly addNameRange     '3.1.2',
+422 silly addNameRange     '3.1.3',
+422 silly addNameRange     '3.1.4',
+422 silly addNameRange     '3.1.5',
+422 silly addNameRange     '3.1.6',
+422 silly addNameRange     '3.2.0',
+422 silly addNameRange     '3.2.1',
+422 silly addNameRange     '3.2.2',
+422 silly addNameRange     '3.2.3',
+422 silly addNameRange     '3.2.4',
+422 silly addNameRange     '3.2.5',
+422 silly addNameRange     '3.3.0',
+422 silly addNameRange     '3.4.0',
+422 silly addNameRange     '3.5.0',
+422 silly addNameRange     '3.5.1',
+422 silly addNameRange     '3.6.0',
+422 silly addNameRange     '3.7.0',
+422 silly addNameRange     '3.7.1',
+422 silly addNameRange     '3.7.2' ] ]
+423 verbose addNamed [ 'htmlparser2', '3.7.2' ]
+424 verbose addNamed [ '3.7.2', '3.7.2' ]
+425 silly lockFile fed6b915-htmlparser2-3-7-2 htmlparser2@3.7.2
+426 verbose lock htmlparser2@3.7.2 /Users/aseem/.npm/fed6b915-htmlparser2-3-7-2.lock
+427 verbose read json /Users/aseem/.npm/htmlparser2/3.7.2/package/package.json
+428 silly lockFile fed6b915-htmlparser2-3-7-2 htmlparser2@3.7.2
+429 silly lockFile fed6b915-htmlparser2-3-7-2 htmlparser2@3.7.2
+430 silly lockFile 0313d826-htmlparser2-3-7-x htmlparser2@3.7.x
+431 silly lockFile 0313d826-htmlparser2-3-7-x htmlparser2@3.7.x
+432 http 304 https://registry.npmjs.org/exit
+433 silly registry.get cb [ 304,
+433 silly registry.get   { date: 'Sun, 15 Jun 2014 09:01:19 GMT',
+433 silly registry.get     server: 'Apache',
+433 silly registry.get     via: '1.1 varnish',
+433 silly registry.get     'last-modified': 'Sun, 15 Jun 2014 09:01:20 GMT',
+433 silly registry.get     'cache-control': 'max-age=30',
+433 silly registry.get     etag: '"7PMTUAYK2EXLIVTEBAUSVFFB9"',
+433 silly registry.get     'x-served-by': 'cache-sv63-SJC3',
+433 silly registry.get     'x-cache': 'HIT',
+433 silly registry.get     'x-cache-hits': '1',
+433 silly registry.get     'x-timer': 'S1402822879.997360,VS0,VE34',
+433 silly registry.get     vary: 'Accept',
+433 silly registry.get     'content-length': '0',
+433 silly registry.get     'keep-alive': 'timeout=10, max=49',
+433 silly registry.get     connection: 'Keep-Alive' } ]
+434 verbose etag exit from cache
+435 silly addNameRange number 2 { name: 'exit', range: '>=0.1.0- <0.2.0-', hasData: true }
+436 silly addNameRange versions [ 'exit', [ '0.1.0', '0.1.1', '0.1.2' ] ]
+437 verbose addNamed [ 'exit', '0.1.2' ]
+438 verbose addNamed [ '0.1.2', '0.1.2' ]
+439 silly lockFile 7dd65db3-exit-0-1-2 exit@0.1.2
+440 verbose lock exit@0.1.2 /Users/aseem/.npm/7dd65db3-exit-0-1-2.lock
+441 verbose read json /Users/aseem/.npm/exit/0.1.2/package/package.json
+442 silly lockFile 7dd65db3-exit-0-1-2 exit@0.1.2
+443 silly lockFile 7dd65db3-exit-0-1-2 exit@0.1.2
+444 silly lockFile 3dbd9d2f-exit-0-1-x exit@0.1.x
+445 silly lockFile 3dbd9d2f-exit-0-1-x exit@0.1.x
+446 http 304 https://registry.npmjs.org/strip-json-comments
+447 silly registry.get cb [ 304,
+447 silly registry.get   { date: 'Sun, 15 Jun 2014 09:01:20 GMT',
+447 silly registry.get     server: 'Apache',
+447 silly registry.get     via: '1.1 varnish',
+447 silly registry.get     'last-modified': 'Sun, 15 Jun 2014 09:01:20 GMT',
+447 silly registry.get     'cache-control': 'max-age=30',
+447 silly registry.get     etag: '"302XWVSTUC0Y2I37JDQGIHIVR"',
+447 silly registry.get     'x-served-by': 'cache-sv60-SJC3',
+447 silly registry.get     'x-cache': 'HIT',
+447 silly registry.get     'x-cache-hits': '1',
+447 silly registry.get     'x-timer': 'S1402822880.045041,VS0,VE31',
+447 silly registry.get     vary: 'Accept',
+447 silly registry.get     'content-length': '0',
+447 silly registry.get     'keep-alive': 'timeout=10, max=49',
+447 silly registry.get     connection: 'Keep-Alive' } ]
+448 verbose etag strip-json-comments from cache
+449 silly addNameRange number 2 { name: 'strip-json-comments',
+449 silly addNameRange   range: '>=0.1.0- <0.2.0-',
+449 silly addNameRange   hasData: true }
+450 silly addNameRange versions [ 'strip-json-comments',
+450 silly addNameRange   [ '0.1.0', '0.1.1', '0.1.2', '0.1.3' ] ]
+451 verbose addNamed [ 'strip-json-comments', '0.1.3' ]
+452 verbose addNamed [ '0.1.3', '0.1.3' ]
+453 silly lockFile d41b126a-strip-json-comments-0-1-3 strip-json-comments@0.1.3
+454 verbose lock strip-json-comments@0.1.3 /Users/aseem/.npm/d41b126a-strip-json-comments-0-1-3.lock
+455 verbose read json /Users/aseem/.npm/strip-json-comments/0.1.3/package/package.json
+456 silly lockFile d41b126a-strip-json-comments-0-1-3 strip-json-comments@0.1.3
+457 silly lockFile d41b126a-strip-json-comments-0-1-3 strip-json-comments@0.1.3
+458 silly lockFile 3b74c8e8-strip-json-comments-0-1-x strip-json-comments@0.1.x
+459 silly lockFile 3b74c8e8-strip-json-comments-0-1-x strip-json-comments@0.1.x
+460 silly resolved [ { name: 'shelljs',
+460 silly resolved     version: '0.3.0',
+460 silly resolved     author: { name: 'Artur Adib', email: 'aadib@mozilla.com' },
+460 silly resolved     description: 'Portable Unix shell commands for Node.js',
+460 silly resolved     keywords: [ 'unix', 'shell', 'makefile', 'make', 'jake', 'synchronous' ],
+460 silly resolved     repository: { type: 'git', url: 'git://github.com/arturadib/shelljs.git' },
+460 silly resolved     license: 'BSD*',
+460 silly resolved     homepage: 'http://github.com/arturadib/shelljs',
+460 silly resolved     main: './shell.js',
+460 silly resolved     scripts: { test: 'node scripts/run-tests' },
+460 silly resolved     bin: { shjs: './bin/shjs' },
+460 silly resolved     dependencies: {},
+460 silly resolved     devDependencies: { jshint: '~2.1.11' },
+460 silly resolved     optionalDependencies: {},
+460 silly resolved     engines: { node: '>=0.8.0' },
+460 silly resolved     readme: '# ShellJS - Unix shell commands for Node.js [![Build Status](https://secure.travis-ci.org/arturadib/shelljs.png)](http://travis-ci.org/arturadib/shelljs)\n\nShellJS is a portable **(Windows/Linux/OS X)** implementation of Unix shell commands on top of the Node.js API. You can use it to eliminate your shell script\'s dependency on Unix while still keeping its familiar and powerful commands. You can also install it globally so you can run it from outside Node projects - say goodbye to those gnarly Bash scripts!\n\nThe project is [unit-tested](http://travis-ci.org/arturadib/shelljs) and battled-tested in projects like:\n\n+ [PDF.js](http://github.com/mozilla/pdf.js) - Firefox\'s next-gen PDF reader\n+ [Firebug](http://getfirebug.com/) - Firefox\'s infamous debugger\n+ [JSHint](http://jshint.com) - Most popular JavaScript linter\n+ [Zepto](http://zeptojs.com) - jQuery-compatible JavaScript library for modern browsers\n+ [Yeoman](http://yeoman.io/) - Web application stack and development tool\n+ [Deployd.com](http://deployd.com) - Open source PaaS for quick API backend generation\n\nand [many more](https://npmjs.org/browse/depended/shelljs).\n\n## Installing\n\nVia npm:\n\n```bash\n$ npm install [-g] shelljs\n```\n\nIf the global option `-g` is specified, the binary `shjs` will be installed. This makes it possible to\nrun ShellJS scripts much like any shell script from the command line, i.e. without requiring a `node_modules` folder:\n\n```bash\n$ shjs my_script\n```\n\nYou can also just copy `shell.js` into your project\'s directory, and `require()` accordingly.\n\n\n## Examples\n\n### JavaScript\n\n```javascript\nrequire(\'shelljs/global\');\n\nif (!which(\'git\')) {\n  echo(\'Sorry, this script requires git\');\n  exit(1);\n}\n\n// Copy files to release dir\nmkdir(\'-p\', \'out/Release\');\ncp(\'-R\', \'stuff/*\', \'out/Release\');\n\n// Replace macros in each .js file\ncd(\'lib\');\nls(\'*.js\').forEach(function(file) {\n  sed(\'-i\', \'BUILD_VERSION\', \'v0.1.2\', file);\n  sed(\'-i\', /.*REMOVE_THIS_LINE.*\\n/, \'\', file);\n  sed(\'-i\', /.*REPLACE_LINE_WITH_MACRO.*\\n/, cat(\'macro.js\'), file);\n});\ncd(\'..\');\n\n// Run external tool synchronously\nif (exec(\'git commit -am "Auto-commit"\').code !== 0) {\n  echo(\'Error: Git commit failed\');\n  exit(1);\n}\n```\n\n### CoffeeScript\n\n```coffeescript\nrequire \'shelljs/global\'\n\nif not which \'git\'\n  echo \'Sorry, this script requires git\'\n  exit 1\n\n# Copy files to release dir\nmkdir \'-p\', \'out/Release\'\ncp \'-R\', \'stuff/*\', \'out/Release\'\n\n# Replace macros in each .js file\ncd \'lib\'\nfor file in ls \'*.js\'\n  sed \'-i\', \'BUILD_VERSION\', \'v0.1.2\', file\n  sed \'-i\', /.*REMOVE_THIS_LINE.*\\n/, \'\', file\n  sed \'-i\', /.*REPLACE_LINE_WITH_MACRO.*\\n/, cat \'macro.js\', file\ncd \'..\'\n\n# Run external tool synchronously\nif (exec \'git commit -am "Auto-commit"\').code != 0\n  echo \'Error: Git commit failed\'\n  exit 1\n```\n\n## Global vs. Local\n\nThe example above uses the convenience script `shelljs/global` to reduce verbosity. If polluting your global namespace is not desirable, simply require `shelljs`.\n\nExample:\n\n```javascript\nvar shell = require(\'shelljs\');\nshell.echo(\'hello world\');\n```\n\n## Make tool\n\nA convenience script `shelljs/make` is also provided to mimic the behavior of a Unix Makefile. In this case all shell objects are global, and command line arguments will cause the script to execute only the corresponding function in the global `target` object. To avoid redundant calls, target functions are executed only once per script.\n\nExample (CoffeeScript):\n\n```coffeescript\nrequire \'shelljs/make\'\n\ntarget.all = ->\n  target.bundle()\n  target.docs()\n\ntarget.bundle = ->\n  cd __dirname\n  mkdir \'build\'\n  cd \'lib\'\n  (cat \'*.js\').to \'../build/output.js\'\n\ntarget.docs = ->\n  cd __dirname\n  mkdir \'docs\'\n  cd \'lib\'\n  for file in ls \'*.js\'\n    text = grep \'//@\', file     # extract special comments\n    text.replace \'//@\', \'\'      # remove comment tags\n    text.to \'docs/my_docs.md\'\n```\n\nTo run the target `all`, call the above script without arguments: `$ node make`. To run the target `docs`: `$ node make docs`, and so on.\n\n\n\n<!-- \n\n  DO NOT MODIFY BEYOND THIS POINT - IT\'S AUTOMATICALLY GENERATED\n\n-->\n\n\n## Command reference\n\n\nAll commands run synchronously, unless otherwise stated.\n\n\n### cd(\'dir\')\nChanges to directory `dir` for the duration of the script\n\n\n### pwd()\nReturns the current directory.\n\n\n### ls([options ,] path [,path ...])\n### ls([options ,] path_array)\nAvailable options:\n\n+ `-R`: recursive\n+ `-A`: all files (include files beginning with `.`, except for `.` and `..`)\n\nExamples:\n\n```javascript\nls(\'projs/*.js\');\nls(\'-R\', \'/users/me\', \'/tmp\');\nls(\'-R\', [\'/users/me\', \'/tmp\']); // same as above\n```\n\nReturns array of files in the given path, or in current directory if no path provided.\n\n\n### find(path [,path ...])\n### find(path_array)\nExamples:\n\n```javascript\nfind(\'src\', \'lib\');\nfind([\'src\', \'lib\']); // same as above\nfind(\'.\').filter(function(file) { return file.match(/\\.js$/); });\n```\n\nReturns array of all files (however deep) in the given paths.\n\nThe main difference from `ls(\'-R\', path)` is that the resulting file names\ninclude the base directories, e.g. `lib/resources/file1` instead of just `file1`.\n\n\n### cp([options ,] source [,source ...], dest)\n### cp([options ,] source_array, dest)\nAvailable options:\n\n+ `-f`: force\n+ `-r, -R`: recursive\n\nExamples:\n\n```javascript\ncp(\'file1\', \'dir1\');\ncp(\'-Rf\', \'/tmp/*\', \'/usr/local/*\', \'/home/tmp\');\ncp(\'-Rf\', [\'/tmp/*\', \'/usr/local/*\'], \'/home/tmp\'); // same as above\n```\n\nCopies files. The wildcard `*` is accepted.\n\n\n### rm([options ,] file [, file ...])\n### rm([options ,] file_array)\nAvailable options:\n\n+ `-f`: force\n+ `-r, -R`: recursive\n\nExamples:\n\n```javascript\nrm(\'-rf\', \'/tmp/*\');\nrm(\'some_file.txt\', \'another_file.txt\');\nrm([\'some_file.txt\', \'another_file.txt\']); // same as above\n```\n\nRemoves files. The wildcard `*` is accepted.\n\n\n### mv(source [, source ...], dest\')\n### mv(source_array, dest\')\nAvailable options:\n\n+ `f`: force\n\nExamples:\n\n```javascript\nmv(\'-f\', \'file\', \'dir/\');\nmv(\'file1\', \'file2\', \'dir/\');\nmv([\'file1\', \'file2\'], \'dir/\'); // same as above\n```\n\nMoves files. The wildcard `*` is accepted.\n\n\n### mkdir([options ,] dir [, dir ...])\n### mkdir([options ,] dir_array)\nAvailable options:\n\n+ `p`: full path (will create intermediate dirs if necessary)\n\nExamples:\n\n```javascript\nmkdir(\'-p\', \'/tmp/a/b/c/d\', \'/tmp/e/f/g\');\nmkdir(\'-p\', [\'/tmp/a/b/c/d\', \'/tmp/e/f/g\']); // same as above\n```\n\nCreates directories.\n\n\n### test(expression)\nAvailable expression primaries:\n\n+ `\'-b\', \'path\'`: true if path is a block device\n+ `\'-c\', \'path\'`: true if path is a character device\n+ `\'-d\', \'path\'`: true if path is a directory\n+ `\'-e\', \'path\'`: true if path exists\n+ `\'-f\', \'path\'`: true if path is a regular file\n+ `\'-L\', \'path\'`: true if path is a symboilc link\n+ `\'-p\', \'path\'`: true if path is a pipe (FIFO)\n+ `\'-S\', \'path\'`: true if path is a socket\n\nExamples:\n\n```javascript\nif (test(\'-d\', path)) { /* do something with dir */ };\nif (!test(\'-f\', path)) continue; // skip if it\'s a regular file\n```\n\nEvaluates expression using the available primaries and returns corresponding value.\n\n\n### cat(file [, file ...])\n### cat(file_array)\n\nExamples:\n\n```javascript\nvar str = cat(\'file*.txt\');\nvar str = cat(\'file1\', \'file2\');\nvar str = cat([\'file1\', \'file2\']); // same as above\n```\n\nReturns a string containing the given file, or a concatenated string\ncontaining the files if more than one file is given (a new line character is\nintroduced between each file). Wildcard `*` accepted.\n\n\n### \'string\'.to(file)\n\nExamples:\n\n```javascript\ncat(\'input.txt\').to(\'output.txt\');\n```\n\nAnalogous to the redirection operator `>` in Unix, but works with JavaScript strings (such as\nthose returned by `cat`, `grep`, etc). _Like Unix redirections, `to()` will overwrite any existing file!_\n\n\n### \'string\'.toEnd(file)\n\nExamples:\n\n```javascript\ncat(\'input.txt\').toEnd(\'output.txt\');\n```\n\nAnalogous to the redirect-and-append operator `>>` in Unix, but works with JavaScript strings (such as\nthose returned by `cat`, `grep`, etc).\n\n\n### sed([options ,] search_regex, replacement, file)\nAvailable options:\n\n+ `-i`: Replace contents of \'file\' in-place. _Note that no backups will be created!_\n\nExamples:\n\n```javascript\nsed(\'-i\', \'PROGRAM_VERSION\', \'v0.1.3\', \'source.js\');\nsed(/.*DELETE_THIS_LINE.*\\n/, \'\', \'source.js\');\n```\n\nReads an input string from `file` and performs a JavaScript `replace()` on the input\nusing the given search regex and replacement string or function. Returns the new string after replacement.\n\n\n### grep([options ,] regex_filter, file [, file ...])\n### grep([options ,] regex_filter, file_array)\nAvailable options:\n\n+ `-v`: Inverse the sense of the regex and print the lines not matching the criteria.\n\nExamples:\n\n```javascript\ngrep(\'-v\', \'GLOBAL_VARIABLE\', \'*.js\');\ngrep(\'GLOBAL_VARIABLE\', \'*.js\');\n```\n\nReads input string from given files and returns a string containing all lines of the\nfile that match the given `regex_filter`. Wildcard `*` accepted.\n\n\n### which(command)\n\nExamples:\n\n```javascript\nvar nodeExec = which(\'node\');\n```\n\nSearches for `command` in the system\'s PATH. On Windows looks for `.exe`, `.cmd`, and `.bat` extensions.\nReturns string containing the absolute path to the command.\n\n\n### echo(string [,string ...])\n\nExamples:\n\n```javascript\necho(\'hello world\');\nvar str = echo(\'hello world\');\n```\n\nPrints string to stdout, and returns string with additional utility methods\nlike `.to()`.\n\n\n### pushd([options,] [dir | \'-N\' | \'+N\'])\n\nAvailable options:\n\n+ `-n`: Suppresses the normal change of directory when adding directories to the stack, so that only the stack is manipulated.\n\nArguments:\n\n+ `dir`: Makes the current working directory be the top of the stack, and then executes the equivalent of `cd dir`.\n+ `+N`: Brings the Nth directory (counting from the left of the list printed by dirs, starting with zero) to the top of the list by rotating the stack.\n+ `-N`: Brings the Nth directory (counting from the right of the list printed by dirs, starting with zero) to the top of the list by rotating the stack.\n\nExamples:\n\n```javascript\n// process.cwd() === \'/usr\'\npushd(\'/etc\'); // Returns /etc /usr\npushd(\'+1\');   // Returns /usr /etc\n```\n\nSave the current directory on the top of the directory stack and then cd to `dir`. With no arguments, pushd exchanges the top two directories. Returns an array of paths in the stack.\n\n### popd([options,] [\'-N\' | \'+N\'])\n\nAvailable options:\n\n+ `-n`: Suppresses the normal change of directory when removing directories from the stack, so that only the stack is manipulated.\n\nArguments:\n\n+ `+N`: Removes the Nth directory (counting from the left of the list printed by dirs), starting with zero.\n+ `-N`: Removes the Nth directory (counting from the right of the list printed by dirs), starting with zero.\n\nExamples:\n\n```javascript\necho(process.cwd()); // \'/usr\'\npushd(\'/etc\');       // \'/etc /usr\'\necho(process.cwd()); // \'/etc\'\npopd();              // \'/usr\'\necho(process.cwd()); // \'/usr\'\n```\n\nWhen no arguments are given, popd removes the top directory from the stack and performs a cd to the new top directory. The elements are numbered from 0 starting at the first directory listed with dirs; i.e., popd is equivalent to popd +0. Returns an array of paths in the stack.\n\n### dirs([options | \'+N\' | \'-N\'])\n\nAvailable options:\n\n+ `-c`: Clears the directory stack by deleting all of the elements.\n\nArguments:\n\n+ `+N`: Displays the Nth directory (counting from the left of the list printed by dirs when invoked without options), starting with zero.\n+ `-N`: Displays the Nth directory (counting from the right of the list printed by dirs when invoked without options), starting with zero.\n\nDisplay the list of currently remembered directories. Returns an array of paths in the stack, or a single path if +N or -N was specified.\n\nSee also: pushd, popd\n\n\n### ln(options, source, dest)\n### ln(source, dest)\nAvailable options:\n\n+ `s`: symlink\n+ `f`: force\n\nExamples:\n\n```javascript\nln(\'file\', \'newlink\');\nln(\'-sf\', \'file\', \'existing\');\n```\n\nLinks source to dest. Use -f to force the link, should dest already exist.\n\n\n### exit(code)\nExits the current process with the given exit code.\n\n### env[\'VAR_NAME\']\nObject containing environment variables (both getter and setter). Shortcut to process.env.\n\n### exec(command [, options] [, callback])\nAvailable options (all `false` by default):\n\n+ `async`: Asynchronous execution. Defaults to true if a callback is provided.\n+ `silent`: Do not echo program output to console.\n\nExamples:\n\n```javascript\nvar version = exec(\'node --version\', {silent:true}).output;\n\nvar child = exec(\'some_long_running_process\', {async:true});\nchild.stdout.on(\'data\', function(data) {\n  /* ... do something with data ... */\n});\n\nexec(\'some_long_running_process\', function(code, output) {\n  console.log(\'Exit code:\', code);\n  console.log(\'Program output:\', output);\n});\n```\n\nExecutes the given `command` _synchronously_, unless otherwise specified.\nWhen in synchronous mode returns the object `{ code:..., output:... }`, containing the program\'s\n`output` (stdout + stderr)  and its exit `code`. Otherwise returns the child process object, and\nthe `callback` gets the arguments `(code, output)`.\n\n**Note:** For long-lived processes, it\'s best to run `exec()` asynchronously as\nthe current synchronous implementation uses a lot of CPU. This should be getting\nfixed soon.\n\n\n### chmod(octal_mode || octal_string, file)\n### chmod(symbolic_mode, file)\n\nAvailable options:\n\n+ `-v`: output a diagnostic for every file processed\n+ `-c`: like verbose but report only when a change is made\n+ `-R`: change files and directories recursively\n\nExamples:\n\n```javascript\nchmod(755, \'/Users/brandon\');\nchmod(\'755\', \'/Users/brandon\'); // same as above\nchmod(\'u+x\', \'/Users/brandon\');\n```\n\nAlters the permissions of a file or directory by either specifying the\nabsolute permissions in octal form or expressing the changes in symbols.\nThis command tries to mimic the POSIX behavior as much as possible.\nNotable exceptions:\n\n+ In symbolic modes, \'a-r\' and \'-r\' are identical.  No consideration is\n  given to the umask.\n+ There is no "quiet" option since default behavior is to run silent.\n\n\n## Non-Unix commands\n\n\n### tempdir()\n\nExamples:\n\n```javascript\nvar tmp = tempdir(); // "/tmp" for most *nix platforms\n```\n\nSearches and returns string containing a writeable, platform-dependent temporary directory.\nFollows Python\'s [tempfile algorithm](http://docs.python.org/library/tempfile.html#tempfile.tempdir).\n\n\n### error()\nTests if error occurred in the last command. Returns `null` if no error occurred,\notherwise returns string explaining the error\n\n\n## Configuration\n\n\n### config.silent\nExample:\n\n```javascript\nvar silentState = config.silent; // save old silent state\nconfig.silent = true;\n/* ... */\nconfig.silent = silentState; // restore old silent state\n```\n\nSuppresses all command output if `true`, except for `echo()` calls.\nDefault is `false`.\n\n### config.fatal\nExample:\n\n```javascript\nconfig.fatal = true;\ncp(\'this_file_does_not_exist\', \'/dev/null\'); // dies here\n/* more commands... */\n```\n\nIf `true` the script will die on errors. Default is `false`.\n',
+460 silly resolved     readmeFilename: 'README.md',
+460 silly resolved     _id: 'shelljs@0.3.0',
+460 silly resolved     _from: 'shelljs@0.3.x' },
+460 silly resolved   { name: 'underscore',
+460 silly resolved     description: 'JavaScript\'s functional programming helper library.',
+460 silly resolved     homepage: 'http://underscorejs.org',
+460 silly resolved     keywords: [ 'util', 'functional', 'server', 'client', 'browser' ],
+460 silly resolved     author: { name: 'Jeremy Ashkenas', email: 'jeremy@documentcloud.org' },
+460 silly resolved     repository:
+460 silly resolved      { type: 'git',
+460 silly resolved        url: 'git://github.com/jashkenas/underscore.git' },
+460 silly resolved     main: 'underscore.js',
+460 silly resolved     version: '1.6.0',
+460 silly resolved     devDependencies: { docco: '0.6.x', phantomjs: '1.9.0-1', 'uglify-js': '2.4.x' },
+460 silly resolved     scripts:
+460 silly resolved      { test: 'phantomjs test/vendor/runner.js test/index.html?noglobals=true',
+460 silly resolved        build: 'uglifyjs underscore.js -c "evaluate=false" --comments "/    .*/" -m --source-map underscore-min.map -o underscore-min.js',
+460 silly resolved        doc: 'docco underscore.js' },
+460 silly resolved     licenses: [ [Object] ],
+460 silly resolved     files: [ 'underscore.js', 'underscore-min.js', 'LICENSE' ],
+460 silly resolved     readme: '                       __\n                      /\\ \\                                                         __\n     __  __    ___    \\_\\ \\     __   _ __   ____    ___    ___   _ __    __       /\\_\\    ____\n    /\\ \\/\\ \\ /\' _ `\\  /\'_  \\  /\'__`\\/\\  __\\/ ,__\\  / ___\\ / __`\\/\\  __\\/\'__`\\     \\/\\ \\  /\',__\\\n    \\ \\ \\_\\ \\/\\ \\/\\ \\/\\ \\ \\ \\/\\  __/\\ \\ \\//\\__, `\\/\\ \\__//\\ \\ \\ \\ \\ \\//\\  __/  __  \\ \\ \\/\\__, `\\\n     \\ \\____/\\ \\_\\ \\_\\ \\___,_\\ \\____\\\\ \\_\\\\/\\____/\\ \\____\\ \\____/\\ \\_\\\\ \\____\\/\\_\\ _\\ \\ \\/\\____/\n      \\/___/  \\/_/\\/_/\\/__,_ /\\/____/ \\/_/ \\/___/  \\/____/\\/___/  \\/_/ \\/____/\\/_//\\ \\_\\ \\/___/\n                                                                                  \\ \\____/\n                                                                                   \\/___/\n\nUnderscore.js is a utility-belt library for JavaScript that provides\nsupport for the usual functional suspects (each, map, reduce, filter...)\nwithout extending any core JavaScript objects.\n\nFor Docs, License, Tests, and pre-packed downloads, see:\nhttp://underscorejs.org\n\nUnderscore is an open-sourced component of DocumentCloud:\nhttps://github.com/documentcloud\n\nMany thanks to our contributors:\nhttps://github.com/jashkenas/underscore/contributors\n',
+460 silly resolved     readmeFilename: 'README.md',
+460 silly resolved     _id: 'underscore@1.6.0',
+460 silly resolved     _from: 'underscore@1.6.x' },
+460 silly resolved   { author:
+460 silly resolved      { name: 'Isaac Z. Schlueter',
+460 silly resolved        email: 'i@izs.me',
+460 silly resolved        url: 'http://blog.izs.me' },
+460 silly resolved     name: 'minimatch',
+460 silly resolved     description: 'a glob matcher in javascript',
+460 silly resolved     version: '0.3.0',
+460 silly resolved     repository: { type: 'git', url: 'git://github.com/isaacs/minimatch.git' },
+460 silly resolved     main: 'minimatch.js',
+460 silly resolved     scripts: { test: 'tap test/*.js' },
+460 silly resolved     engines: { node: '*' },
+460 silly resolved     dependencies: { 'lru-cache': '2', sigmund: '~1.0.0' },
+460 silly resolved     devDependencies: { tap: '' },
+460 silly resolved     license:
+460 silly resolved      { type: 'MIT',
+460 silly resolved        url: 'http://github.com/isaacs/minimatch/raw/master/LICENSE' },
+460 silly resolved     readme: '# minimatch\n\nA minimal matching utility.\n\n[![Build Status](https://secure.travis-ci.org/isaacs/minimatch.png)](http://travis-ci.org/isaacs/minimatch)\n\n\nThis is the matching library used internally by npm.\n\nEventually, it will replace the C binding in node-glob.\n\nIt works by converting glob expressions into JavaScript `RegExp`\nobjects.\n\n## Usage\n\n```javascript\nvar minimatch = require("minimatch")\n\nminimatch("bar.foo", "*.foo") // true!\nminimatch("bar.foo", "*.bar") // false!\nminimatch("bar.foo", "*.+(bar|foo)", { debug: true }) // true, and noisy!\n```\n\n## Features\n\nSupports these glob features:\n\n* Brace Expansion\n* Extended glob matching\n* "Globstar" `**` matching\n\nSee:\n\n* `man sh`\n* `man bash`\n* `man 3 fnmatch`\n* `man 5 gitignore`\n\n## Minimatch Class\n\nCreate a minimatch object by instanting the `minimatch.Minimatch` class.\n\n```javascript\nvar Minimatch = require("minimatch").Minimatch\nvar mm = new Minimatch(pattern, options)\n```\n\n### Properties\n\n* `pattern` The original pattern the minimatch object represents.\n* `options` The options supplied to the constructor.\n* `set` A 2-dimensional array of regexp or string expressions.\n  Each row in the\n  array corresponds to a brace-expanded pattern.  Each item in the row\n  corresponds to a single path-part.  For example, the pattern\n  `{a,b/c}/d` would expand to a set of patterns like:\n\n        [ [ a, d ]\n        , [ b, c, d ] ]\n\n    If a portion of the pattern doesn\'t have any "magic" in it\n    (that is, it\'s something like `"foo"` rather than `fo*o?`), then it\n    will be left as a string rather than converted to a regular\n    expression.\n\n* `regexp` Created by the `makeRe` method.  A single regular expression\n  expressing the entire pattern.  This is useful in cases where you wish\n  to use the pattern somewhat like `fnmatch(3)` with `FNM_PATH` enabled.\n* `negate` True if the pattern is negated.\n* `comment` True if the pattern is a comment.\n* `empty` True if the pattern is `""`.\n\n### Methods\n\n* `makeRe` Generate the `regexp` member if necessary, and return it.\n  Will return `false` if the pattern is invalid.\n* `match(fname)` Return true if the filename matches the pattern, or\n  false otherwise.\n* `matchOne(fileArray, patternArray, partial)` Take a `/`-split\n  filename, and match it against a single row in the `regExpSet`.  This\n  method is mainly for internal use, but is exposed so that it can be\n  used by a glob-walker that needs to avoid excessive filesystem calls.\n\nAll other methods are internal, and will be called as necessary.\n\n## Functions\n\nThe top-level exported function has a `cache` property, which is an LRU\ncache set to store 100 items.  So, calling these methods repeatedly\nwith the same pattern and options will use the same Minimatch object,\nsaving the cost of parsing it multiple times.\n\n### minimatch(path, pattern, options)\n\nMain export.  Tests a path against the pattern using the options.\n\n```javascript\nvar isJS = minimatch(file, "*.js", { matchBase: true })\n```\n\n### minimatch.filter(pattern, options)\n\nReturns a function that tests its\nsupplied argument, suitable for use with `Array.filter`.  Example:\n\n```javascript\nvar javascripts = fileList.filter(minimatch.filter("*.js", {matchBase: true}))\n```\n\n### minimatch.match(list, pattern, options)\n\nMatch against the list of\nfiles, in the style of fnmatch or glob.  If nothing is matched, and\noptions.nonull is set, then return a list containing the pattern itself.\n\n```javascript\nvar javascripts = minimatch.match(fileList, "*.js", {matchBase: true}))\n```\n\n### minimatch.makeRe(pattern, options)\n\nMake a regular expression object from the pattern.\n\n## Options\n\nAll options are `false` by default.\n\n### debug\n\nDump a ton of stuff to stderr.\n\n### nobrace\n\nDo not expand `{a,b}` and `{1..3}` brace sets.\n\n### noglobstar\n\nDisable `**` matching against multiple folder names.\n\n### dot\n\nAllow patterns to match filenames starting with a period, even if\nthe pattern does not explicitly have a period in that spot.\n\nNote that by default, `a/**/b` will **not** match `a/.d/b`, unless `dot`\nis set.\n\n### noext\n\nDisable "extglob" style patterns like `+(a|b)`.\n\n### nocase\n\nPerform a case-insensitive match.\n\n### nonull\n\nWhen a match is not found by `minimatch.match`, return a list containing\nthe pattern itself if this option is set.  When not set, an empty list\nis returned if there are no matches.\n\n### matchBase\n\nIf set, then patterns without slashes will be matched\nagainst the basename of the path if it contains slashes.  For example,\n`a?b` would match the path `/xyz/123/acb`, but not `/xyz/acb/123`.\n\n### nocomment\n\nSuppress the behavior of treating `#` at the start of a pattern as a\ncomment.\n\n### nonegate\n\nSuppress the behavior of treating a leading `!` character as negation.\n\n### flipNegate\n\nReturns from negate expressions the same as if they were not negated.\n(Ie, true on a hit, false on a miss.)\n\n\n## Comparisons to other fnmatch/glob implementations\n\nWhile strict compliance with the existing standards is a worthwhile\ngoal, some discrepancies exist between minimatch and other\nimplementations, and are intentional.\n\nIf the pattern starts with a `!` character, then it is negated.  Set the\n`nonegate` flag to suppress this behavior, and treat leading `!`\ncharacters normally.  This is perhaps relevant if you wish to start the\npattern with a negative extglob pattern like `!(a|B)`.  Multiple `!`\ncharacters at the start of a pattern will negate the pattern multiple\ntimes.\n\nIf a pattern starts with `#`, then it is treated as a comment, and\nwill not match anything.  Use `\\#` to match a literal `#` at the\nstart of a line, or set the `nocomment` flag to suppress this behavior.\n\nThe double-star character `**` is supported by default, unless the\n`noglobstar` flag is set.  This is supported in the manner of bsdglob\nand bash 4.1, where `**` only has special significance if it is the only\nthing in a path part.  That is, `a/**/b` will match `a/x/y/b`, but\n`a/**b` will not.\n\nIf an escaped pattern has no matches, and the `nonull` flag is set,\nthen minimatch.match returns the pattern as-provided, rather than\ninterpreting the character escapes.  For example,\n`minimatch.match([], "\\\\*a\\\\?")` will return `"\\\\*a\\\\?"` rather than\n`"*a?"`.  This is akin to setting the `nullglob` option in bash, except\nthat it does not resolve escaped pattern characters.\n\nIf brace expansion is not disabled, then it is performed before any\nother interpretation of the glob pattern.  Thus, a pattern like\n`+(a|{b),c)}`, which would not be valid in bash or zsh, is expanded\n**first** into the set of `+(a|b)` and `+(a|c)`, and those patterns are\nchecked for validity.  Since those two are valid, matching proceeds.\n',
+460 silly resolved     readmeFilename: 'README.md',
+460 silly resolved     _id: 'minimatch@0.3.0',
+460 silly resolved     _from: 'minimatch@0.x.x' },
+460 silly resolved   { name: 'cli',
+460 silly resolved     description: 'A tool for rapidly building command line apps',
+460 silly resolved     version: '0.6.3',
+460 silly resolved     homepage: 'http://github.com/chriso/cli',
+460 silly resolved     keywords:
+460 silly resolved      [ 'cli',
+460 silly resolved        'command line',
+460 silly resolved        'opts',
+460 silly resolved        'parseopt',
+460 silly resolved        'opt',
+460 silly resolved        'args',
+460 silly resolved        'console',
+460 silly resolved        'argsparse',
+460 silly resolved        'optparse',
+460 silly resolved        'daemon',
+460 silly resolved        'autocomplete',
+460 silly resolved        'command',
+460 silly resolved        'autocompletion' ],
+460 silly resolved     author: { name: 'Chris O\'Hara', email: 'cohara87@gmail.com' },
+460 silly resolved     main: 'cli.js',
+460 silly resolved     bugs:
+460 silly resolved      { mail: 'cohara87@gmail.com',
+460 silly resolved        url: 'http://github.com/chriso/cli/issues' },
+460 silly resolved     repository: { type: 'git', url: 'http://github.com/chriso/cli.git' },
+460 silly resolved     dependencies: { glob: '~ 3.2.1', exit: '0.1.2' },
+460 silly resolved     contributors: [ [Object] ],
+460 silly resolved     engines: { node: '>=0.2.5' },
+460 silly resolved     licenses: [ [Object] ],
+460 silly resolved     readme: '**cli is a toolkit for rapidly building command line apps - it includes:**\n\n- Full featured opts/args parser\n- Plugin support for adding common options and switches\n- Helper methods for working with input/output and spawning child processes\n- Output colored/styled messages, [progress bars](https://github.com/chriso/cli/blob/master/examples/progress.js) or [spinners](https://github.com/chriso/cli/blob/master/examples/spinner.js)\n- Command [auto-completion](https://github.com/chriso/cli/blob/master/examples/command.js) and [glob support](https://github.com/chriso/cli/blob/master/examples/glob.js)\n\nInstall using `npm install cli` or just bundle [cli.js](https://github.com/chriso/cli/raw/master/cli.js) with your app.\n\n## Example apps\n\n### sort.js\n\n```javascript\n#!/usr/bin/env node\nrequire(\'cli\').withStdinLines(function(lines, newline) {\n    this.output(lines.sort().join(newline));\n});\n```\n\nTry it out\n\n```bash\n$ ./sort.js < input.txt\n```\n\nLet\'s add support for an `-n` switch to use a numeric sort, and a `-r` switch to reverse output - only 5 extra lines of code (!)\n\n```javascript\nvar cli = require(\'cli\'), options = cli.parse();\n\ncli.withStdinLines(function(lines, newline) {\n    lines.sort(!options.n ? null : function(a, b) {\n        return parseInt(a) > parseInt(b);\n    });\n    if (options.r) lines.reverse();\n    this.output(lines.join(newline));\n});\n```\n\n### static.js\n\nLet\'s create a static file server with daemon support to see the opts parser + plugins in use - note: this requires `npm install creationix daemon`\n\n```javascript\nvar cli = require(\'cli\').enable(\'daemon\', \'status\'); //Enable 2 plugins\n\ncli.parse({\n    log:   [\'l\', \'Enable logging\'],\n    port:  [\'p\', \'Listen on this port\', \'number\', 8080],\n    serve: [false, \'Serve static files from PATH\', \'path\', \'./public\']\n});\n\ncli.main(function(args, options) {\n    var server, middleware = [];\n\n    if (options.log) {\n        this.debug(\'Enabling logging\');\n        middleware.push(require(\'creationix/log\')());\n    }\n\n    this.debug(\'Serving files from \' + options.serve);\n    middleware.push(require(\'creationix/static\')(\'/\', options.serve, \'index.html\'));\n\n    server = this.createServer(middleware).listen(options.port);\n\n    this.ok(\'Listening on port \' + options.port);\n});\n```\n\nTo output usage information\n\n```bash\n$ ./static.js --help\n```\n\nTo create a daemon that serves files from */tmp*, run\n\n```bash\n$ ./static.js -ld --serve=/tmp\n```\n\nFor more examples, see [./examples](https://github.com/chriso/cli/tree/master/examples)\n\n## Helper methods\n\ncli has methods that collect stdin (newline is autodetected as \\n or \\r\\n)\n\n```javascript\ncli.withStdin(callback);        //callback receives stdin as a string\ncli.withStdinLines(callback);   //callback receives stdin split into an array of lines (lines, newline)\n```\n\ncli also has a lower level method for working with input line by line (see [./examples/cat.js](https://github.com/chriso/cli/blob/master/examples/cat.js) for an example). \n\n```javascript\ncli.withInput(file, function (line, newline, eof) {\n    if (!eof) {\n        this.output(line + newline);\n    }\n});\n```\n\n*Note: `file` can be omitted if you want to work with stdin*\n\nTo output a progress bar, call\n\n```javascript\ncli.progress(progress); //Where 0 <= progress <= 1\n```\n\nTo spawn a child process, use\n\n```javascript\ncli.exec(cmd, callback); //callback receives the output of the process (split into lines)\n```\n\ncli also comes bundled with kof\'s [node-natives](https://github.com/kof/node-natives) (access with cli.native) and creationix\' [stack](https://github.com/creationix/stack) (access with cli.createServer)\n\n## Plugins\n\nPlugins are a way of adding common opts and can be enabled using \n\n```javascript\ncli.enable(plugin1, [plugin2, ...]);  //To disable, use the equivalent disable() method\n```\n\n**help** - *enabled by default*\n\nAdds `-h,--help` to output auto-generated usage information\n\n**version**\n\nAdds `-v,--version` to output version information for the app. cli will attempt to locate and parse a nearby *package.json*\n\nTo set your own app name and version, use `cli.setApp(app_name, version)`\n\n**status**\n\nAdds options to show/hide the stylized status messages that are output to the console when using one of these methods\n\n```javascript\ncli.debug(msg);  //Only shown when using --debug\ncli.error(msg);\ncli.fatal(msg);  //Exits the process after outputting msg\ncli.info(msg);\ncli.ok(msg);\n```\n\n`-k,--no-color` will omit ANSI color escapes from the output\n\n**glob**  - *requires* `npm install glob`\n\nEnables glob matching of arguments\n\n**daemon**  - *requires* `npm install daemon`\n\nAdds `-d,--daemon ARG` for daemonizing the process and controlling the resulting daemon\n\n`ARG` can be either start (default), stop, restart, pid (outputs the daemon\'s pid if it\'s running), or log (output the daemon\'s stdout+stderr)\n\n**timeout**\n\nAdds `-t,--timeout N` to exit the process after N seconds with an error\n\n**catchall**\n\nAdds `-c,--catch` to catch and output uncaughtExceptions and resume execution\n\n*Note: Plugins are automatically disabled if an option or switch of the same name is already defined*\n\n## LICENSE\n\n(MIT license)\n\nCopyright (c) 2010 Chris O\'Hara <cohara87@gmail.com>\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n"Software"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\nLIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\nWITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n',
+460 silly resolved     readmeFilename: 'README.md',
+460 silly resolved     _id: 'cli@0.6.3',
+460 silly resolved     _from: 'cli@0.6.x' },
+460 silly resolved   { name: 'console-browserify',
+460 silly resolved     version: '1.1.0',
+460 silly resolved     description: 'Emulate console for all the browsers',
+460 silly resolved     keywords: [],
+460 silly resolved     author: { name: 'Raynos', email: 'raynos2@gmail.com' },
+460 silly resolved     repository:
+460 silly resolved      { type: 'git',
+460 silly resolved        url: 'git://github.com/Raynos/console-browserify.git' },
+460 silly resolved     main: 'index',
+460 silly resolved     homepage: 'https://github.com/Raynos/console-browserify',
+460 silly resolved     contributors: [ [Object] ],
+460 silly resolved     bugs:
+460 silly resolved      { url: 'https://github.com/Raynos/console-browserify/issues',
+460 silly resolved        email: 'raynos2@gmail.com' },
+460 silly resolved     dependencies: { 'date-now': '^0.1.4' },
+460 silly resolved     devDependencies:
+460 silly resolved      { tape: '^2.12.3',
+460 silly resolved        jsonify: '0.0.0',
+460 silly resolved        'tap-spec': '^0.1.8',
+460 silly resolved        'run-browser': '^1.3.0',
+460 silly resolved        'tap-dot': '^0.2.1' },
+460 silly resolved     licenses: [ [Object] ],
+460 silly resolved     scripts:
+460 silly resolved      { test: 'node ./test/index.js | tap-spec',
+460 silly resolved        dot: 'node ./test/index.js | tap-dot',
+460 silly resolved        start: 'node ./index.js',
+460 silly resolved        cover: 'istanbul cover --report none --print detail ./test/index.js',
+460 silly resolved        'view-cover': 'istanbul report html && google-chrome ./coverage/index.html',
+460 silly resolved        browser: 'run-browser test/index.js',
+460 silly resolved        phantom: 'run-browser test/index.js -b | tap-spec',
+460 silly resolved        build: 'browserify test/index.js -o test/static/bundle.js',
+460 silly resolved        testem: 'testem' },
+460 silly resolved     testling: { files: 'test/index.js', browsers: [Object] },
+460 silly resolved     readme: '# console-browserify\n\n[![build status][1]][2]\n\n[![browser support][3]][4]\n\n\nEmulate console for all the browsers\n\n## Example\n\n```js\nvar console = require("console-browserify")\n\nconsole.log("hello world!")\n```\n\n## Installation\n\n`npm install console-browserify`\n\n## Contributors\n\n - Raynos\n\n## MIT Licenced\n\n\n\n  [1]: https://secure.travis-ci.org/Raynos/console-browserify.png\n  [2]: http://travis-ci.org/Raynos/console-browserify\n  [3]: http://ci.testling.com/Raynos/console-browserify.png\n  [4]: http://ci.testling.com/Raynos/console-browserify\n',
+460 silly resolved     readmeFilename: 'README.md',
+460 silly resolved     _id: 'console-browserify@1.1.0',
+460 silly resolved     _from: 'console-browserify@1.1.x' },
+460 silly resolved   { name: 'htmlparser2',
+460 silly resolved     description: 'Fast & forgiving HTML/XML/RSS parser',
+460 silly resolved     version: '3.7.2',
+460 silly resolved     author: { name: 'Felix Boehm', email: 'me@feedic.com' },
+460 silly resolved     keywords: [ 'html', 'parser', 'streams', 'xml', 'dom', 'rss', 'feed', 'atom' ],
+460 silly resolved     repository: { type: 'git', url: 'git://github.com/fb55/htmlparser2.git' },
+460 silly resolved     bugs:
+460 silly resolved      { mail: 'me@feedic.com',
+460 silly resolved        url: 'http://github.com/fb55/htmlparser2/issues' },
+460 silly resolved     directories: { lib: 'lib/' },
+460 silly resolved     main: 'lib/index.js',
+460 silly resolved     scripts:
+460 silly resolved      { lcov: 'istanbul cover _mocha --report lcovonly -- -R spec',
+460 silly resolved        coveralls: 'npm run lint && npm run lcov && (cat coverage/lcov.info | coveralls || exit 0)',
+460 silly resolved        test: 'mocha && npm run lint',
+460 silly resolved        lint: 'jshint {lib,test}/*.js test/*/*.js' },
+460 silly resolved     dependencies:
+460 silly resolved      { domhandler: '2.2',
+460 silly resolved        domutils: '1.5',
+460 silly resolved        domelementtype: '1',
+460 silly resolved        'readable-stream': '1.1',
+460 silly resolved        entities: '1.0' },
+460 silly resolved     devDependencies:
+460 silly resolved      { mocha: '1',
+460 silly resolved        'mocha-lcov-reporter': '*',
+460 silly resolved        coveralls: '*',
+460 silly resolved        istanbul: '*',
+460 silly resolved        jshint: '2' },
+460 silly resolved     license: 'MIT',
+460 silly resolved     jshintConfig:
+460 silly resolved      { eqeqeq: true,
+460 silly resolved        freeze: true,
+460 silly resolved        latedef: 'nofunc',
+460 silly resolved        noarg: true,
+460 silly resolved        nonbsp: true,
+460 silly resolved        quotmark: 'double',
+460 silly resolved        undef: true,
+460 silly resolved        unused: true,
+460 silly resolved        trailing: true,
+460 silly resolved        eqnull: true,
+460 silly resolved        proto: true,
+460 silly resolved        smarttabs: true,
+460 silly resolved        node: true,
+460 silly resolved        globals: [Object] },
+460 silly resolved     readme: '#htmlparser2 [![NPM version](http://img.shields.io/npm/v/htmlparser2.svg)](https://npmjs.org/package/htmlparser2)  [![Downloads](https://img.shields.io/npm/dm/htmlparser2.svg)](https://npmjs.org/package/htmlparser2)\n\n[![Build Status](https://travis-ci.org/fb55/htmlparser2.svg)](http://travis-ci.org/fb55/htmlparser2) [![Coverage](http://img.shields.io/coveralls/fb55/htmlparser2.svg)](https://coveralls.io/r/fb55/htmlparser2)\n\nA forgiving HTML/XML/RSS parser written in JS for NodeJS. The parser can handle streams (chunked data) and supports custom handlers for writing custom DOMs/output.\n\n##Installing\n\tnpm install htmlparser2\n\t\nA live demo of htmlparser2 is available at http://demos.forbeslindesay.co.uk/htmlparser2/\n\n##Usage\n\n```javascript\nvar htmlparser = require("htmlparser2");\nvar parser = new htmlparser.Parser({\n\tonopentag: function(name, attribs){\n\t\tif(name === "script" && attribs.type === "text/javascript"){\n\t\t\tconsole.log("JS! Hooray!");\n\t\t}\n\t},\n\tontext: function(text){\n\t\tconsole.log("-->", text);\n\t},\n\tonclosetag: function(tagname){\n\t\tif(tagname === "script"){\n\t\t\tconsole.log("That\'s it?!");\n\t\t}\n\t}\n});\nparser.write("Xyz <script type=\'text/javascript\'>var foo = \'<<bar>>\';</ script>");\nparser.end();\n```\n\nOutput (simplified):\n\n```javascript\n--> Xyz \nJS! Hooray!\n--> var foo = \'<<bar>>\';\nThat\'s it?!\n```\n\nRead more about the parser in the [wiki](https://github.com/fb55/htmlparser2/wiki/Parser-options).\n\n##Get a DOM\nThe `DomHandler` (known as `DefaultHandler` in the original `htmlparser` module) produces a DOM (document object model) that can be manipulated using the [`DomUtils`](https://github.com/fb55/DomUtils) helper.\n\nThe `DomHandler`, while still bundled with this module, was moved to its [own module](https://github.com/fb55/domhandler). Have a look at it for further information.\n\n##Parsing RSS/RDF/Atom Feeds\n\n```javascript\nnew htmlparser.FeedHandler(function(<error> error, <object> feed){\n    ...\n});\n```\n\n##Performance\n\nAfter having some artificial benchmarks for some time, __@AndreasMadsen__ published his [`htmlparser-benchmark`](https://github.com/AndreasMadsen/htmlparser-benchmark), which benchmarks HTML parses based on real-world websites.\n\nAt the time of writing, the latest versions of all supported parsers show the following performance characteristics on [Travis CI](https://travis-ci.org/AndreasMadsen/htmlparser-benchmark/builds/10805007) (please note that Travis doesn\'t guarantee equal conditions for all tests):\n\n```\ngumbo-parser   : 34.9208 ms/file ± 21.4238\nhtml-parser    : 24.8224 ms/file ± 15.8703\nhtml5          : 419.597 ms/file ± 264.265\nhtmlparser     : 60.0722 ms/file ± 384.844\nhtmlparser2-dom: 12.0749 ms/file ± 6.49474\nhtmlparser2    : 7.49130 ms/file ± 5.74368\nhubbub         : 30.4980 ms/file ± 16.4682\nlibxmljs       : 14.1338 ms/file ± 18.6541\nparse5         : 22.0439 ms/file ± 15.3743\nsax            : 49.6513 ms/file ± 26.6032\n```\n\n##How is this different from [node-htmlparser](https://github.com/tautologistics/node-htmlparser)?\nThis is a fork of the `htmlparser` module. The main difference is that this is intended to be used only with node (it runs on other platforms using [browserify](https://github.com/substack/node-browserify)). `htmlparser2` was rewritten multiple times and, while it maintains an API that\'s compatible with `htmlparser` in most cases, the projects don\'t share any code anymore.\n\nThe parser now provides a callback interface close to [sax.js](https://github.com/isaacs/sax-js) (originally targeted at [readabilitySAX](https://github.com/fb55/readabilitysax)). As a result, old handlers won\'t work anymore.\n\nThe `DefaultHandler` and the `RssHandler` were renamed to clarify their purpose (to `DomHandler` and `FeedHandler`). The old names are still available when requiring `htmlparser2`, so your code should work as expected.\n',
+460 silly resolved     readmeFilename: 'README.md',
+460 silly resolved     _id: 'htmlparser2@3.7.2',
+460 silly resolved     _from: 'htmlparser2@3.7.x' },
+460 silly resolved   { name: 'exit',
+460 silly resolved     description: 'A replacement for process.exit that ensures stdio are fully drained before exiting.',
+460 silly resolved     version: '0.1.2',
+460 silly resolved     homepage: 'https://github.com/cowboy/node-exit',
+460 silly resolved     author: { name: '"Cowboy" Ben Alman', url: 'http://benalman.com/' },
+460 silly resolved     repository: { type: 'git', url: 'git://github.com/cowboy/node-exit.git' },
+460 silly resolved     bugs: { url: 'https://github.com/cowboy/node-exit/issues' },
+460 silly resolved     licenses: [ [Object] ],
+460 silly resolved     main: 'lib/exit',
+460 silly resolved     engines: { node: '>= 0.8.0' },
+460 silly resolved     scripts: { test: 'grunt nodeunit' },
+460 silly resolved     devDependencies:
+460 silly resolved      { 'grunt-contrib-jshint': '~0.6.4',
+460 silly resolved        'grunt-contrib-nodeunit': '~0.2.0',
+460 silly resolved        'grunt-contrib-watch': '~0.5.3',
+460 silly resolved        grunt: '~0.4.1',
+460 silly resolved        which: '~1.0.5' },
+460 silly resolved     keywords:
+460 silly resolved      [ 'exit',
+460 silly resolved        'process',
+460 silly resolved        'stdio',
+460 silly resolved        'stdout',
+460 silly resolved        'stderr',
+460 silly resolved        'drain',
+460 silly resolved        'flush',
+460 silly resolved        '3584' ],
+460 silly resolved     readme: '# exit [![Build Status](https://secure.travis-ci.org/cowboy/node-exit.png?branch=master)](http://travis-ci.org/cowboy/node-exit)\n\nA replacement for process.exit that ensures stdio are fully drained before exiting.\n\nTo make a long story short, if `process.exit` is called on Windows, script output is often truncated when pipe-redirecting `stdout` or `stderr`. This module attempts to work around this issue by waiting until those streams have been completely drained before actually calling `process.exit`.\n\nSee [Node.js issue #3584](https://github.com/joyent/node/issues/3584) for further reference.\n\nTested in OS X 10.8, Windows 7 on Node.js 0.8.25 and 0.10.18.\n\nBased on some code by [@vladikoff](https://github.com/vladikoff).\n\n## Getting Started\nInstall the module with: `npm install exit`\n\n```javascript\nvar exit = require(\'exit\');\n\n// These lines should appear in the output, EVEN ON WINDOWS.\nconsole.log("omg");\nconsole.error("yay");\n\n// process.exit(5);\nexit(5);\n\n// These lines shouldn\'t appear in the output.\nconsole.log("wtf");\nconsole.error("bro");\n```\n\n## Don\'t believe me? Try it for yourself.\n\nIn Windows, clone the repo and cd to the `test\\fixtures` directory. The only difference between [log.js](test/fixtures/log.js) and [log-broken.js](test/fixtures/log-broken.js) is that the former uses `exit` while the latter calls `process.exit` directly.\n\nThis test was done using cmd.exe, but you can see the same results using `| grep "std"` in either PowerShell or git-bash.\n\n```\nC:\\node-exit\\test\\fixtures>node log.js 0 10 stdout stderr 2>&1 | find "std"\nstdout 0\nstderr 0\nstdout 1\nstderr 1\nstdout 2\nstderr 2\nstdout 3\nstderr 3\nstdout 4\nstderr 4\nstdout 5\nstderr 5\nstdout 6\nstderr 6\nstdout 7\nstderr 7\nstdout 8\nstderr 8\nstdout 9\nstderr 9\n\nC:\\node-exit\\test\\fixtures>node log-broken.js 0 10 stdout stderr 2>&1 | find "std"\n\nC:\\node-exit\\test\\fixtures>\n```\n\n## Contributing\nIn lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).\n\n## Release History\n2013-11-26 - v0.1.2 - Fixed a bug with hanging processes.  \n2013-09-26 - v0.1.1 - Fixed some bugs. It seems to actually work now!  \n2013-09-20 - v0.1.0 - Initial release.\n\n## License\nCopyright (c) 2013 "Cowboy" Ben Alman  \nLicensed under the MIT license.\n',
+460 silly resolved     readmeFilename: 'README.md',
+460 silly resolved     _id: 'exit@0.1.2',
+460 silly resolved     _from: 'exit@0.1.x' },
+460 silly resolved   { name: 'strip-json-comments',
+460 silly resolved     version: '0.1.3',
+460 silly resolved     description: 'Strip comments from JSON. Lets you use comments in your JSON files!',
+460 silly resolved     keywords:
+460 silly resolved      [ 'json',
+460 silly resolved        'strip',
+460 silly resolved        'remove',
+460 silly resolved        'delete',
+460 silly resolved        'trim',
+460 silly resolved        'comments',
+460 silly resolved        'multiline',
+460 silly resolved        'parse',
+460 silly resolved        'config',
+460 silly resolved        'configuration',
+460 silly resolved        'conf',
+460 silly resolved        'settings',
+460 silly resolved        'util',
+460 silly resolved        'env',
+460 silly resolved        'environment',
+460 silly resolved        'cli',
+460 silly resolved        'bin' ],
+460 silly resolved     license: 'MIT',
+460 silly resolved     author:
+460 silly resolved      { name: 'Sindre Sorhus',
+460 silly resolved        email: 'sindresorhus@gmail.com',
+460 silly resolved        url: 'http://sindresorhus.com' },
+460 silly resolved     files: [ 'cli.js', 'strip-json-comments.js' ],
+460 silly resolved     main: 'strip-json-comments',
+460 silly resolved     bin: { 'strip-json-comments': 'cli.js' },
+460 silly resolved     repository: { type: 'git', url: 'sindresorhus/strip-json-comments' },
+460 silly resolved     scripts: { test: 'mocha' },
+460 silly resolved     devDependencies: { mocha: '*' },
+460 silly resolved     engines: { node: '>=0.8.0' },
+460 silly resolved     readme: '# strip-json-comments [![Build Status](https://travis-ci.org/sindresorhus/strip-json-comments.svg?branch=master)](https://travis-ci.org/sindresorhus/strip-json-comments)\n\n> Strip comments from JSON. Lets you use comments in your JSON files!\n\nThis is now possible:\n\n```js\n{\n\t// rainbows\n\t"unicorn": /* ❤ */ "cake"\n}\n```\n\nIt will remove single-line comments `//` and mult-line comments `/**/`.\n\nAlso available as a [gulp](https://github.com/sindresorhus/gulp-strip-json-comments)/[grunt](https://github.com/sindresorhus/grunt-strip-json-comments)/[broccoli](https://github.com/sindresorhus/broccoli-strip-json-comments) plugin and a [require hook](https://github.com/uTest/autostrip-json-comments).\n\n\n*There\'s already [json-comments](https://npmjs.org/package/json-comments), but it\'s only for Node.js and uses a naive regex to strip comments which fails on simple cases like `{"a":"//"}`. This module however parses out the comments.*\n\n\n## Install\n\n```sh\n$ npm install --save strip-json-comments\n```\n\n```sh\n$ bower install --save strip-json-comments\n```\n\n```sh\n$ component install sindresorhus/strip-json-comments\n```\n\n\n## Usage\n\n```js\nvar json = \'{/*rainbows*/"unicorn":"cake"}\';\nJSON.parse(stripJsonComments(json));\n//=> {unicorn: \'cake\'}\n```\n\n\n## API\n\n### stripJsonComments(input)\n\n#### input\n\nType: `string`\n\nAccepts a string with JSON and returns a string without comments.\n\n\n## CLI\n\n```sh\n$ npm install --global strip-json-comments\n```\n\n```sh\n$ strip-json-comments --help\n\nstrip-json-comments <input-file> > <output-file>\n# or\ncat <input-file> | strip-json-comments > <output-file>\n```\n\n\n## License\n\nMIT © [Sindre Sorhus](http://sindresorhus.com)\n',
+460 silly resolved     readmeFilename: 'readme.md',
+460 silly resolved     _id: 'strip-json-comments@0.1.3',
+460 silly resolved     _from: 'strip-json-comments@0.1.x' } ]
+461 info install shelljs@0.3.0 into /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/jshint
+462 info install underscore@1.6.0 into /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/jshint
+463 info install minimatch@0.3.0 into /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/jshint
+464 info install cli@0.6.3 into /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/jshint
+465 info install console-browserify@1.1.0 into /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/jshint
+466 info install htmlparser2@3.7.2 into /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/jshint
+467 info install exit@0.1.2 into /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/jshint
+468 info install strip-json-comments@0.1.3 into /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/jshint
+469 info installOne shelljs@0.3.0
+470 info installOne underscore@1.6.0
+471 info installOne minimatch@0.3.0
+472 info installOne cli@0.6.3
+473 info installOne console-browserify@1.1.0
+474 info installOne htmlparser2@3.7.2
+475 info installOne exit@0.1.2
+476 info installOne strip-json-comments@0.1.3
+477 verbose from cache /Users/aseem/.npm/shelljs/0.3.0/package/package.json
+478 info /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/shelljs unbuild
+479 verbose read json /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/shelljs/package.json
+480 verbose from cache /Users/aseem/.npm/underscore/1.6.0/package/package.json
+481 info /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/underscore unbuild
+482 verbose read json /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/underscore/package.json
+483 verbose from cache /Users/aseem/.npm/minimatch/0.3.0/package/package.json
+484 info /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/minimatch unbuild
+485 verbose read json /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/minimatch/package.json
+486 verbose from cache /Users/aseem/.npm/cli/0.6.3/package/package.json
+487 info /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/cli unbuild
+488 verbose read json /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/cli/package.json
+489 verbose from cache /Users/aseem/.npm/console-browserify/1.1.0/package/package.json
+490 info /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/console-browserify unbuild
+491 verbose read json /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/console-browserify/package.json
+492 verbose from cache /Users/aseem/.npm/htmlparser2/3.7.2/package/package.json
+493 info /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/htmlparser2 unbuild
+494 verbose read json /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/htmlparser2/package.json
+495 verbose from cache /Users/aseem/.npm/exit/0.1.2/package/package.json
+496 info /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/exit unbuild
+497 verbose read json /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/exit/package.json
+498 verbose from cache /Users/aseem/.npm/strip-json-comments/0.1.3/package/package.json
+499 info /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/strip-json-comments unbuild
+500 verbose read json /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/strip-json-comments/package.json
+501 verbose tar unpack /Users/aseem/.npm/shelljs/0.3.0/package.tgz
+502 silly lockFile c7611fa0-ules-jshint-node-modules-shelljs /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/shelljs
+503 verbose lock /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/shelljs /Users/aseem/.npm/c7611fa0-ules-jshint-node-modules-shelljs.lock
+504 silly lockFile 0e9e0b98-em-npm-shelljs-0-3-0-package-tgz /Users/aseem/.npm/shelljs/0.3.0/package.tgz
+505 verbose lock /Users/aseem/.npm/shelljs/0.3.0/package.tgz /Users/aseem/.npm/0e9e0b98-em-npm-shelljs-0-3-0-package-tgz.lock
+506 verbose tar unpack /Users/aseem/.npm/underscore/1.6.0/package.tgz
+507 silly lockFile 02162240-s-jshint-node-modules-underscore /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/underscore
+508 verbose lock /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/underscore /Users/aseem/.npm/02162240-s-jshint-node-modules-underscore.lock
+509 silly lockFile b9cdc8dd-npm-underscore-1-6-0-package-tgz /Users/aseem/.npm/underscore/1.6.0/package.tgz
+510 verbose lock /Users/aseem/.npm/underscore/1.6.0/package.tgz /Users/aseem/.npm/b9cdc8dd-npm-underscore-1-6-0-package-tgz.lock
+511 verbose tar unpack /Users/aseem/.npm/minimatch/0.3.0/package.tgz
+512 silly lockFile 7a4b1c41-es-jshint-node-modules-minimatch /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/minimatch
+513 verbose lock /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/minimatch /Users/aseem/.npm/7a4b1c41-es-jshint-node-modules-minimatch.lock
+514 silly lockFile 529e5c34--npm-minimatch-0-3-0-package-tgz /Users/aseem/.npm/minimatch/0.3.0/package.tgz
+515 verbose lock /Users/aseem/.npm/minimatch/0.3.0/package.tgz /Users/aseem/.npm/529e5c34--npm-minimatch-0-3-0-package-tgz.lock
+516 verbose tar unpack /Users/aseem/.npm/cli/0.6.3/package.tgz
+517 silly lockFile 21c75473--modules-jshint-node-modules-cli /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/cli
+518 verbose lock /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/cli /Users/aseem/.npm/21c75473--modules-jshint-node-modules-cli.lock
+519 silly lockFile 5e7b96c5--aseem-npm-cli-0-6-3-package-tgz /Users/aseem/.npm/cli/0.6.3/package.tgz
+520 verbose lock /Users/aseem/.npm/cli/0.6.3/package.tgz /Users/aseem/.npm/5e7b96c5--aseem-npm-cli-0-6-3-package-tgz.lock
+521 verbose tar unpack /Users/aseem/.npm/console-browserify/1.1.0/package.tgz
+522 silly lockFile fc874c41--node-modules-console-browserify /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/console-browserify
+523 verbose lock /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/console-browserify /Users/aseem/.npm/fc874c41--node-modules-console-browserify.lock
+524 silly lockFile 528d1980-ole-browserify-1-1-0-package-tgz /Users/aseem/.npm/console-browserify/1.1.0/package.tgz
+525 verbose lock /Users/aseem/.npm/console-browserify/1.1.0/package.tgz /Users/aseem/.npm/528d1980-ole-browserify-1-1-0-package-tgz.lock
+526 verbose tar unpack /Users/aseem/.npm/htmlparser2/3.7.2/package.tgz
+527 silly lockFile 464124ce--jshint-node-modules-htmlparser2 /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/htmlparser2
+528 verbose lock /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/htmlparser2 /Users/aseem/.npm/464124ce--jshint-node-modules-htmlparser2.lock
+529 silly lockFile 3480f131-pm-htmlparser2-3-7-2-package-tgz /Users/aseem/.npm/htmlparser2/3.7.2/package.tgz
+530 verbose lock /Users/aseem/.npm/htmlparser2/3.7.2/package.tgz /Users/aseem/.npm/3480f131-pm-htmlparser2-3-7-2-package-tgz.lock
+531 verbose tar unpack /Users/aseem/.npm/exit/0.1.2/package.tgz
+532 silly lockFile 712fa0dc-modules-jshint-node-modules-exit /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/exit
+533 verbose lock /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/exit /Users/aseem/.npm/712fa0dc-modules-jshint-node-modules-exit.lock
+534 silly lockFile 2f35ae69-aseem-npm-exit-0-1-2-package-tgz /Users/aseem/.npm/exit/0.1.2/package.tgz
+535 verbose lock /Users/aseem/.npm/exit/0.1.2/package.tgz /Users/aseem/.npm/2f35ae69-aseem-npm-exit-0-1-2-package-tgz.lock
+536 verbose tar unpack /Users/aseem/.npm/strip-json-comments/0.1.3/package.tgz
+537 silly lockFile 53248484-node-modules-strip-json-comments /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/strip-json-comments
+538 verbose lock /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/strip-json-comments /Users/aseem/.npm/53248484-node-modules-strip-json-comments.lock
+539 silly lockFile 23eeccbb--json-comments-0-1-3-package-tgz /Users/aseem/.npm/strip-json-comments/0.1.3/package.tgz
+540 verbose lock /Users/aseem/.npm/strip-json-comments/0.1.3/package.tgz /Users/aseem/.npm/23eeccbb--json-comments-0-1-3-package-tgz.lock
+541 silly gunzTarPerm modes [ '755', '644' ]
+542 silly gunzTarPerm modes [ '755', '644' ]
+543 silly gunzTarPerm modes [ '755', '644' ]
+544 silly gunzTarPerm modes [ '755', '644' ]
+545 silly gunzTarPerm modes [ '755', '644' ]
+546 silly gunzTarPerm modes [ '755', '644' ]
+547 silly gunzTarPerm modes [ '755', '644' ]
+548 silly gunzTarPerm modes [ '755', '644' ]
+549 silly gunzTarPerm extractEntry package.json
+550 silly gunzTarPerm extractEntry package.json
+551 silly gunzTarPerm extractEntry package.json
+552 silly gunzTarPerm extractEntry package.json
+553 silly gunzTarPerm extractEntry package.json
+554 silly gunzTarPerm extractEntry package.json
+555 silly gunzTarPerm extractEntry package.json
+556 silly gunzTarPerm extractEntry package.json
+557 silly gunzTarPerm extractEntry .npmignore
+558 silly gunzTarPerm extractEntry README.md
+559 silly gunzTarPerm extractEntry README.md
+560 silly gunzTarPerm extractEntry LICENSE
+561 silly gunzTarPerm extractEntry .npmignore
+562 silly gunzTarPerm extractEntry README.md
+563 silly gunzTarPerm extractEntry .npmignore
+564 silly gunzTarPerm extractEntry README.md
+565 silly gunzTarPerm extractEntry README.md
+566 silly gunzTarPerm extractEntry cli.js
+567 silly gunzTarPerm extractEntry README.md
+568 silly gunzTarPerm extractEntry LICENSE
+569 silly gunzTarPerm extractEntry .npmignore
+570 silly gunzTarPerm extractEntry README.md
+571 silly gunzTarPerm extractEntry cli.js
+572 silly gunzTarPerm extractEntry strip-json-comments.js
+573 silly gunzTarPerm extractEntry LICENSE
+574 silly gunzTarPerm extractEntry LICENSE
+575 silly gunzTarPerm extractEntry minimatch.js
+576 silly gunzTarPerm extractEntry index.js
+577 silly gunzTarPerm extractEntry Gruntfile.js
+578 silly gunzTarPerm extractEntry .jshintrc
+579 silly gunzTarPerm extractEntry underscore-min.js
+580 silly gunzTarPerm extractEntry underscore.js
+581 silly gunzTarPerm extractEntry readme.md
+582 silly gunzTarPerm extractEntry .gitattributes
+583 silly gunzTarPerm extractEntry .travis.yml
+584 silly gunzTarPerm extractEntry LICENCE
+585 silly gunzTarPerm extractEntry index.js
+586 silly gunzTarPerm extractEntry .travis.yml
+587 silly gunzTarPerm extractEntry LICENSE-MIT
+588 silly gunzTarPerm extractEntry global.js
+589 silly gunzTarPerm extractEntry make.js
+590 silly gunzTarPerm extractEntry test/basic.js
+591 silly gunzTarPerm extractEntry .testem.json
+592 silly gunzTarPerm extractEntry .travis.yml
+593 silly gunzTarPerm extractEntry lib/CollectingHandler.js
+594 silly gunzTarPerm extractEntry lib/FeedHandler.js
+595 silly gunzTarPerm extractEntry test/index.js
+596 silly gunzTarPerm extractEntry test/static/test-adapter.js
+597 silly gunzTarPerm extractEntry lib/exit.js
+598 silly gunzTarPerm extractEntry test/exit_test.js
+599 silly gunzTarPerm extractEntry examples/cat.js
+600 silly gunzTarPerm extractEntry examples/command.js
+601 silly gunzTarPerm extractEntry lib/Parser.js
+602 verbose read json /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/strip-json-comments/package.json
+603 silly gunzTarPerm extractEntry test/brace-expand.js
+604 silly gunzTarPerm extractEntry test/caching.js
+605 silly gunzTarPerm extractEntry test/fixtures/log.js
+606 silly gunzTarPerm extractEntry test/static/index.html
+607 silly gunzTarPerm extractEntry lib/ProxyHandler.js
+608 silly gunzTarPerm extractEntry lib/Stream.js
+609 silly lockFile 53248484-node-modules-strip-json-comments /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/strip-json-comments
+610 silly lockFile 53248484-node-modules-strip-json-comments /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/strip-json-comments
+611 silly gunzTarPerm extractEntry test/fixtures/log-broken.js
+612 silly gunzTarPerm extractEntry test/fixtures/10-stdout.txt
+613 silly gunzTarPerm extractEntry test/defaults.js
+614 silly gunzTarPerm extractEntry test/extglob-ending-with-state-char.js
+615 silly lockFile 23eeccbb--json-comments-0-1-3-package-tgz /Users/aseem/.npm/strip-json-comments/0.1.3/package.tgz
+616 silly lockFile 23eeccbb--json-comments-0-1-3-package-tgz /Users/aseem/.npm/strip-json-comments/0.1.3/package.tgz
+617 silly gunzTarPerm extractEntry lib/Tokenizer.js
+618 silly gunzTarPerm extractEntry lib/WritableStream.js
+619 silly gunzTarPerm extractEntry shell.js
+620 silly gunzTarPerm extractEntry bin/shjs
+621 info preinstall strip-json-comments@0.1.3
+622 silly gunzTarPerm extractEntry test/fixtures/100-stderr.txt
+623 silly gunzTarPerm extractEntry test/fixtures/100-stdout-stderr.txt
+624 verbose from cache /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/strip-json-comments/package.json
+625 verbose readDependencies using package.json deps
+626 verbose from cache /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/strip-json-comments/package.json
+627 verbose readDependencies using package.json deps
+628 silly resolved []
+629 verbose about to build /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/strip-json-comments
+630 info build /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/strip-json-comments
+631 verbose from cache /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/strip-json-comments/package.json
+632 verbose linkStuff [ false,
+632 verbose linkStuff   false,
+632 verbose linkStuff   false,
+632 verbose linkStuff   '/Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules' ]
+633 info linkStuff strip-json-comments@0.1.3
+634 verbose linkBins strip-json-comments@0.1.3
+635 verbose link bins [ { 'strip-json-comments': 'cli.js' },
+635 verbose link bins   '/Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/.bin',
+635 verbose link bins   false ]
+636 verbose linkMans strip-json-comments@0.1.3
+637 verbose rebuildBundles strip-json-comments@0.1.3
+638 silly gunzTarPerm extractEntry .travis.yml
+639 silly gunzTarPerm extractEntry .jshintrc
+640 silly gunzTarPerm extractEntry lib/index.js
+641 silly gunzTarPerm extractEntry test/01-events.js
+642 info install strip-json-comments@0.1.3
+643 silly gunzTarPerm extractEntry test/fixtures/100-stdout.txt
+644 silly gunzTarPerm extractEntry test/fixtures/10-stdout-stderr.txt
+645 info postinstall strip-json-comments@0.1.3
+646 silly gunzTarPerm extractEntry scripts/generate-docs.js
+647 silly gunzTarPerm extractEntry scripts/run-tests.js
+648 silly gunzTarPerm extractEntry test/fixtures/1000-stdout-stderr.txt
+649 silly gunzTarPerm extractEntry test/fixtures/1000-stdout.txt
+650 silly gunzTarPerm extractEntry test/02-stream.js
+651 silly gunzTarPerm extractEntry test/03-feed.js
+652 silly gunzTarPerm extractEntry .documentup.json
+653 silly gunzTarPerm extractEntry src/cat.js
+654 silly gunzTarPerm extractEntry test/fixtures/create-files.sh
+655 silly gunzTarPerm extractEntry test/fixtures/10-stderr.txt
+656 verbose read json /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/console-browserify/package.json
+657 silly gunzTarPerm extractEntry src/find.js
+658 silly gunzTarPerm extractEntry src/grep.js
+659 silly gunzTarPerm extractEntry test/api.js
+660 silly gunzTarPerm extractEntry test/test-helper.js
+661 silly gunzTarPerm extractEntry test/fixtures/1000-stderr.txt
+662 silly lockFile fc874c41--node-modules-console-browserify /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/console-browserify
+663 silly lockFile fc874c41--node-modules-console-browserify /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/console-browserify
+664 silly lockFile 528d1980-ole-browserify-1-1-0-package-tgz /Users/aseem/.npm/console-browserify/1.1.0/package.tgz
+665 silly lockFile 528d1980-ole-browserify-1-1-0-package-tgz /Users/aseem/.npm/console-browserify/1.1.0/package.tgz
+666 silly gunzTarPerm extractEntry examples/echo.js
+667 silly gunzTarPerm extractEntry examples/glob.js
+668 silly gunzTarPerm extractEntry src/ln.js
+669 silly gunzTarPerm extractEntry src/exec.js
+670 silly gunzTarPerm extractEntry test/Documents/Atom_Example.xml
+671 silly gunzTarPerm extractEntry test/Documents/Attributes.html
+672 info preinstall console-browserify@1.1.0
+673 verbose from cache /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/console-browserify/package.json
+674 silly gunzTarPerm extractEntry examples/long_desc.js
+675 silly gunzTarPerm extractEntry examples/progress.js
+676 verbose readDependencies using package.json deps
+677 verbose from cache /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/console-browserify/package.json
+678 silly gunzTarPerm extractEntry src/mkdir.js
+679 silly gunzTarPerm extractEntry src/mv.js
+680 verbose readDependencies using package.json deps
+681 silly gunzTarPerm extractEntry test/Documents/Basic.html
+682 silly gunzTarPerm extractEntry test/Documents/RDF_Example.xml
+683 verbose cache add [ 'date-now@^0.1.4', null ]
+684 verbose cache add name=undefined spec="date-now@^0.1.4" args=["date-now@^0.1.4",null]
+685 verbose parsed url { protocol: null,
+685 verbose parsed url   slashes: null,
+685 verbose parsed url   auth: null,
+685 verbose parsed url   host: null,
+685 verbose parsed url   port: null,
+685 verbose parsed url   hostname: null,
+685 verbose parsed url   hash: null,
+685 verbose parsed url   search: null,
+685 verbose parsed url   query: null,
+685 verbose parsed url   pathname: 'date-now@^0.1.4',
+685 verbose parsed url   path: 'date-now@^0.1.4',
+685 verbose parsed url   href: 'date-now@^0.1.4' }
+686 verbose cache add name="date-now" spec="^0.1.4" args=["date-now","^0.1.4"]
+687 verbose parsed url { protocol: null,
+687 verbose parsed url   slashes: null,
+687 verbose parsed url   auth: null,
+687 verbose parsed url   host: null,
+687 verbose parsed url   port: null,
+687 verbose parsed url   hostname: null,
+687 verbose parsed url   hash: null,
+687 verbose parsed url   search: null,
+687 verbose parsed url   query: null,
+687 verbose parsed url   pathname: '^0.1.4',
+687 verbose parsed url   path: '^0.1.4',
+687 verbose parsed url   href: '^0.1.4' }
+688 verbose addNamed [ 'date-now', '^0.1.4' ]
+689 verbose addNamed [ null, null ]
+690 silly lockFile ca2fa075-date-now-0-1-4 date-now@^0.1.4
+691 verbose lock date-now@^0.1.4 /Users/aseem/.npm/ca2fa075-date-now-0-1-4.lock
+692 info addNameTag [ 'date-now', '^0.1.4' ]
+693 silly gunzTarPerm extractEntry src/popd.js
+694 silly gunzTarPerm extractEntry src/pushd.js
+695 verbose url raw date-now
+696 verbose url resolving [ 'https://registry.npmjs.org/', './date-now' ]
+697 verbose url resolved https://registry.npmjs.org/date-now
+698 info trying registry request attempt 1 at 14:31:20
+699 verbose etag "CXKE9UPWN4P3F52VDHV8YQ2JJ"
+700 http GET https://registry.npmjs.org/date-now
+701 silly gunzTarPerm extractEntry examples/sort.js
+702 silly gunzTarPerm extractEntry examples/spinner.js
+703 silly gunzTarPerm extractEntry examples/static.js
+704 silly gunzTarPerm extractEntry examples/static.coffee
+705 silly gunzTarPerm extractEntry src/pwd.js
+706 silly gunzTarPerm extractEntry src/error.js
+707 silly gunzTarPerm extractEntry src/rm.js
+708 silly gunzTarPerm extractEntry src/echo.js
+709 silly gunzTarPerm extractEntry src/sed.js
+710 silly gunzTarPerm extractEntry src/dirs.js
+711 verbose read json /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/underscore/package.json
+712 silly gunzTarPerm extractEntry src/tempdir.js
+713 silly gunzTarPerm extractEntry src/cp.js
+714 silly lockFile 02162240-s-jshint-node-modules-underscore /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/underscore
+715 silly lockFile 02162240-s-jshint-node-modules-underscore /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/underscore
+716 silly lockFile b9cdc8dd-npm-underscore-1-6-0-package-tgz /Users/aseem/.npm/underscore/1.6.0/package.tgz
+717 silly lockFile b9cdc8dd-npm-underscore-1-6-0-package-tgz /Users/aseem/.npm/underscore/1.6.0/package.tgz
+718 silly gunzTarPerm extractEntry src/test.js
+719 silly gunzTarPerm extractEntry src/common.js
+720 silly gunzTarPerm extractEntry test/Documents/RSS_Example.xml
+721 silly gunzTarPerm extractEntry test/Events/16-double_attribs.json
+722 info preinstall underscore@1.6.0
+723 verbose from cache /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/underscore/package.json
+724 verbose readDependencies using package.json deps
+725 verbose from cache /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/underscore/package.json
+726 verbose readDependencies using package.json deps
+727 silly resolved []
+728 verbose about to build /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/underscore
+729 info build /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/underscore
+730 verbose from cache /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/underscore/package.json
+731 verbose linkStuff [ false,
+731 verbose linkStuff   false,
+731 verbose linkStuff   false,
+731 verbose linkStuff   '/Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules' ]
+732 info linkStuff underscore@1.6.0
+733 verbose linkBins underscore@1.6.0
+734 verbose linkMans underscore@1.6.0
+735 verbose rebuildBundles underscore@1.6.0
+736 info install underscore@1.6.0
+737 info postinstall underscore@1.6.0
+738 silly gunzTarPerm extractEntry test/Events/01-simple.json
+739 silly gunzTarPerm extractEntry test/Events/03-lowercase_tags.json
+740 silly gunzTarPerm extractEntry src/to.js
+741 silly gunzTarPerm extractEntry src/chmod.js
+742 silly gunzTarPerm extractEntry test/Events/04-cdata.json
+743 silly gunzTarPerm extractEntry test/Events/05-cdata-special.json
+744 silly gunzTarPerm extractEntry src/toEnd.js
+745 silly gunzTarPerm extractEntry src/cd.js
+746 verbose read json /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/minimatch/package.json
+747 verbose read json /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/cli/package.json
+748 silly gunzTarPerm extractEntry test/Events/06-leading-lt.json
+749 silly gunzTarPerm extractEntry test/Events/07-self-closing.json
+750 silly lockFile 7a4b1c41-es-jshint-node-modules-minimatch /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/minimatch
+751 silly lockFile 7a4b1c41-es-jshint-node-modules-minimatch /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/minimatch
+752 silly lockFile 529e5c34--npm-minimatch-0-3-0-package-tgz /Users/aseem/.npm/minimatch/0.3.0/package.tgz
+753 silly lockFile 529e5c34--npm-minimatch-0-3-0-package-tgz /Users/aseem/.npm/minimatch/0.3.0/package.tgz
+754 silly gunzTarPerm extractEntry test/Events/08-implicit-close-tags.json
+755 silly gunzTarPerm extractEntry test/Events/09-attributes.json
+756 silly lockFile 21c75473--modules-jshint-node-modules-cli /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/cli
+757 silly lockFile 21c75473--modules-jshint-node-modules-cli /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/cli
+758 silly gunzTarPerm extractEntry src/which.js
+759 silly gunzTarPerm extractEntry src/ls.js
+760 info preinstall minimatch@0.3.0
+761 silly lockFile 5e7b96c5--aseem-npm-cli-0-6-3-package-tgz /Users/aseem/.npm/cli/0.6.3/package.tgz
+762 silly lockFile 5e7b96c5--aseem-npm-cli-0-6-3-package-tgz /Users/aseem/.npm/cli/0.6.3/package.tgz
+763 verbose from cache /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/minimatch/package.json
+764 verbose readDependencies using package.json deps
+765 verbose from cache /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/minimatch/package.json
+766 verbose readDependencies using package.json deps
+767 info preinstall cli@0.6.3
+768 silly gunzTarPerm extractEntry test/Events/10-crazy-attrib.json
+769 silly gunzTarPerm extractEntry test/Events/11-script_in_script.json
+770 verbose cache add [ 'lru-cache@2', null ]
+771 verbose cache add name=undefined spec="lru-cache@2" args=["lru-cache@2",null]
+772 verbose parsed url { protocol: null,
+772 verbose parsed url   slashes: null,
+772 verbose parsed url   auth: null,
+772 verbose parsed url   host: null,
+772 verbose parsed url   port: null,
+772 verbose parsed url   hostname: null,
+772 verbose parsed url   hash: null,
+772 verbose parsed url   search: null,
+772 verbose parsed url   query: null,
+772 verbose parsed url   pathname: 'lru-cache@2',
+772 verbose parsed url   path: 'lru-cache@2',
+772 verbose parsed url   href: 'lru-cache@2' }
+773 verbose cache add name="lru-cache" spec="2" args=["lru-cache","2"]
+774 verbose parsed url { protocol: null,
+774 verbose parsed url   slashes: null,
+774 verbose parsed url   auth: null,
+774 verbose parsed url   host: null,
+774 verbose parsed url   port: null,
+774 verbose parsed url   hostname: null,
+774 verbose parsed url   hash: null,
+774 verbose parsed url   search: null,
+774 verbose parsed url   query: null,
+774 verbose parsed url   pathname: '2',
+774 verbose parsed url   path: '2',
+774 verbose parsed url   href: '2' }
+775 verbose addNamed [ 'lru-cache', '2' ]
+776 verbose addNamed [ null, '>=2.0.0- <3.0.0-' ]
+777 silly lockFile b4f9d1ff-lru-cache-2 lru-cache@2
+778 verbose lock lru-cache@2 /Users/aseem/.npm/b4f9d1ff-lru-cache-2.lock
+779 verbose cache add [ 'sigmund@~1.0.0', null ]
+780 verbose cache add name=undefined spec="sigmund@~1.0.0" args=["sigmund@~1.0.0",null]
+781 verbose parsed url { protocol: null,
+781 verbose parsed url   slashes: null,
+781 verbose parsed url   auth: null,
+781 verbose parsed url   host: null,
+781 verbose parsed url   port: null,
+781 verbose parsed url   hostname: null,
+781 verbose parsed url   hash: null,
+781 verbose parsed url   search: null,
+781 verbose parsed url   query: null,
+781 verbose parsed url   pathname: 'sigmund@~1.0.0',
+781 verbose parsed url   path: 'sigmund@~1.0.0',
+781 verbose parsed url   href: 'sigmund@~1.0.0' }
+782 verbose cache add name="sigmund" spec="~1.0.0" args=["sigmund","~1.0.0"]
+783 verbose parsed url { protocol: null,
+783 verbose parsed url   slashes: null,
+783 verbose parsed url   auth: null,
+783 verbose parsed url   host: null,
+783 verbose parsed url   port: null,
+783 verbose parsed url   hostname: null,
+783 verbose parsed url   hash: null,
+783 verbose parsed url   search: null,
+783 verbose parsed url   query: null,
+783 verbose parsed url   pathname: '~1.0.0',
+783 verbose parsed url   path: '~1.0.0',
+783 verbose parsed url   href: '~1.0.0' }
+784 verbose addNamed [ 'sigmund', '~1.0.0' ]
+785 verbose addNamed [ null, '>=1.0.0- <1.1.0-' ]
+786 silly lockFile 584a4a05-sigmund-1-0-0 sigmund@~1.0.0
+787 verbose lock sigmund@~1.0.0 /Users/aseem/.npm/584a4a05-sigmund-1-0-0.lock
+788 silly addNameRange { name: 'lru-cache', range: '>=2.0.0- <3.0.0-', hasData: false }
+789 silly addNameRange { name: 'sigmund', range: '>=1.0.0- <1.1.0-', hasData: false }
+790 verbose from cache /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/cli/package.json
+791 verbose readDependencies using package.json deps
+792 verbose from cache /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/cli/package.json
+793 verbose readDependencies using package.json deps
+794 verbose url raw lru-cache
+795 verbose url resolving [ 'https://registry.npmjs.org/', './lru-cache' ]
+796 verbose url resolved https://registry.npmjs.org/lru-cache
+797 info trying registry request attempt 1 at 14:31:20
+798 verbose etag "6EAH4E2XKATH9G2WW7G1L4L00"
+799 http GET https://registry.npmjs.org/lru-cache
+800 verbose url raw sigmund
+801 verbose url resolving [ 'https://registry.npmjs.org/', './sigmund' ]
+802 verbose url resolved https://registry.npmjs.org/sigmund
+803 info trying registry request attempt 1 at 14:31:20
+804 verbose etag "83Z00BYZMZK19U869TTWSB9J1"
+805 http GET https://registry.npmjs.org/sigmund
+806 verbose cache add [ 'glob@~ 3.2.1', null ]
+807 verbose cache add name=undefined spec="glob@~ 3.2.1" args=["glob@~ 3.2.1",null]
+808 verbose parsed url { protocol: null,
+808 verbose parsed url   slashes: null,
+808 verbose parsed url   auth: null,
+808 verbose parsed url   host: null,
+808 verbose parsed url   port: null,
+808 verbose parsed url   hostname: null,
+808 verbose parsed url   hash: null,
+808 verbose parsed url   search: null,
+808 verbose parsed url   query: null,
+808 verbose parsed url   pathname: 'glob@~%203.2.1',
+808 verbose parsed url   path: 'glob@~%203.2.1',
+808 verbose parsed url   href: 'glob@~%203.2.1' }
+809 verbose cache add name="glob" spec="~ 3.2.1" args=["glob","~ 3.2.1"]
+810 verbose parsed url { protocol: null,
+810 verbose parsed url   slashes: null,
+810 verbose parsed url   auth: null,
+810 verbose parsed url   host: null,
+810 verbose parsed url   port: null,
+810 verbose parsed url   hostname: null,
+810 verbose parsed url   hash: null,
+810 verbose parsed url   search: null,
+810 verbose parsed url   query: null,
+810 verbose parsed url   pathname: '~%203.2.1',
+810 verbose parsed url   path: '~%203.2.1',
+810 verbose parsed url   href: '~%203.2.1' }
+811 verbose addNamed [ 'glob', '~ 3.2.1' ]
+812 verbose addNamed [ null, '>=3.2.1- <3.3.0-' ]
+813 silly lockFile 08470b4e-glob-3-2-1 glob@~ 3.2.1
+814 verbose lock glob@~ 3.2.1 /Users/aseem/.npm/08470b4e-glob-3-2-1.lock
+815 silly addNameRange { name: 'glob', range: '>=3.2.1- <3.3.0-', hasData: false }
+816 silly gunzTarPerm extractEntry test/Events/12-long-comment-end.json
+817 silly gunzTarPerm extractEntry test/Events/13-long-cdata-end.json
+818 verbose url raw glob
+819 verbose url resolving [ 'https://registry.npmjs.org/', './glob' ]
+820 verbose url resolved https://registry.npmjs.org/glob
+821 info trying registry request attempt 1 at 14:31:20
+822 verbose etag "EA6G9IRYHWJWLP2479GLGXMUM"
+823 http GET https://registry.npmjs.org/glob
+824 silly gunzTarPerm extractEntry test/Events/14-implicit-open-tags.json
+825 silly gunzTarPerm extractEntry test/Events/15-lt-whitespace.json
+826 silly gunzTarPerm extractEntry test/Events/02-template.json
+827 silly gunzTarPerm extractEntry test/Events/17-numeric_entities.json
+828 silly gunzTarPerm extractEntry test/Events/18-legacy_entities.json
+829 silly gunzTarPerm extractEntry test/Events/19-named_entities.json
+830 silly gunzTarPerm extractEntry test/Events/20-xml_entities.json
+831 silly gunzTarPerm extractEntry test/Events/21-entity_in_attribute.json
+832 verbose read json /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/exit/package.json
+833 silly gunzTarPerm extractEntry test/Events/22-double_brackets.json
+834 silly gunzTarPerm extractEntry test/Events/23-legacy_entity_fail.json
+835 silly lockFile 712fa0dc-modules-jshint-node-modules-exit /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/exit
+836 silly lockFile 712fa0dc-modules-jshint-node-modules-exit /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/exit
+837 silly lockFile 2f35ae69-aseem-npm-exit-0-1-2-package-tgz /Users/aseem/.npm/exit/0.1.2/package.tgz
+838 silly lockFile 2f35ae69-aseem-npm-exit-0-1-2-package-tgz /Users/aseem/.npm/exit/0.1.2/package.tgz
+839 info preinstall exit@0.1.2
+840 silly gunzTarPerm extractEntry test/Events/24-special_special.json
+841 silly gunzTarPerm extractEntry test/Events/25-empty_tag_name.json
+842 verbose from cache /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/exit/package.json
+843 verbose readDependencies using package.json deps
+844 verbose from cache /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/exit/package.json
+845 verbose readDependencies using package.json deps
+846 silly resolved []
+847 verbose about to build /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/exit
+848 info build /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/exit
+849 verbose from cache /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/exit/package.json
+850 verbose linkStuff [ false,
+850 verbose linkStuff   false,
+850 verbose linkStuff   false,
+850 verbose linkStuff   '/Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules' ]
+851 info linkStuff exit@0.1.2
+852 verbose linkBins exit@0.1.2
+853 verbose linkMans exit@0.1.2
+854 verbose rebuildBundles exit@0.1.2
+855 info install exit@0.1.2
+856 info postinstall exit@0.1.2
+857 silly gunzTarPerm extractEntry test/Events/26-not-quite-closed.json
+858 silly gunzTarPerm extractEntry test/Events/27-entities_in_attributes.json
+859 silly gunzTarPerm extractEntry test/Events/28-cdata_in_html.json
+860 silly gunzTarPerm extractEntry test/Events/29-comment_edge-cases.json
+861 silly gunzTarPerm extractEntry test/Events/30-cdata_edge-cases.json
+862 silly gunzTarPerm extractEntry test/Feeds/01-rss.js
+863 silly gunzTarPerm extractEntry test/Feeds/02-atom.js
+864 silly gunzTarPerm extractEntry test/Feeds/03-rdf.js
+865 silly gunzTarPerm extractEntry test/Stream/01-basic.json
+866 silly gunzTarPerm extractEntry test/Stream/02-RSS.json
+867 silly gunzTarPerm extractEntry test/Stream/03-Atom.json
+868 silly gunzTarPerm extractEntry test/Stream/04-RDF.json
+869 silly gunzTarPerm extractEntry test/Stream/05-Attributes.json
+870 verbose read json /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/shelljs/package.json
+871 silly lockFile c7611fa0-ules-jshint-node-modules-shelljs /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/shelljs
+872 silly lockFile c7611fa0-ules-jshint-node-modules-shelljs /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/shelljs
+873 silly lockFile 0e9e0b98-em-npm-shelljs-0-3-0-package-tgz /Users/aseem/.npm/shelljs/0.3.0/package.tgz
+874 silly lockFile 0e9e0b98-em-npm-shelljs-0-3-0-package-tgz /Users/aseem/.npm/shelljs/0.3.0/package.tgz
+875 info preinstall shelljs@0.3.0
+876 verbose from cache /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/shelljs/package.json
+877 verbose readDependencies using package.json deps
+878 verbose from cache /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/shelljs/package.json
+879 verbose readDependencies using package.json deps
+880 silly resolved []
+881 verbose about to build /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/shelljs
+882 info build /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/shelljs
+883 verbose from cache /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/shelljs/package.json
+884 verbose linkStuff [ false,
+884 verbose linkStuff   false,
+884 verbose linkStuff   false,
+884 verbose linkStuff   '/Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules' ]
+885 info linkStuff shelljs@0.3.0
+886 verbose linkBins shelljs@0.3.0
+887 verbose link bins [ { shjs: './bin/shjs' },
+887 verbose link bins   '/Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/.bin',
+887 verbose link bins   false ]
+888 verbose linkMans shelljs@0.3.0
+889 verbose rebuildBundles shelljs@0.3.0
+890 info install shelljs@0.3.0
+891 info postinstall shelljs@0.3.0
+892 verbose read json /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/htmlparser2/package.json
+893 silly lockFile 464124ce--jshint-node-modules-htmlparser2 /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/htmlparser2
+894 silly lockFile 464124ce--jshint-node-modules-htmlparser2 /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/htmlparser2
+895 silly lockFile 3480f131-pm-htmlparser2-3-7-2-package-tgz /Users/aseem/.npm/htmlparser2/3.7.2/package.tgz
+896 silly lockFile 3480f131-pm-htmlparser2-3-7-2-package-tgz /Users/aseem/.npm/htmlparser2/3.7.2/package.tgz
+897 info preinstall htmlparser2@3.7.2
+898 verbose from cache /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/htmlparser2/package.json
+899 verbose readDependencies using package.json deps
+900 verbose from cache /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/htmlparser2/package.json
+901 verbose readDependencies using package.json deps
+902 verbose cache add [ 'domhandler@2.2', null ]
+903 verbose cache add name=undefined spec="domhandler@2.2" args=["domhandler@2.2",null]
+904 verbose parsed url { protocol: null,
+904 verbose parsed url   slashes: null,
+904 verbose parsed url   auth: null,
+904 verbose parsed url   host: null,
+904 verbose parsed url   port: null,
+904 verbose parsed url   hostname: null,
+904 verbose parsed url   hash: null,
+904 verbose parsed url   search: null,
+904 verbose parsed url   query: null,
+904 verbose parsed url   pathname: 'domhandler@2.2',
+904 verbose parsed url   path: 'domhandler@2.2',
+904 verbose parsed url   href: 'domhandler@2.2' }
+905 verbose cache add name="domhandler" spec="2.2" args=["domhandler","2.2"]
+906 verbose parsed url { protocol: null,
+906 verbose parsed url   slashes: null,
+906 verbose parsed url   auth: null,
+906 verbose parsed url   host: null,
+906 verbose parsed url   port: null,
+906 verbose parsed url   hostname: null,
+906 verbose parsed url   hash: null,
+906 verbose parsed url   search: null,
+906 verbose parsed url   query: null,
+906 verbose parsed url   pathname: '2.2',
+906 verbose parsed url   path: '2.2',
+906 verbose parsed url   href: '2.2' }
+907 verbose addNamed [ 'domhandler', '2.2' ]
+908 verbose addNamed [ null, '>=2.2.0- <2.3.0-' ]
+909 silly lockFile fda4e3da-domhandler-2-2 domhandler@2.2
+910 verbose lock domhandler@2.2 /Users/aseem/.npm/fda4e3da-domhandler-2-2.lock
+911 verbose cache add [ 'domutils@1.5', null ]
+912 verbose cache add name=undefined spec="domutils@1.5" args=["domutils@1.5",null]
+913 verbose parsed url { protocol: null,
+913 verbose parsed url   slashes: null,
+913 verbose parsed url   auth: null,
+913 verbose parsed url   host: null,
+913 verbose parsed url   port: null,
+913 verbose parsed url   hostname: null,
+913 verbose parsed url   hash: null,
+913 verbose parsed url   search: null,
+913 verbose parsed url   query: null,
+913 verbose parsed url   pathname: 'domutils@1.5',
+913 verbose parsed url   path: 'domutils@1.5',
+913 verbose parsed url   href: 'domutils@1.5' }
+914 verbose cache add name="domutils" spec="1.5" args=["domutils","1.5"]
+915 verbose parsed url { protocol: null,
+915 verbose parsed url   slashes: null,
+915 verbose parsed url   auth: null,
+915 verbose parsed url   host: null,
+915 verbose parsed url   port: null,
+915 verbose parsed url   hostname: null,
+915 verbose parsed url   hash: null,
+915 verbose parsed url   search: null,
+915 verbose parsed url   query: null,
+915 verbose parsed url   pathname: '1.5',
+915 verbose parsed url   path: '1.5',
+915 verbose parsed url   href: '1.5' }
+916 verbose addNamed [ 'domutils', '1.5' ]
+917 verbose addNamed [ null, '>=1.5.0- <1.6.0-' ]
+918 silly lockFile 8c9e84de-domutils-1-5 domutils@1.5
+919 verbose lock domutils@1.5 /Users/aseem/.npm/8c9e84de-domutils-1-5.lock
+920 silly addNameRange { name: 'domhandler', range: '>=2.2.0- <2.3.0-', hasData: false }
+921 verbose cache add [ 'domelementtype@1', null ]
+922 verbose cache add name=undefined spec="domelementtype@1" args=["domelementtype@1",null]
+923 verbose parsed url { protocol: null,
+923 verbose parsed url   slashes: null,
+923 verbose parsed url   auth: null,
+923 verbose parsed url   host: null,
+923 verbose parsed url   port: null,
+923 verbose parsed url   hostname: null,
+923 verbose parsed url   hash: null,
+923 verbose parsed url   search: null,
+923 verbose parsed url   query: null,
+923 verbose parsed url   pathname: 'domelementtype@1',
+923 verbose parsed url   path: 'domelementtype@1',
+923 verbose parsed url   href: 'domelementtype@1' }
+924 verbose cache add name="domelementtype" spec="1" args=["domelementtype","1"]
+925 verbose parsed url { protocol: null,
+925 verbose parsed url   slashes: null,
+925 verbose parsed url   auth: null,
+925 verbose parsed url   host: null,
+925 verbose parsed url   port: null,
+925 verbose parsed url   hostname: null,
+925 verbose parsed url   hash: null,
+925 verbose parsed url   search: null,
+925 verbose parsed url   query: null,
+925 verbose parsed url   pathname: '1',
+925 verbose parsed url   path: '1',
+925 verbose parsed url   href: '1' }
+926 verbose addNamed [ 'domelementtype', '1' ]
+927 verbose addNamed [ null, '>=1.0.0- <2.0.0-' ]
+928 silly lockFile 1833f177-domelementtype-1 domelementtype@1
+929 verbose lock domelementtype@1 /Users/aseem/.npm/1833f177-domelementtype-1.lock
+930 silly addNameRange { name: 'domutils', range: '>=1.5.0- <1.6.0-', hasData: false }
+931 verbose cache add [ 'readable-stream@1.1', null ]
+932 verbose cache add name=undefined spec="readable-stream@1.1" args=["readable-stream@1.1",null]
+933 verbose parsed url { protocol: null,
+933 verbose parsed url   slashes: null,
+933 verbose parsed url   auth: null,
+933 verbose parsed url   host: null,
+933 verbose parsed url   port: null,
+933 verbose parsed url   hostname: null,
+933 verbose parsed url   hash: null,
+933 verbose parsed url   search: null,
+933 verbose parsed url   query: null,
+933 verbose parsed url   pathname: 'readable-stream@1.1',
+933 verbose parsed url   path: 'readable-stream@1.1',
+933 verbose parsed url   href: 'readable-stream@1.1' }
+934 verbose cache add name="readable-stream" spec="1.1" args=["readable-stream","1.1"]
+935 verbose parsed url { protocol: null,
+935 verbose parsed url   slashes: null,
+935 verbose parsed url   auth: null,
+935 verbose parsed url   host: null,
+935 verbose parsed url   port: null,
+935 verbose parsed url   hostname: null,
+935 verbose parsed url   hash: null,
+935 verbose parsed url   search: null,
+935 verbose parsed url   query: null,
+935 verbose parsed url   pathname: '1.1',
+935 verbose parsed url   path: '1.1',
+935 verbose parsed url   href: '1.1' }
+936 verbose addNamed [ 'readable-stream', '1.1' ]
+937 verbose addNamed [ null, '>=1.1.0- <1.2.0-' ]
+938 silly lockFile 02dc3487-readable-stream-1-1 readable-stream@1.1
+939 verbose lock readable-stream@1.1 /Users/aseem/.npm/02dc3487-readable-stream-1-1.lock
+940 silly addNameRange { name: 'domelementtype',
+940 silly addNameRange   range: '>=1.0.0- <2.0.0-',
+940 silly addNameRange   hasData: false }
+941 silly addNameRange { name: 'readable-stream',
+941 silly addNameRange   range: '>=1.1.0- <1.2.0-',
+941 silly addNameRange   hasData: false }
+942 verbose cache add [ 'entities@1.0', null ]
+943 verbose cache add name=undefined spec="entities@1.0" args=["entities@1.0",null]
+944 verbose parsed url { protocol: null,
+944 verbose parsed url   slashes: null,
+944 verbose parsed url   auth: null,
+944 verbose parsed url   host: null,
+944 verbose parsed url   port: null,
+944 verbose parsed url   hostname: null,
+944 verbose parsed url   hash: null,
+944 verbose parsed url   search: null,
+944 verbose parsed url   query: null,
+944 verbose parsed url   pathname: 'entities@1.0',
+944 verbose parsed url   path: 'entities@1.0',
+944 verbose parsed url   href: 'entities@1.0' }
+945 verbose cache add name="entities" spec="1.0" args=["entities","1.0"]
+946 verbose parsed url { protocol: null,
+946 verbose parsed url   slashes: null,
+946 verbose parsed url   auth: null,
+946 verbose parsed url   host: null,
+946 verbose parsed url   port: null,
+946 verbose parsed url   hostname: null,
+946 verbose parsed url   hash: null,
+946 verbose parsed url   search: null,
+946 verbose parsed url   query: null,
+946 verbose parsed url   pathname: '1.0',
+946 verbose parsed url   path: '1.0',
+946 verbose parsed url   href: '1.0' }
+947 verbose addNamed [ 'entities', '1.0' ]
+948 verbose addNamed [ null, '>=1.0.0- <1.1.0-' ]
+949 silly lockFile 03760dd5-entities-1-0 entities@1.0
+950 verbose lock entities@1.0 /Users/aseem/.npm/03760dd5-entities-1-0.lock
+951 silly addNameRange { name: 'entities', range: '>=1.0.0- <1.1.0-', hasData: false }
+952 verbose url raw domhandler
+953 verbose url resolving [ 'https://registry.npmjs.org/', './domhandler' ]
+954 verbose url resolved https://registry.npmjs.org/domhandler
+955 info trying registry request attempt 1 at 14:31:20
+956 verbose etag "EW6FPPWXRNUMYD3Y8S3B68O3A"
+957 http GET https://registry.npmjs.org/domhandler
+958 verbose url raw domutils
+959 verbose url resolving [ 'https://registry.npmjs.org/', './domutils' ]
+960 verbose url resolved https://registry.npmjs.org/domutils
+961 info trying registry request attempt 1 at 14:31:20
+962 verbose etag "3FSWL906384CK4CPVDJCAE8XR"
+963 http GET https://registry.npmjs.org/domutils
+964 verbose url raw domelementtype
+965 verbose url resolving [ 'https://registry.npmjs.org/', './domelementtype' ]
+966 verbose url resolved https://registry.npmjs.org/domelementtype
+967 info trying registry request attempt 1 at 14:31:20
+968 verbose etag "1GN1YJPL5ZJ1CZYB31TRMMPQD"
+969 http GET https://registry.npmjs.org/domelementtype
+970 verbose url raw readable-stream
+971 verbose url resolving [ 'https://registry.npmjs.org/', './readable-stream' ]
+972 verbose url resolved https://registry.npmjs.org/readable-stream
+973 info trying registry request attempt 1 at 14:31:20
+974 verbose etag "YVHTVA1TD82J1GVC84ACF21N"
+975 http GET https://registry.npmjs.org/readable-stream
+976 verbose url raw entities
+977 verbose url resolving [ 'https://registry.npmjs.org/', './entities' ]
+978 verbose url resolved https://registry.npmjs.org/entities
+979 info trying registry request attempt 1 at 14:31:20
+980 verbose etag "NKMLPV2NFC7OB90RXRME0NOL"
+981 http GET https://registry.npmjs.org/entities
+982 http 304 https://registry.npmjs.org/date-now
+983 silly registry.get cb [ 304,
+983 silly registry.get   { date: 'Sun, 15 Jun 2014 09:01:21 GMT',
+983 silly registry.get     server: 'Apache',
+983 silly registry.get     via: '1.1 varnish',
+983 silly registry.get     'last-modified': 'Sun, 15 Jun 2014 09:01:21 GMT',
+983 silly registry.get     'cache-control': 'max-age=30',
+983 silly registry.get     etag: '"CXKE9UPWN4P3F52VDHV8YQ2JJ"',
+983 silly registry.get     'x-served-by': 'cache-sv60-SJC3',
+983 silly registry.get     'x-cache': 'HIT',
+983 silly registry.get     'x-cache-hits': '1',
+983 silly registry.get     'x-timer': 'S1402822881.239395,VS0,VE32',
+983 silly registry.get     vary: 'Accept',
+983 silly registry.get     'content-length': '0',
+983 silly registry.get     'keep-alive': 'timeout=10, max=50',
+983 silly registry.get     connection: 'Keep-Alive' } ]
+984 verbose etag date-now from cache
+985 silly lockFile ca2fa075-date-now-0-1-4 date-now@^0.1.4
+986 silly lockFile ca2fa075-date-now-0-1-4 date-now@^0.1.4
+987 verbose about to build /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/console-browserify
+988 info /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/console-browserify unbuild
+989 verbose from cache /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/console-browserify/package.json
+990 info preuninstall console-browserify@1.1.0
+991 info uninstall console-browserify@1.1.0
+992 verbose false,/Users/aseem/magichappens/gitpersonal/flipview/node_modules,/Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules unbuild console-browserify@1.1.0
+993 info postuninstall console-browserify@1.1.0
+994 verbose about to build /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/jshint
+995 info /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/jshint unbuild
+996 verbose from cache /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/jshint/package.json
+997 info preuninstall jshint@2.5.1
+998 info uninstall jshint@2.5.1
+999 verbose false,/Users/aseem/magichappens/gitpersonal/flipview/node_modules,/Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules unbuild jshint@2.5.1
+1000 verbose /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/node_modules/.bin,[object Object] binRoot
+1001 info postuninstall jshint@2.5.1
+1002 verbose about to build /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint
+1003 info /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint unbuild
+1004 verbose from cache /Users/aseem/magichappens/gitpersonal/flipview/node_modules/grunt-contrib-jshint/package.json
+1005 info preuninstall grunt-contrib-jshint@0.10.0
+1006 info uninstall grunt-contrib-jshint@0.10.0
+1007 verbose true,/Users/aseem/magichappens/gitpersonal/flipview/node_modules,/Users/aseem/magichappens/gitpersonal/flipview/node_modules unbuild grunt-contrib-jshint@0.10.0
+1008 info postuninstall grunt-contrib-jshint@0.10.0
+1009 error Error: No compatible version found: date-now@'^0.1.4'
+1009 error Valid install targets:
+1009 error ["0.1.0","0.1.1","0.1.3","0.1.2","0.1.4","1.0.0","1.0.1"]
+1009 error     at installTargetsError (/Users/aseem/local/node/lib/node_modules/npm/lib/cache.js:685:10)
+1009 error     at /Users/aseem/local/node/lib/node_modules/npm/lib/cache.js:607:10
+1009 error     at saved (/Users/aseem/local/node/lib/node_modules/npm/node_modules/npm-registry-client/lib/get.js:138:7)
+1009 error     at Object.oncomplete (fs.js:107:15)
+1010 error If you need help, you may report this log at:
+1010 error     <http://github.com/isaacs/npm/issues>
+1010 error or email it to:
+1010 error     <npm-@googlegroups.com>
+1011 error System Darwin 13.1.0
+1012 error command "/Users/aseem/local/node/bin/node" "/Users/aseem/local/node/bin/npm" "install"
+1013 error cwd /Users/aseem/magichappens/gitpersonal/flipview
+1014 error node -v v0.10.4
+1015 error npm -v 1.2.18
+1016 verbose exit [ 1, true ]

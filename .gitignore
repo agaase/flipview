@@ -1,0 +1,7 @@
+#random files
+.DS_Store
+.npm-debug.log
+
+#node-modules
+node_modules/*
+node_modules

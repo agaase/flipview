@@ -6,25 +6,36 @@
 
 var flipview = (function(){
     var tileIds = [-1,0,1];
+    var tileSelector = ".flipTile";
+    var flipEleSelector = ".flipView";
 
 
-    var fm = function(container){
-        this.container = container;
+    var fm = function(flipArea){
+        this.flipArea = flipArea;
+        this.flipEle = $(".flipView",this.flipArea);
         this.rotAngle = 0;
         this.tileIds = [-1,0,1];
+        setupLayout.call(this);
         setViews.call(this);
+    };
+
+
+    var setupLayout = function(){
+        this.flipArea.css("-webkit-perspective","1000");
+        this.flipEle.css("-webkit-transform-style","preserve-3d");
+        $(tileSelector,this.flipEle).css("-webkit-backface-visibility","hidden");
     };
 
     /* Normal draw function, just adding the code for initial draw of list of articles*/
     var setViews = function(){
-        $(".back",this.container).hide().css("-webkit-transform","rotateY(-180deg)");
+        $(".back",this.flipEle).hide().css("-webkit-transform","rotateY(-180deg)");
         swipeEvent.call(this);
     };
  
     var setTiles = function(direction){
-            var nextEle = $(".next",this.container);
-            var currEle = $(".front",this.container);
-            var prevEle = $(".prev",this.container);
+            var nextEle = $(".next",this.flipEle);
+            var currEle = $(".front",this.flipEle);
+            var prevEle = $(".prev",this.flipEle);
             
             if(direction<0){
                 this.tileIds[0] = this.tileIds[1];
@@ -47,17 +58,17 @@ var flipview = (function(){
     var flip = function(direction){
             this.rotAngle += (direction * 180);
             var ang = this.rotAngle;
-            this.container.css({"-webkit-transform":"rotateY("+(ang)+"deg)","transition-duration":"1s","transition-timing-function":"linear"});        
+            this.flipEle.css({"-webkit-transform":"rotateY("+(ang)+"deg)","transition-duration":"1s","transition-timing-function":"linear"});        
             setTimeout(function(){
                 //Draw the next set of articles; well only if something is there to draw
                 setTiles.call(this,direction);
                 if(direction<0 && this.tileIds[2] > -1){
                     this.onFlipNext();
-                    $(".next",this.container).css("-webkit-transform","rotateY("+((this.tileIds[2]%2)*180)+"deg)");
+                    $(".next",this.flipEle).css("-webkit-transform","rotateY("+((this.tileIds[2]%2)*180)+"deg)");
 
                 }else if(this.tileIds[0] > -1){
                     this.onFlipPrev();
-                    $(".prev",this.container).css("-webkit-transform","rotateY("+((this.tileIds[2]%2)*180)+"deg)")
+                    $(".prev",this.flipEle).css("-webkit-transform","rotateY("+((this.tileIds[2]%2)*180)+"deg)");
                 }
             }.bind(this),1000);
            
@@ -78,33 +89,33 @@ var flipview = (function(){
             }
             var dur = (Math.abs(angle - this.rotAngle)*6)/1000;
             dur  = dur > 0.05 ? dur  : 0.05;
-            this.container.css({"-webkit-transform":"rotateY("+angle+"deg)","transition-duration":""+dur+"s","transition-timing-function":"linear"});    
+            this.flipEle.css({"-webkit-transform":"rotateY("+angle+"deg)","transition-duration":""+dur+"s","transition-timing-function":"linear"});    
     };
     
 
     var swipeEvent = function(){
         var minimumDisplPossible = 10;
-        var touchEndTimer, touchMoveTimer, lastPosX, lastPosx, firstTouchMove = true;
+        var touchEndTimer, touchMoveTimer, startPosX, lastPosX, firstTouchMove = true;
         var handleTouchstart = function(ev){
                 var touchobj = ev.originalEvent.changedTouches[0];
                 startPosX = touchobj.pageX;
-                lastPosx = touchobj.pageX;
+                lastPosX = touchobj.pageX;
             }.bind(this);
         var handleTouchmove = function(ev){
             ev.preventDefault();
             var touchobj = ev.originalEvent.changedTouches[0];
-            if(Math.abs(touchobj.pageX-lastPosx)<minimumDisplPossible){
+            if(Math.abs(touchobj.pageX-lastPosX)<minimumDisplPossible){
                 //return;
             }
-            lastPosx = touchobj.pageX;
-            if((startPosX < 550 && this.tileIds[0] !=-1) || (startPosX > 650 && this.tileIds[2] !=-1)){
+            lastPosX = touchobj.pageX;
+            if((startPosX < 550 && this.tileIds[0] !==-1) || (startPosX > 650 && this.tileIds[2] !==-1)){
                     if(firstTouchMove){
                         if(startPosX < 550){
-                            $(".prev",this.container).show();
-                            $(".next",this.container).hide();
+                            $(".prev",this.flipEle).show();
+                            $(".next",this.flipEle).hide();
                         }else if(startPosX > 650){
-                            $(".next",this.container).show();
-                            $(".prev",this.container).hide();
+                            $(".next",this.flipEle).show();
+                            $(".prev",this.flipEle).hide();
                         }
                         setTimeout(function(){
                             pan.call(this,(touchobj.pageX-startPosX)/2,startPosX < 550 ? 1 : -1);
@@ -121,20 +132,20 @@ var flipview = (function(){
                 }
                 touchEndTimer = setTimeout(function(){
                     var touchobj = ev.originalEvent.changedTouches[0];
-                    if((touchobj.pageX-startPosX)<-100 && startPosX > 800 && this.tileIds[2] !=-1) {
+                    if((touchobj.pageX-startPosX)<-100 && startPosX > 800 && this.tileIds[2] !==-1) {
                         if(firstTouchMove){
-                            $(".next",this.container).show();
-                            $(".prev",this.container).hide();
+                            $(".next",this.flipEle).show();
+                            $(".prev",this.flipEle).hide();
                         }
                         setTimeout(function(){
                             flip.call(this,-1);    
                             firstTouchMove=true;
                         }.bind(this),50);
                         firstTouchMove=true;
-                    }else if((touchobj.pageX-startPosX)>100 && startPosX < 400 && this.tileIds[0] !=-1){
+                    }else if((touchobj.pageX-startPosX)>100 && startPosX < 400 && this.tileIds[0] !== -1){
                         if(firstTouchMove){
-                            $(".prev",this.container).show();
-                            $(".next",this.container).hide();
+                            $(".prev",this.flipEle).show();
+                            $(".next",this.flipEle).hide();
                         }
                         setTimeout(function(){
                             flip.call(this,1);    
@@ -143,12 +154,12 @@ var flipview = (function(){
                         
                     }else{
                         pan.call(this,0,1);
-                        this.container.css({"transition-duration":"1s"});    
+                        this.flipEle.css({"transition-duration":"1s"});    
                         firstTouchMove=true;
                     }
                 }.bind(this),50);
             }.bind(this);
-        this.container.on('touchstart',handleTouchstart).on('touchmove',handleTouchmove).on('touchend',handleTouchend);
+        this.flipArea.on('touchstart',handleTouchstart).on('touchmove',handleTouchmove).on('touchend',handleTouchend);
     };
     
    return fm;
