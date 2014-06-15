@@ -35,17 +35,17 @@ Define the fliparea and flipview in your DOM. Fliparea should be bigger than you
 Once the DOM is defined call flipview lib.
 ```javascript
 var flip = new flipview(container,{
-			"current" : $("<p>0</p>"),
-			"next" : $("<p>1</p>")
-		});
+	"current" : $("<p>0</p>"),
+	"next" : $("<p>1</p>")
+});
 ```
 After initialising flipview you also need to define the functions which will render the next and previous set on flip.
 ```javascript
-		var count = 1;
-		flip.onFlipNext = function(){
-		  // assign dom to the next slide (slide with class 'next')
-		};
-		flip.onFlipPrev = function(){
-			// assign dom to the prev slide (slide with class 'prev')
-		};
+var count = 1;
+flip.onFlipNext = function(){
+	// assign dom to the next slide (slide with class 'next')
+};
+flip.onFlipPrev = function(){
+	// assign dom to the prev slide (slide with class 'prev')
+};
 ```
