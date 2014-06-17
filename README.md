@@ -49,3 +49,8 @@ flip.onFlipPrev = function(){
 	// assign dom to the prev slide (slide with class 'prev')
 };
 ```
+
+##Options
+
+1. speed - pass "fast"/"slow" or the actual time in milliseconds which is the time it takes to complete one flip.
+
