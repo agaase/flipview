@@ -10,6 +10,9 @@ A flip view in Javascript to display current, prev and next set of data which ca
 It uses css3 animation to carry out rotation of slides in a 3d fashion. At any point of time there are only 3 slides which have the previous, current and next data set to display. The visible side represents the current slide and the next and previous slides are hidden. The next/previous data is dynamically appended when rotation is finished.
 
 
+##Demos
+[A simple flipview which displays the next number in sequence on flip/pan.](http://agaase.github.io/webpages/flipview/demo.html)
+
 ##How the DOM structure works?
 The above implementation works with a particular dom layout. There are mainly 3 DOM elements required and they have the following classes assigned.
 
