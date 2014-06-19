@@ -2,8 +2,7 @@
 <head>
 	<title></title>
 	<script src="../src/libs/jquery-1.11.0.min.js"></script>
-	<script src="../dist/flipview-0.1.0.min.js"></script>
-	<!-- <script src="../src/flipview.js"></script> -->
+	 <script src="../dist/flipview-0.1.0.min.js"></script> 
 	<style>
 	.flipView .flipSlide{
 		background-color: #c6c6c6;
@@ -24,11 +23,9 @@
 <script>
 	window.onload = function(){
 		var container = $(".flipArea");
-		var flip = new flipview(container,{
-			"current" : $("<p>0</p>"),
-			"next" : $("<p>1</p>"),
-			"speed" : 3000
-		});
+		var flip = new flipview(container);
+		$('.next',flip.flipEle).append('<p>1</p>');
+		$('.front',flip.flipEle).append('<p>0</p>');
 		var count = 1;
 		flip.onFlipNext = function(){
 			count++;

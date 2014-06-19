@@ -10,110 +10,46 @@ var flipview = (function(){
     var speedMapping = {"fast":400,"slow":2000};
 
     var fm = function(flipArea,options){
-        this.params = options;
+        this.params = options || {};
         this.flipArea = flipArea;
         this.flipEle = $(".flipView",this.flipArea);
         this.rotAngle = 0;
         this.slideIds = [-1,0,1];
         setupLayout.call(this);
-        setViews.call(this);
+        bindFlipEvent.call(this);
         setupConfigurations.call(this);
     };
 
-
+    /**
+     * Sets up the various configurational parameters
+     * @method setupConfigurations
+     */
     var setupConfigurations = function(){
-        var speed;
-        try{
-            speed = parseInt(this.params.speed);
-        }
-        catch(err){
+        var speed = parseInt(this.params.speed);
+        if(!speed){
             speed = ((typeof(this.params.speed) === "string" ? speedMapping[this.params.speed] : 1000 ) || 1000);
         }
         this.params.speed = speed/1000;
     };
 
-
+    /**
+     * Sets up the DOM layout.
+     * @method setupLayout
+     */
     var setupLayout = function(){
-        this.params.current.wrap("<div class='front'></div>");
-        this.params.next.wrap("<div class='next'></div>");
-        this.flipEle.css("position","relative").append(this.params.current.parent()).append(this.params.next.parent()).append($("<div class='prev'></div>"));
+        this.flipEle.css("position","relative").append("<div class='front'></div>").append("<div class='next'></div>").append($("<div class='prev'></div>"));
         this.flipArea.css("-webkit-perspective","1000");
         this.flipEle.css("-webkit-transform-style","preserve-3d");
         $(flipEleSelector +" > div").css({"-webkit-backface-visibility":"hidden","position":"absolute","height":"100%","width":"100%"}).addClass("flipSlide");
-    };
-
-    /* Normal draw function, just adding the code for initial draw of list of articles*/
-    var setViews = function(){
         $(".next,.prev",this.flipEle).hide().css("-webkit-transform","rotateY(-180deg)");
-        swipeEvent.call(this);
     };
- 
-    var setTiles = function(direction){
-            var nextEle = $(".next",this.flipEle);
-            var currEle = $(".front",this.flipEle);
-            var prevEle = $(".prev",this.flipEle);
-            
-            if(direction<0){
-                this.slideIds[0] = this.slideIds[1];
-                this.slideIds[1] = this.slideIds[2];
-                this.slideIds[2] = (this.slideIds[1]+1) < 20? (this.slideIds[1]+1) : -1 ;
-                nextEle.removeClass("next").addClass("front");
-                prevEle.removeClass("prev").addClass("next");
-                currEle.removeClass("front").addClass('prev');
-            }else{
-                this.slideIds[2] = this.slideIds[1];
-                this.slideIds[1] = this.slideIds[0];
-                this.slideIds[0] = (this.slideIds[0]-1);
-                nextEle.removeClass("next").addClass("prev");
-                prevEle.removeClass("prev").addClass("front");
-                currEle.removeClass("front").addClass('next');
-            }
-    };
-    
 
-    var flip = function(direction){
-            if(this.beforeFlip){
-                this.beforeFlip(direction);
-            }
-            this.rotAngle += (direction * 180);
-            var ang = this.rotAngle;
-            this.flipEle.css({"-webkit-transform":"rotateY("+(ang)+"deg)","transition-duration":this.params.speed+"s","transition-timing-function":"linear"});        
-            setTimeout(function(){
-                //Draw the next set of articles; well only if something is there to draw
-                setTiles.call(this,direction);
-                if(direction<0 && this.slideIds[2] > -1){
-                    this.onFlipNext();
-                    $(".next",this.flipEle).css("-webkit-transform","rotateY("+((this.slideIds[2]%2)*180)+"deg)");
-
-                }else if(this.slideIds[0] > -1){
-                    this.onFlipPrev();
-                    $(".prev",this.flipEle).css("-webkit-transform","rotateY("+((this.slideIds[2]%2)*180)+"deg)");
-                }
-            }.bind(this),1000);
-           
-    };
-    
-    var pan = function(angleToRotate,direction){
-            var angle = this.rotAngle+angleToRotate;
-            if(direction>0){
-                angle = angle < this.rotAngle ? this.rotAngle : angle;
-                if(angle - this.rotAngle > 180){
-                    angle = this.rotAngle + 180;
-                }
-            }else if(direction <= 0){
-                angle = angle > this.rotAngle ? this.rotAngle : angle;
-                if(this.rotAngle - angle  > 180){
-                    angle = this.rotAngle - 180;
-                }
-            }
-            //var dur = (Math.abs(angle - this.rotAngle))/(this.params.speed*1000);
-            var dur = (this.params.speed/180)*(Math.abs(angle - this.rotAngle));
-            //dur  = dur > 0.01 ? dur  : 0.01;
-            this.flipEle.css({"-webkit-transform":"rotateY("+angle+"deg)","transition-duration":""+dur+"s","transition-timing-function":"linear"});    
-    };
-    
-
-    var swipeEvent = function(){
+    /**
+     * Binds touch events to calculate the exact logic for doing flipping and panning.
+     * @method bindFlipEvent
+     * @return {[type]}
+     */
+    var bindFlipEvent = function(){
         var minimumDisplPossible = 10;
         var touchEndTimer, touchMoveTimer, startPosX, lastPosX, firstTouchMove = true;
         var handleTouchstart = function(ev){
@@ -181,7 +117,86 @@ var flipview = (function(){
             }.bind(this);
         this.flipArea.on('touchstart',handleTouchstart).on('touchmove',handleTouchmove).on('touchend',handleTouchend);
     };
+
+    /**
+     * After the rotation the slides have to be switched.
+     * @method setSlides
+     * @param  {string}  direction [description]
+     */
+    var setSlides = function(direction){
+            var nextEle = $(".next",this.flipEle);
+            var currEle = $(".front",this.flipEle);
+            var prevEle = $(".prev",this.flipEle);
+            
+            if(direction<0){
+                this.slideIds[0] = this.slideIds[1];
+                this.slideIds[1] = this.slideIds[2];
+                this.slideIds[2] = (this.slideIds[1]+1) < 20? (this.slideIds[1]+1) : -1 ;
+                nextEle.removeClass("next").addClass("front");
+                prevEle.removeClass("prev").addClass("next");
+                currEle.removeClass("front").addClass('prev');
+            }else{
+                this.slideIds[2] = this.slideIds[1];
+                this.slideIds[1] = this.slideIds[0];
+                this.slideIds[0] = (this.slideIds[0]-1);
+                nextEle.removeClass("next").addClass("prev");
+                prevEle.removeClass("prev").addClass("front");
+                currEle.removeClass("front").addClass('next');
+            }
+    };
     
+    /**
+     * Carries out the flip operation rotating the whole outer slide by 180.
+     * @method flip
+     * @param  {[type]} direction [description]
+     * @return {[type]}
+     */
+    var flip = function(direction){
+            if(this.beforeFlip){
+                this.beforeFlip(direction);
+            }
+            this.rotAngle += (direction * 180);
+            var ang = this.rotAngle;
+            this.flipEle.css({"-webkit-transform":"rotateY("+(ang)+"deg)","transition-duration":this.params.speed+"s","transition-timing-function":"linear"});        
+            setTimeout(function(){
+                //Draw the next set of articles; well only if something is there to draw
+                setSlides.call(this,direction);
+                if(direction<0 && this.slideIds[2] > -1){
+                    this.onFlipNext();
+                    $(".next",this.flipEle).css("-webkit-transform","rotateY("+((this.slideIds[2]%2)*180)+"deg)");
+
+                }else if(this.slideIds[0] > -1){
+                    this.onFlipPrev();
+                    $(".prev",this.flipEle).css("-webkit-transform","rotateY("+((this.slideIds[2]%2)*180)+"deg)");
+                }
+            }.bind(this),1000);
+           
+    };
+    
+    /**
+     * Carries out rotation as per the value calculated from the event.
+     * @method pan
+     * @param  {number} angleToRotate the angle to rotate as a number.
+     * @param  {number} direction     -1 clockwise, 1 anticlockwise
+     */
+    var pan = function(angleToRotate,direction){
+            var angle = this.rotAngle+angleToRotate;
+            if(direction>0){
+                angle = angle < this.rotAngle ? this.rotAngle : angle;
+                if(angle - this.rotAngle > 180){
+                    angle = this.rotAngle + 180;
+                }
+            }else if(direction <= 0){
+                angle = angle > this.rotAngle ? this.rotAngle : angle;
+                if(this.rotAngle - angle  > 180){
+                    angle = this.rotAngle - 180;
+                }
+            }
+            //var dur = (Math.abs(angle - this.rotAngle))/(this.params.speed*1000);
+            var dur = (this.params.speed/180)*(Math.abs(angle - this.rotAngle));
+            //dur  = dur > 0.01 ? dur  : 0.01;
+            this.flipEle.css({"-webkit-transform":"rotateY("+angle+"deg)","transition-duration":""+dur+"s","transition-timing-function":"linear"});    
+    };
    return fm;
 })();
 /*==END==============================*categories.js*================*/
