@@ -9,11 +9,12 @@ var flipview = (function(){
     var flipEleSelector = ".flipView";
     var speedMapping = {"fast":400,"slow":2000};
 
-    var fm = function(flipArea,options){
+    var fm = function(flipView,maxslides,options){
         this.params = options || {};
-        this.flipArea = flipArea;
-        this.flipEle = $(".flipView",this.flipArea);
+        this.flipArea = flipView.parent();
+        this.flipEle = flipView;
         this.rotAngle = 0;
+        this.maxSlides = maxslides;
         this.slideIds = [-1,0,1];
         setupLayout.call(this);
         bindFlipEvent.call(this);
@@ -131,7 +132,7 @@ var flipview = (function(){
             if(direction<0){
                 this.slideIds[0] = this.slideIds[1];
                 this.slideIds[1] = this.slideIds[2];
-                this.slideIds[2] = (this.slideIds[1]+1) < 20? (this.slideIds[1]+1) : -1 ;
+                this.slideIds[2] = (this.slideIds[1]+1) < this.maxSlides? (this.slideIds[1]+1) : -1 ;
                 nextEle.removeClass("next").addClass("front");
                 prevEle.removeClass("prev").addClass("next");
                 currEle.removeClass("front").addClass('prev');
@@ -165,12 +166,24 @@ var flipview = (function(){
                     this.onFlipNext();
                     $(".next",this.flipEle).css("-webkit-transform","rotateY("+((this.slideIds[2]%2)*180)+"deg)");
 
-                }else if(this.slideIds[0] > -1){
+                }else if(direction>0 && this.slideIds[0] > -1){
                     this.onFlipPrev();
                     $(".prev",this.flipEle).css("-webkit-transform","rotateY("+((this.slideIds[2]%2)*180)+"deg)");
                 }
             }.bind(this),1000);
-           
+    };
+
+    /**
+     * Calculates the scale value to which the slide size should be reduced to.
+     * @method getScaleValue
+     * @param  {number}      angleRotated The angle by which slide is rotated
+     * @return {number}
+     */
+    var getScaleValue = function(angleRotated){
+        angleRotated = Math.min(Math.abs(angleRotated),180);
+        angleRotated = angleRotated > 90 ? 90-angleRotated : angleRotated;
+        var maxScale = this.params.maxScale/100 || 0.4;
+        return(1 - (angleRotated >= 0 ? (angleRotated/90)*maxScale : maxScale + (angleRotated/90)*maxScale));
     };
     
     /**
@@ -192,10 +205,8 @@ var flipview = (function(){
                     angle = this.rotAngle - 180;
                 }
             }
-            //var dur = (Math.abs(angle - this.rotAngle))/(this.params.speed*1000);
             var dur = (this.params.speed/180)*(Math.abs(angle - this.rotAngle));
-            //dur  = dur > 0.01 ? dur  : 0.01;
-            this.flipEle.css({"-webkit-transform":"rotateY("+angle+"deg)","transition-duration":""+dur+"s","transition-timing-function":"linear"});    
+            this.flipEle.css({"-webkit-transform":"scale("+getScaleValue.call(this,angleToRotate)+") rotateY("+angle+"deg)","transition-duration":""+dur+"s","transition-timing-function":"linear"});    
     };
    return fm;
 })();
