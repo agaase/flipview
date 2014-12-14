@@ -11,7 +11,9 @@ It uses css3 animation to carry out 3d rotation of slides. At any point of time 
 
 
 ##Demos
-[A simple flipview] (http://agaase.github.io/webpages/flipview/demo.html) which displays the next number in sequence on flip/pan.] OPEN IN DEVICE BROWSER OR CHROME EMULATOR (PREFERRED IPAD OR SOME TABLET)
+[A simple flipview] (http://agaase.github.io/webpages/flipview/) which acts as an image carousel with change of image happening on flip/pan.] 
+
+[Responsive full screen demo] (http://agaase.github.io/webpages/flipview/demo_responsive.html) Displays the next number in sequence on flip/pan.
 
 ##How the DOM structure works?
 The above implementation works with a particular dom layout. There are mainly 3 DOM elements required and they have the following classes assigned.
