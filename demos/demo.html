@@ -1,48 +1,63 @@
 <!doctype html>
 <head>
 	<title></title>
-	<script src="../src/libs/jquery-1.11.0.min.js"></script>
-	 <script src="../dist/flipview-0.1.0.min.js"></script> 
+	<meta name="viewport" content="width=device-width">
+	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+	<script src="../dist/flipview-0.1.0.min.js"></script>
 	<style>
+	body{
+		margin:0;
+	}
 	.flipView .flipSlide{
-		background-color: #c6c6c6;
 		font-size: 150px;
 		text-align: center;
+		background-color: grey;
 	}
+	
 	.flipView{
-		height: 500px;
-		width: 750px;
-		margin: auto;
+		height: 100%;
+		width: 100%;
+		top:0;
+
 	}
-	.flipArea{
-		width:100%;
-		height: 600px;
-		margin-top: 120px;
+	
+	body,html{
+		height: 100%;
 	}
+	
+	@media only screen and (max-width: 600px) {
+		.flipView{
+			height: 100%;
+			width: 100%;
+			top:0;
+		}
+	}
+	
 	</style>
 <script>
 	window.onload = function(){
-		var container = $(".flipArea");
-		var flip = new flipview(container);
-		$('.next',flip.flipEle).append('<p>1</p>');
-		$('.front',flip.flipEle).append('<p>0</p>');
-		var count = 1;
+		var flipEl = $(".flipView");
+		var flip = new flipview(flipEl,10);
+
+		$('.front',flipEl).append("1");
+		$('.next',flipEl).append("2");
+		
+		var present = 1;
 		flip.onFlipNext = function(){
-			count++;
-			$(".next",container).html("<p>"+count+"</p>");
+			present++;
+			$(".next",flipEl).html((present+1));
+
 		};
 		flip.onFlipPrev = function(){
-			count--;
-			$(".prev",container).html("<p>"+(count-2)+"</p>");
+			present--;
+			$(".prev",flipEl).html((present-1));
 		};
 	};
 </script>
 </head>
 
 <body>
-<div class="flipArea">
-<div class="flipView">
-</div>
-</div>
+		<div class="flipView">
+		</div>
 </body>
 </html>
