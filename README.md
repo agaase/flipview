@@ -58,9 +58,9 @@ var flip = new flipview(container,{
 });
 ```
 
-1. speed - pass "fast"/"slow" or the actual time in milliseconds which is the time it takes to complete one flip.
+1. speed - pass "fast"/"slow" or the actual time in milliseconds which is the time it takes to complete one flip. Default value is 1300ms.
 
-2. maxScale - floating point number which decides the size slide will be reduced while rotating. for e.g passing 0.5 will reduce it to maximum half size at the middle point of rotation.
+2. maxScale - floating point number (<=1) which decides the size slide will be reduced to while rotating. for e.g passing 0.5 will reduce it to maximum half size at the middle point of rotation. Default value is 0.3
 
 ****More options coming soon
 
