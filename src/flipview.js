@@ -1,9 +1,3 @@
-/*
- * Default categories template JS.
- * html : categories.html
- * devices : tablet/smartphone.
- * *******/
-
 var flipview = (function(){
     var slideIds = [-1,0,1];
     var flipRuleId = 10;
