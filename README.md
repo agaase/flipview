@@ -60,5 +60,7 @@ var flip = new flipview(container,{
 
 1. speed - pass "fast"/"slow" or the actual time in milliseconds which is the time it takes to complete one flip.
 
+2. maxScale - floating point number which decides the size slide will be reduced while rotating. for e.g passing 0.5 will reduce it to maximum half size at the middle point of rotation.
+
 ****More options coming soon
 
